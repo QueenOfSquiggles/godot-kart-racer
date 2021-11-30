@@ -11,7 +11,7 @@ config_version=4
 [application]
 
 config/name="KartRacerTest"
-run/main_scene="res://TestMap.tscn"
+run/main_scene="res://MapData/ProceduralTrack.tscn"
 config/icon="res://icon.png"
 
 [importer_defaults]
@@ -1101,7 +1101,3 @@ move_left={
 [physics]
 
 common/enable_pause_aware_picking=true
-
-[rendering]
-
-environment/default_environment="res://default_env.tres"
