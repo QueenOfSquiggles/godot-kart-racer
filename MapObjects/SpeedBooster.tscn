@@ -1,0 +1,39 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://MapObjects/KartAffectorTile.tscn" type="PackedScene" id=1]
+[ext_resource path="res://MapObjects/SpeedBooster.gd" type="Script" id=2]
+
+[sub_resource type="CylinderMesh" id=1]
+top_radius = 0.2
+bottom_radius = 0.2
+height = 1.0
+
+[sub_resource type="SpatialMaterial" id=2]
+flags_transparent = true
+flags_unshaded = true
+flags_do_not_receive_shadows = true
+flags_disable_ambient_light = true
+albedo_color = Color( 1, 1, 1, 0.392157 )
+
+[sub_resource type="CylinderMesh" id=3]
+top_radius = 0.5
+bottom_radius = 0.0
+height = 1.0
+
+[node name="SpeedBooster" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+
+[node name="arrow_indicator" type="Spatial" parent="." index="2"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.788108, 0 )
+
+[node name="arrowshaft" type="MeshInstance" parent="arrow_indicator" index="0"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0.282324 )
+mesh = SubResource( 1 )
+skeleton = NodePath("../..")
+material/0 = SubResource( 2 )
+
+[node name="arrowHead" type="MeshInstance" parent="arrow_indicator" index="1"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, -0.632149 )
+mesh = SubResource( 3 )
+skeleton = NodePath("../..")
+material/0 = SubResource( 2 )

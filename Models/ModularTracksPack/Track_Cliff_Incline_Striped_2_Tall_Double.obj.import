@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Track_Cliff_Incline_Striped_2_Tall_Double.obj-e68e24bcab76ad8557052c65aaa7d90c.mesh"
+
+[deps]
+
+files=[ "res://.import/Track_Cliff_Incline_Striped_2_Tall_Double.obj-e68e24bcab76ad8557052c65aaa7d90c.mesh" ]
+
+source_file="res://Models/ModularTracksPack/Track_Cliff_Incline_Striped_2_Tall_Double.obj"
+dest_files=[ "res://.import/Track_Cliff_Incline_Striped_2_Tall_Double.obj-e68e24bcab76ad8557052c65aaa7d90c.mesh", "res://.import/Track_Cliff_Incline_Striped_2_Tall_Double.obj-e68e24bcab76ad8557052c65aaa7d90c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

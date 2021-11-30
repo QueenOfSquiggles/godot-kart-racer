@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Track_Bridge_Flat_Collider.obj-649c3de1b5640e5604deac77f8b31097.mesh"
+
+[deps]
+
+files=[ "res://.import/Track_Bridge_Flat_Collider.obj-649c3de1b5640e5604deac77f8b31097.mesh" ]
+
+source_file="res://Models/ModularTracksPack/Track_Bridge_Flat_Collider.obj"
+dest_files=[ "res://.import/Track_Bridge_Flat_Collider.obj-649c3de1b5640e5604deac77f8b31097.mesh", "res://.import/Track_Bridge_Flat_Collider.obj-649c3de1b5640e5604deac77f8b31097.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

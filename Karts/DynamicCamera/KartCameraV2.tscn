@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Karts/DynamicCamera/KartCameraV2.gd" type="Script" id=1]
+
+[node name="cam_root" type="Spatial"]
+script = ExtResource( 1 )
+PositionLerpSpeed = 5.0
+RotationLerpSpeed = 2.0
+
+[node name="SpringArm" type="SpringArm" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.939693, 0.34202, 0, -0.34202, 0.939693, 0, 1.02725, 0 )
+spring_length = 5.0
+margin = 1.0
+
+[node name="Camera" type="Camera" parent="SpringArm"]
+far = 5000.0

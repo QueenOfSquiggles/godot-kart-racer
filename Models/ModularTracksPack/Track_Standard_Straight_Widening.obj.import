@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Track_Standard_Straight_Widening.obj-9867a53e87ce1d8dde04b81548df5fb2.mesh"
+
+[deps]
+
+files=[ "res://.import/Track_Standard_Straight_Widening.obj-9867a53e87ce1d8dde04b81548df5fb2.mesh" ]
+
+source_file="res://Models/ModularTracksPack/Track_Standard_Straight_Widening.obj"
+dest_files=[ "res://.import/Track_Standard_Straight_Widening.obj-9867a53e87ce1d8dde04b81548df5fb2.mesh", "res://.import/Track_Standard_Straight_Widening.obj-9867a53e87ce1d8dde04b81548df5fb2.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

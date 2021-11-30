@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Track_Standard_Curve_Single_5x5.obj-fcc079f2dc28c662def9392367941dea.mesh"
+
+[deps]
+
+files=[ "res://.import/Track_Standard_Curve_Single_5x5.obj-fcc079f2dc28c662def9392367941dea.mesh" ]
+
+source_file="res://Models/ModularTracksPack/Track_Standard_Curve_Single_5x5.obj"
+dest_files=[ "res://.import/Track_Standard_Curve_Single_5x5.obj-fcc079f2dc28c662def9392367941dea.mesh", "res://.import/Track_Standard_Curve_Single_5x5.obj-fcc079f2dc28c662def9392367941dea.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

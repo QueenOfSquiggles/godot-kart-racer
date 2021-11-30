@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Prop_Decorative_Tree_Cedar_2.obj-158e4891d35c436d13ea696ef718b92f.mesh"
+
+[deps]
+
+files=[ "res://.import/Prop_Decorative_Tree_Cedar_2.obj-158e4891d35c436d13ea696ef718b92f.mesh" ]
+
+source_file="res://Models/ModularTracksPack/Prop_Decorative_Tree_Cedar_2.obj"
+dest_files=[ "res://.import/Prop_Decorative_Tree_Cedar_2.obj-158e4891d35c436d13ea696ef718b92f.mesh", "res://.import/Prop_Decorative_Tree_Cedar_2.obj-158e4891d35c436d13ea696ef718b92f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

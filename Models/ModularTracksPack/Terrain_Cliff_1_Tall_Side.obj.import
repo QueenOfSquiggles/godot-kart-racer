@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Terrain_Cliff_1_Tall_Side.obj-fac68305664f2be0c33bbdc51bc3e438.mesh"
+
+[deps]
+
+files=[ "res://.import/Terrain_Cliff_1_Tall_Side.obj-fac68305664f2be0c33bbdc51bc3e438.mesh" ]
+
+source_file="res://Models/ModularTracksPack/Terrain_Cliff_1_Tall_Side.obj"
+dest_files=[ "res://.import/Terrain_Cliff_1_Tall_Side.obj-fac68305664f2be0c33bbdc51bc3e438.mesh", "res://.import/Terrain_Cliff_1_Tall_Side.obj-fac68305664f2be0c33bbdc51bc3e438.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

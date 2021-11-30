@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Track_Striped_Curve_Single_3x3.obj-3f337a2506a13e0509fa83c52045faad.mesh"
+
+[deps]
+
+files=[ "res://.import/Track_Striped_Curve_Single_3x3.obj-3f337a2506a13e0509fa83c52045faad.mesh" ]
+
+source_file="res://Models/ModularTracksPack/Track_Striped_Curve_Single_3x3.obj"
+dest_files=[ "res://.import/Track_Striped_Curve_Single_3x3.obj-3f337a2506a13e0509fa83c52045faad.mesh", "res://.import/Track_Striped_Curve_Single_3x3.obj-3f337a2506a13e0509fa83c52045faad.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

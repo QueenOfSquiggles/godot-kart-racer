@@ -1,0 +1,3818 @@
+[gd_scene load_steps=213 format=2]
+
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Fence_Curve_5x5.obj" type="ArrayMesh" id=1]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Fence_Curve_3x4.obj" type="ArrayMesh" id=2]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Fence_Curve_2x2.obj" type="ArrayMesh" id=3]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Fence_Curve_3x3.obj" type="ArrayMesh" id=4]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Fence_Curve_4x4.obj" type="ArrayMesh" id=5]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Fence_Curve_1x1.obj" type="ArrayMesh" id=6]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Fence_Curve_4x5.obj" type="ArrayMesh" id=7]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Fence_Curve_5x6.obj" type="ArrayMesh" id=8]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Fence_Esse_2x3.obj" type="ArrayMesh" id=9]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Fence_Gate_1.obj" type="ArrayMesh" id=10]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Fence_Gate_2.obj" type="ArrayMesh" id=11]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Fence_Hill.obj" type="ArrayMesh" id=12]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Fence_Post.obj" type="ArrayMesh" id=13]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Fence_Railing.obj" type="ArrayMesh" id=14]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Hay_Bale_Barrel.obj" type="ArrayMesh" id=15]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Hay_Bale_Box.obj" type="ArrayMesh" id=16]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Hay_Pile.obj" type="ArrayMesh" id=17]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Hay_Pile_Pitchfork.obj" type="ArrayMesh" id=18]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Hay_Pitchfork.obj" type="ArrayMesh" id=19]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Lighthouse.obj" type="ArrayMesh" id=20]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Rock_2.obj" type="ArrayMesh" id=21]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Rock_1.obj" type="ArrayMesh" id=22]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Rock_3.obj" type="ArrayMesh" id=23]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Rock_4.obj" type="ArrayMesh" id=24]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Rock_5.obj" type="ArrayMesh" id=25]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Rock_6.obj" type="ArrayMesh" id=26]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Rock_7.obj" type="ArrayMesh" id=27]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Rock_8.obj" type="ArrayMesh" id=28]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Tree_Cedar_1.obj" type="ArrayMesh" id=29]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Tree_Cedar_2.obj" type="ArrayMesh" id=30]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Tree_Cedar_3.obj" type="ArrayMesh" id=31]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Tree_Elm_1.obj" type="ArrayMesh" id=32]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Tree_Elm_2.obj" type="ArrayMesh" id=33]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Tree_Elm_3.obj" type="ArrayMesh" id=34]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Tree_Elm_4.obj" type="ArrayMesh" id=35]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Tree_Elm_5.obj" type="ArrayMesh" id=36]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Tree_Elm_6.obj" type="ArrayMesh" id=37]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Tree_Elm_7.obj" type="ArrayMesh" id=38]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Windmill.obj" type="ArrayMesh" id=39]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Windmill_Building_1.obj" type="ArrayMesh" id=40]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Decorative_Windmill_Building_2.obj" type="ArrayMesh" id=41]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Obstacle_Hammer.obj" type="ArrayMesh" id=42]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Obstacle_Hammer_Housing_Double.obj" type="ArrayMesh" id=43]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Obstacle_Hammer_Housing_Single.obj" type="ArrayMesh" id=44]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Track_Arch_1x4.obj" type="ArrayMesh" id=45]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Track_Banner_Finish_Line_Double_Blank.obj" type="ArrayMesh" id=46]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Track_Banner_Finish_Line_Double_Checkered.obj" type="ArrayMesh" id=47]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Track_Banner_Finish_Line_Single_Blank.obj" type="ArrayMesh" id=48]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Track_Bump_Small_Round.obj" type="ArrayMesh" id=49]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Track_Banner_Finish_Line_Single_Checkered.obj" type="ArrayMesh" id=50]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Track_Bump_Small_Row.obj" type="ArrayMesh" id=51]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Track_Bump_Small_Row_End.obj" type="ArrayMesh" id=52]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Track_Ramp.obj" type="ArrayMesh" id=53]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Track_Ramp_Railing.obj" type="ArrayMesh" id=54]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Track_Ramp_Speed_Boost.obj" type="ArrayMesh" id=55]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Track_Ramp_Support.obj" type="ArrayMesh" id=56]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Track_Sign_Blank.obj" type="ArrayMesh" id=57]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Track_Sign_On_Curve.obj" type="ArrayMesh" id=58]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Track_Sign_On_Curve_Blank.obj" type="ArrayMesh" id=59]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Track_Sign_Upcoming_Curve_90.obj" type="ArrayMesh" id=60]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Track_Sign_Upcoming_Curve_180.obj" type="ArrayMesh" id=61]
+[ext_resource path="res://Models/ModularTracksPack/Prop_Track_Sign_Upcoming_Esse.obj" type="ArrayMesh" id=62]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Cliff_1_Tall_Corner_Inner_1x1.obj" type="ArrayMesh" id=63]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Cliff_1_Tall_Corner_Inner_2x2.obj" type="ArrayMesh" id=64]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Cliff_1_Tall_Corner_Outer_1x1.obj" type="ArrayMesh" id=65]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Cliff_1_Tall_Side.obj" type="ArrayMesh" id=66]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Cliff_2_Tall_Corner_Inner_1x1.obj" type="ArrayMesh" id=67]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Cliff_2_Tall_Corner_Inner_2x2.obj" type="ArrayMesh" id=68]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Cliff_2_Tall_Corner_Outer_1x1.obj" type="ArrayMesh" id=69]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Cliff_2_Tall_Side.obj" type="ArrayMesh" id=70]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Cliff_3_Tall_Corner_Inner_1x1.obj" type="ArrayMesh" id=71]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Cliff_3_Tall_Corner_Inner_2x2.obj" type="ArrayMesh" id=72]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Cliff_3_Tall_Corner_Outer_1x1.obj" type="ArrayMesh" id=73]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Cliff_3_Tall_Side.obj" type="ArrayMesh" id=74]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Cliff_Bottom_Corner_Inner_1x1.obj" type="ArrayMesh" id=75]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Cliff_Bottom_Corner_Inner_2x2.obj" type="ArrayMesh" id=76]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Cliff_Bottom_Corner_Outer_1x1.obj" type="ArrayMesh" id=77]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Cliff_Bottom_Side.obj" type="ArrayMesh" id=78]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Cliff_Middle_Corner_Inner_1x1.obj" type="ArrayMesh" id=79]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Cliff_Middle_Corner_Inner_2x2.obj" type="ArrayMesh" id=80]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Cliff_Middle_Corner_Outer_1x1.obj" type="ArrayMesh" id=81]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Cliff_Middle_Side.obj" type="ArrayMesh" id=82]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Cliff_Top_Corner_Inner_1x1.obj" type="ArrayMesh" id=83]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Cliff_Top_Corner_Inner_2x2.obj" type="ArrayMesh" id=84]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Cliff_Top_Corner_Outer_1x1.obj" type="ArrayMesh" id=85]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Cliff_Top_Side.obj" type="ArrayMesh" id=86]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Grass_Flat_1x1.obj" type="ArrayMesh" id=87]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Hill_Corner_Inner_3x3.obj" type="ArrayMesh" id=88]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Hill_Corner_Inner_4x4.obj" type="ArrayMesh" id=89]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Hill_Corner_Inner_5x5.obj" type="ArrayMesh" id=90]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Hill_Corner_Outer_3x3.obj" type="ArrayMesh" id=91]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Hill_Corner_Outer_4x4.obj" type="ArrayMesh" id=92]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Hill_Esse_3x4.obj" type="ArrayMesh" id=93]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Hill_Corner_Outer_5x5.obj" type="ArrayMesh" id=94]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Hill_Esse_4x5.obj" type="ArrayMesh" id=95]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Hill_Side_1x3.obj" type="ArrayMesh" id=96]
+[ext_resource path="res://Models/ModularTracksPack/Terrain_Water_Flat_Circle.obj" type="ArrayMesh" id=97]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Curve_3x3_Collider.obj" type="ArrayMesh" id=98]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Curve_3x3.obj" type="ArrayMesh" id=99]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Curve_3x3_Piers.obj" type="ArrayMesh" id=100]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Flat_Collider.obj" type="ArrayMesh" id=101]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Flat_Floating.obj" type="ArrayMesh" id=102]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Flat_Supported.obj" type="ArrayMesh" id=103]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Incline_Flat_Gentle_Collider.obj" type="ArrayMesh" id=104]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Incline_Flat_Sharp_Supported.obj" type="ArrayMesh" id=105]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Incline_Flat_Gentle_Floating.obj" type="ArrayMesh" id=106]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Incline_Flat_Gentle_Supported.obj" type="ArrayMesh" id=107]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Incline_Flat_Sharp_Collider.obj" type="ArrayMesh" id=108]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Incline_Flat_Sharp_Floating.obj" type="ArrayMesh" id=109]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Incline_Gentle_Collider.obj" type="ArrayMesh" id=110]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Incline_Gentle_Flat_Collider.obj" type="ArrayMesh" id=111]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Incline_Gentle_Flat_Floating.obj" type="ArrayMesh" id=112]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Incline_Gentle_Sharp_Collider.obj" type="ArrayMesh" id=113]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Incline_Gentle_Flat_Supported.obj" type="ArrayMesh" id=114]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Incline_Gentle_Floating.obj" type="ArrayMesh" id=115]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Incline_Gentle_Sharp_Floating.obj" type="ArrayMesh" id=116]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Incline_Gentle_Sharp_Supported.obj" type="ArrayMesh" id=117]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Incline_Gentle_Supported.obj" type="ArrayMesh" id=118]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Incline_Sharp_Collider.obj" type="ArrayMesh" id=119]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Incline_Sharp_Flat_Collider.obj" type="ArrayMesh" id=120]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Incline_Sharp_Flat_Floating.obj" type="ArrayMesh" id=121]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Incline_Sharp_Flat_Supported.obj" type="ArrayMesh" id=122]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Incline_Sharp_Floating.obj" type="ArrayMesh" id=123]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Incline_Sharp_Gentle_Collider.obj" type="ArrayMesh" id=124]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Incline_Sharp_Gentle_Floating.obj" type="ArrayMesh" id=125]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Incline_Sharp_Gentle_Supported.obj" type="ArrayMesh" id=126]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Incline_Sharp_Supported.obj" type="ArrayMesh" id=127]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Piers.obj" type="ArrayMesh" id=128]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Start.obj" type="ArrayMesh" id=129]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Start_Collider.obj" type="ArrayMesh" id=130]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Start_Flat_to_Gentle.obj" type="ArrayMesh" id=131]
+[ext_resource path="res://Models/ModularTracksPack/Track_Bridge_Start_Flat_to_Sharp.obj" type="ArrayMesh" id=132]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Curve_Standard_Double_5x5.obj" type="ArrayMesh" id=133]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Curve_Standard_Single_5x5.obj" type="ArrayMesh" id=134]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Curve_Standard_Double_6x6.obj" type="ArrayMesh" id=135]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Curve_Standard_Single_4x4.obj" type="ArrayMesh" id=136]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Curve_Standard_Single_6x6.obj" type="ArrayMesh" id=137]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Curve_Striped_Double_5x5.obj" type="ArrayMesh" id=138]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Curve_Striped_Double_6x6.obj" type="ArrayMesh" id=139]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Curve_Striped_Single_4x4.obj" type="ArrayMesh" id=140]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Curve_Striped_Single_5x5.obj" type="ArrayMesh" id=141]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Curve_Striped_Single_6x6.obj" type="ArrayMesh" id=142]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Edge_Standard_1_Tall_Single.obj" type="ArrayMesh" id=143]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Edge_Standard_2_Tall_Double.obj" type="ArrayMesh" id=144]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Edge_Standard_2_Tall_Single.obj" type="ArrayMesh" id=145]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Edge_Standard_3_Tall_Double.obj" type="ArrayMesh" id=146]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Edge_Standard_3_Tall_Single.obj" type="ArrayMesh" id=147]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Edge_Striped_1_Tall_Double.obj" type="ArrayMesh" id=148]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Edge_Striped_1_Tall_Single.obj" type="ArrayMesh" id=149]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Edge_Striped_2_Tall_Double.obj" type="ArrayMesh" id=150]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Edge_Striped_2_Tall_Single.obj" type="ArrayMesh" id=151]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Edge_Striped_3_Tall_Double.obj" type="ArrayMesh" id=152]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Incline_Standard_1_Tall_Single.obj" type="ArrayMesh" id=153]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Edge_Striped_3_Tall_Single.obj" type="ArrayMesh" id=154]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Incline_Standard_1_Tall_Double.obj" type="ArrayMesh" id=155]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Incline_Standard_2_Tall_Double.obj" type="ArrayMesh" id=156]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Incline_Standard_2_Tall_Single.obj" type="ArrayMesh" id=157]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Incline_Standard_3_Tall_Double.obj" type="ArrayMesh" id=158]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Incline_Standard_3_Tall_Single.obj" type="ArrayMesh" id=159]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Incline_Striped_1_Tall_Double.obj" type="ArrayMesh" id=160]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Incline_Striped_1_Tall_Single.obj" type="ArrayMesh" id=161]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Incline_Striped_2_Tall_Double.obj" type="ArrayMesh" id=162]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Incline_Striped_2_Tall_Single.obj" type="ArrayMesh" id=163]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Incline_Striped_3_Tall_Double.obj" type="ArrayMesh" id=164]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Incline_Striped_3_Tall_Single.obj" type="ArrayMesh" id=165]
+[ext_resource path="res://Models/ModularTracksPack/Track_Standard_Curve_Double_4x4.obj" type="ArrayMesh" id=166]
+[ext_resource path="res://Models/ModularTracksPack/Track_Standard_Curve_Double_5x5.obj" type="ArrayMesh" id=167]
+[ext_resource path="res://Models/ModularTracksPack/Track_Standard_Curve_Single_3x3.obj" type="ArrayMesh" id=168]
+[ext_resource path="res://Models/ModularTracksPack/Track_Standard_Curve_Single_4x4.obj" type="ArrayMesh" id=169]
+[ext_resource path="res://Models/ModularTracksPack/Track_Standard_Curve_Single_5x5.obj" type="ArrayMesh" id=170]
+[ext_resource path="res://Models/ModularTracksPack/Track_Standard_Curve_Widening_3x4.obj" type="ArrayMesh" id=171]
+[ext_resource path="res://Models/ModularTracksPack/Track_Standard_Curve_Widening_4x5.obj" type="ArrayMesh" id=172]
+[ext_resource path="res://Models/ModularTracksPack/Track_Standard_Curve_Widening_5x6.obj" type="ArrayMesh" id=173]
+[ext_resource path="res://Models/ModularTracksPack/Track_Standard_Esse_Double.obj" type="ArrayMesh" id=174]
+[ext_resource path="res://Models/ModularTracksPack/Track_Standard_Esse_Single.obj" type="ArrayMesh" id=175]
+[ext_resource path="res://Models/ModularTracksPack/Track_Standard_Finish_Line_Double_Blank.obj" type="ArrayMesh" id=176]
+[ext_resource path="res://Models/ModularTracksPack/Track_Standard_Finish_Line_Double_Checkered.obj" type="ArrayMesh" id=177]
+[ext_resource path="res://Models/ModularTracksPack/Track_Standard_Finish_Line_Single_Blank.obj" type="ArrayMesh" id=178]
+[ext_resource path="res://Models/ModularTracksPack/Track_Standard_Finish_Line_Single_Checkered.obj" type="ArrayMesh" id=179]
+[ext_resource path="res://Models/ModularTracksPack/Track_Standard_Incline_Double.obj" type="ArrayMesh" id=180]
+[ext_resource path="res://Models/ModularTracksPack/Track_Standard_Incline_Single.obj" type="ArrayMesh" id=181]
+[ext_resource path="res://Models/ModularTracksPack/Track_Standard_Straight_Double.obj" type="ArrayMesh" id=182]
+[ext_resource path="res://Models/ModularTracksPack/Track_Standard_Straight_Single.obj" type="ArrayMesh" id=183]
+[ext_resource path="res://Models/ModularTracksPack/Track_Standard_Straight_Widening.obj" type="ArrayMesh" id=184]
+[ext_resource path="res://Models/ModularTracksPack/Track_Striped_Curve_Double_4x4.obj" type="ArrayMesh" id=185]
+[ext_resource path="res://Models/ModularTracksPack/Track_Striped_Curve_Double_5x5.obj" type="ArrayMesh" id=186]
+[ext_resource path="res://Models/ModularTracksPack/Track_Striped_Curve_Single_3x3.obj" type="ArrayMesh" id=187]
+[ext_resource path="res://Models/ModularTracksPack/Track_Striped_Curve_Single_4x4.obj" type="ArrayMesh" id=188]
+[ext_resource path="res://Models/ModularTracksPack/Track_Striped_Curve_Single_5x5.obj" type="ArrayMesh" id=189]
+[ext_resource path="res://Models/ModularTracksPack/Track_Striped_Curve_Widening_3x4.obj" type="ArrayMesh" id=190]
+[ext_resource path="res://Models/ModularTracksPack/Track_Striped_Curve_Widening_4x5.obj" type="ArrayMesh" id=191]
+[ext_resource path="res://Models/ModularTracksPack/Track_Striped_Curve_Widening_5x6.obj" type="ArrayMesh" id=192]
+[ext_resource path="res://Models/ModularTracksPack/Track_Striped_End_Straight_Double.obj" type="ArrayMesh" id=193]
+[ext_resource path="res://Models/ModularTracksPack/Track_Striped_End_Straight_Single.obj" type="ArrayMesh" id=194]
+[ext_resource path="res://Models/ModularTracksPack/Track_Striped_Esse_Double.obj" type="ArrayMesh" id=195]
+[ext_resource path="res://Models/ModularTracksPack/Track_Striped_Esse_Single.obj" type="ArrayMesh" id=196]
+[ext_resource path="res://Models/ModularTracksPack/Track_Striped_Finish_Line_Double_Blank.obj" type="ArrayMesh" id=197]
+[ext_resource path="res://Models/ModularTracksPack/Track_Striped_Finish_Line_Double_Checkered.obj" type="ArrayMesh" id=198]
+[ext_resource path="res://Models/ModularTracksPack/Track_Striped_Finish_Line_Single_Blank.obj" type="ArrayMesh" id=199]
+[ext_resource path="res://Models/ModularTracksPack/Track_Striped_Finish_Line_Single_Checkered.obj" type="ArrayMesh" id=200]
+[ext_resource path="res://Models/ModularTracksPack/Track_Striped_Incline_Double.obj" type="ArrayMesh" id=201]
+[ext_resource path="res://Models/ModularTracksPack/Track_Striped_Incline_Single.obj" type="ArrayMesh" id=202]
+[ext_resource path="res://Models/ModularTracksPack/Track_Striped_Straight_Double.obj" type="ArrayMesh" id=203]
+[ext_resource path="res://Models/ModularTracksPack/Track_Striped_Straight_Single.obj" type="ArrayMesh" id=204]
+[ext_resource path="res://Models/ModularTracksPack/Track_Striped_Straight_Widening.obj" type="ArrayMesh" id=205]
+[ext_resource path="res://Models/ModularTracksPack/Track_Cliff_Edge_Standard_1_Tall_Double.obj" type="ArrayMesh" id=206]
+
+[sub_resource type="ConcavePolygonShape" id=702]
+data = PoolVector3Array( -0.219, 0.05, -0.65, -0.5, 0.05, -0.65, -0.219, 0.0931, -0.6931, -0.219, 0.0931, -0.6931, -0.5, 0.15, -0.75, 0.219, 0.0931, -0.6931, 0.5, 0.05, -0.65, 0.219, 0.0931, -0.6931, 0.5, 0.15, -0.75, 0.219, 0.05, -0.65, 0.219, 0.0931, -0.6931, 0.5, 0.05, -0.65, -0.5, 0.15, -0.75, 0.5, 0.15, -0.75, 0.219, 0.0931, -0.6931, -0.5, 0.05, -0.65, -0.5, 0.15, -0.75, -0.219, 0.0931, -0.6931, -0.219, 0, -0.5, -0.5, 0, -0.5, -0.219, 0.05, -0.65, -0.219, 0.05, -0.65, -0.5, 0, -0.5, -0.5, 0.05, -0.65, -0.219, 0, 0.5, -0.5, 0, 0.5, -0.5, 0, -0.5, -0.219, 0, -0.5, -0.219, 0, 0.5, -0.5, 0, -0.5, -0.219, 0.05, 0.65, -0.5, 0.05, 0.65, -0.5, 0, 0.5, -0.219, 0, 0.5, -0.219, 0.05, 0.65, -0.5, 0, 0.5, -0.219, 0.05, 0.65, -0.219, 0.0931, 0.6931, -0.5, 0.05, 0.65, -0.219, 0.0931, 0.6931, 0.219, 0.0931, 0.6931, -0.5, 0.15, 0.75, -0.5, 0.15, 0.75, 0.219, 0.0931, 0.6931, 0.5, 0.15, 0.75, 0.5, 0.05, 0.65, 0.5, 0.15, 0.75, 0.219, 0.0931, 0.6931, 0.219, 0.05, 0.65, 0.5, 0.05, 0.65, 0.219, 0.0931, 0.6931, -0.5, 0.05, 0.65, -0.219, 0.0931, 0.6931, -0.5, 0.15, 0.75, 0.219, 0, 0.5, 0.5, 0, 0.5, 0.219, 0.05, 0.65, 0.219, 0.05, 0.65, 0.5, 0, 0.5, 0.5, 0.05, 0.65, 0.219, 0, -0.5, 0.5, 0, -0.5, 0.219, 0, 0.5, 0.219, 0, 0.5, 0.5, 0, -0.5, 0.5, 0, 0.5, 0.219, 0.05, -0.65, 0.5, 0.05, -0.65, 0.219, 0, -0.5, 0.219, 0, -0.5, 0.5, 0.05, -0.65, 0.5, 0, -0.5, -0.5, 0.4665, 0.875, 0.5, 0.4665, 0.875, 0.5, 0.5, 1, -0.5, 0.5, 1, -0.5, 0.4665, 0.875, 0.5, 0.5, 1, -0.5, 0.375, 0.7835, 0.5, 0.375, 0.7835, 0.5, 0.4665, 0.875, -0.5, 0.4665, 0.875, -0.5, 0.375, 0.7835, 0.5, 0.4665, 0.875, -0.5, 0.25, 0.75, 0.5, 0.25, 0.75, 0.5, 0.375, 0.7835, -0.5, 0.375, 0.7835, -0.5, 0.25, 0.75, 0.5, 0.375, 0.7835, -0.5, 0.15, 0.75, 0.5, 0.15, 0.75, -0.5, 0.25, 0.75, -0.5, 0.25, 0.75, 0.5, 0.15, 0.75, 0.5, 0.25, 0.75, -0.5, 0.5, 1, 0.5, 0.5, 1, 0.5, 0.5, 1.5, -0.5, 0.5, 1.5, -0.5, 0.5, 1, 0.5, 0.5, 1.5, -0.5, 0.5, -1, 0.5, 0.5, -1, 0.5, 0.4665, -0.875, -0.5, 0.4665, -0.875, -0.5, 0.5, -1, 0.5, 0.4665, -0.875, -0.5, 0.4665, -0.875, 0.5, 0.4665, -0.875, 0.5, 0.375, -0.7835, -0.5, 0.375, -0.7835, -0.5, 0.4665, -0.875, 0.5, 0.375, -0.7835, -0.5, 0.375, -0.7835, 0.5, 0.375, -0.7835, 0.5, 0.25, -0.75, -0.5, 0.25, -0.75, -0.5, 0.375, -0.7835, 0.5, 0.25, -0.75, -0.5, 0.25, -0.75, 0.5, 0.25, -0.75, 0.5, 0.15, -0.75, -0.5, 0.15, -0.75, -0.5, 0.25, -0.75, 0.5, 0.15, -0.75, -0.5, 0.5, -1.5, 0.5, 0.5, -1.5, 0.5, 0.5, -1, -0.5, 0.5, -1, -0.5, 0.5, -1.5, 0.5, 0.5, -1, 0, 0.1, 0.65, 0, 0, 0.6, 0.5, 0.1, 0.65, 0.5, 0.1, 0.65, 0, 0, 0.6, 0.5, 0, 0.6, 0, 0.15, 0.75, 0, 0.1, 0.65, 0.5, 0.1, 0.65, 0.5, 0.15, 0.75, 0, 0.15, 0.75, 0.5, 0.1, 0.65, 0.5, 0.15, -0.75, 0.5, 0.1, -0.65, 0, 0.15, -0.75, 0, 0.15, -0.75, 0.5, 0.1, -0.65, 0, 0.1, -0.65, 0.5, 0.1, -0.65, 0.5, 0, -0.6, 0, 0, -0.6, 0, 0.1, -0.65, 0.5, 0.1, -0.65, 0, 0, -0.6, -0.5, 0.15, 0.75, -0.5, 0.1, 0.65, 0, 0.1, 0.65, 0, 0.15, 0.75, -0.5, 0.15, 0.75, 0, 0.1, 0.65, -0.5, 0.1, 0.65, -0.5, 0, 0.6, 0, 0.1, 0.65, 0, 0.1, 0.65, -0.5, 0, 0.6, 0, 0, 0.6, 0, 0.15, -0.75, 0, 0.1, -0.65, -0.5, 0.15, -0.75, -0.5, 0.15, -0.75, 0, 0.1, -0.65, -0.5, 0.1, -0.65, 0, 0.1, -0.65, 0, 0, -0.6, -0.5, 0, -0.6, -0.5, 0.1, -0.65, 0, 0.1, -0.65, -0.5, 0, -0.6, -0.1875, 0, -0.4375, -0.0625, 0, -0.4375, -0.1875, 0, -0.3125, -0.1875, 0, -0.3125, -0.0625, 0, -0.4375, -0.0625, 0, -0.3125, 0.1875, 0, 0.4375, 0.0625, 0, 0.4375, 0.1875, 0, 0.3125, 0.1875, 0, 0.3125, 0.0625, 0, 0.4375, 0.0625, 0, 0.3125, 0.1875, 0, -0.3125, 0.0625, 0, -0.3125, 0.0625, 0, -0.4375, 0.1875, 0, -0.4375, 0.1875, 0, -0.3125, 0.0625, 0, -0.4375, 0.1875, 0.05, -0.65, 0.1875, 0.0198, -0.5593, 0.0625, 0.05, -0.65, 0.0625, 0.05, -0.65, 0.1875, 0.0198, -0.5593, 0.0625, 0.0198, -0.5593, 0.0625, 0.05, -0.65, 0.0625, 0.0708, -0.6708, 0.1875, 0.05, -0.65, 0.1875, 0.05, -0.65, 0.0625, 0.0708, -0.6708, 0.1875, 0.0708, -0.6708, 0.1875, 0, 0.1875, 0.0625, 0, 0.1875, 0.1875, 0, 0.0625, 0.1875, 0, 0.0625, 0.0625, 0, 0.1875, 0.0625, 0, 0.0625, -0.0625, 0, -0.1875, -0.0625, 0, -0.3125, 0.0625, 0, -0.1875, 0.0625, 0, -0.1875, -0.0625, 0, -0.3125, 0.0625, 0, -0.3125, -0.1875, 0.05, 0.65, -0.1875, 0.0198, 0.5593, -0.0625, 0.0198, 0.5593, -0.0625, 0.05, 0.65, -0.1875, 0.05, 0.65, -0.0625, 0.0198, 0.5593, -0.0625, 0.05, 0.65, -0.0625, 0.0708, 0.6708, -0.1875, 0.05, 0.65, -0.1875, 0.05, 0.65, -0.0625, 0.0708, 0.6708, -0.1875, 0.0708, 0.6708, -0.0625, 0, 0.0625, -0.0625, 0, -0.0625, 0.0625, 0, 0.0625, 0.0625, 0, 0.0625, -0.0625, 0, -0.0625, 0.0625, 0, -0.0625, 0.1875, 0.05, 0.65, 0.1875, 0.0708, 0.6708, 0.0625, 0.0708, 0.6708, 0.0625, 0.05, 0.65, 0.1875, 0.05, 0.65, 0.0625, 0.0708, 0.6708, 0.0625, 0.05, 0.65, 0.0625, 0.0198, 0.5593, 0.1875, 0.0198, 0.5593, 0.1875, 0.05, 0.65, 0.0625, 0.05, 0.65, 0.1875, 0.0198, 0.5593, -0.1875, 0, 0.3125, -0.0625, 0, 0.3125, -0.0625, 0, 0.4375, -0.1875, 0, 0.4375, -0.1875, 0, 0.3125, -0.0625, 0, 0.4375, -0.0625, 0, 0.3125, -0.0625, 0, 0.1875, 0.0625, 0, 0.3125, 0.0625, 0, 0.3125, -0.0625, 0, 0.1875, 0.0625, 0, 0.1875, -0.1875, 0, 0.0625, -0.0625, 0, 0.0625, -0.0625, 0, 0.1875, -0.1875, 0, 0.1875, -0.1875, 0, 0.0625, -0.0625, 0, 0.1875, -0.1875, 0, -0.1875, -0.0625, 0, -0.1875, -0.0625, 0, -0.0625, -0.1875, 0, -0.0625, -0.1875, 0, -0.1875, -0.0625, 0, -0.0625, -0.1875, 0.05, -0.65, -0.1875, 0.0708, -0.6708, -0.0625, 0.0708, -0.6708, -0.0625, 0.05, -0.65, -0.1875, 0.05, -0.65, -0.0625, 0.0708, -0.6708, -0.0625, 0.05, -0.65, -0.0625, 0.0198, -0.5593, -0.1875, 0.05, -0.65, -0.1875, 0.05, -0.65, -0.0625, 0.0198, -0.5593, -0.1875, 0.0198, -0.5593, -0.0625, 0, -0.4375, -0.0625, 0, -0.5, 0.0625, 0, -0.4375, 0.0625, 0, -0.4375, -0.0625, 0, -0.5, 0.0625, 0, -0.5, 0.0625, 0.0198, -0.5593, 0.0625, 0, -0.5, -0.0625, 0.0198, -0.5593, -0.0625, 0.0198, -0.5593, 0.0625, 0, -0.5, -0.0625, 0, -0.5, 0.1875, 0, -0.0625, 0.0625, 0, -0.0625, 0.1875, 0, -0.1875, 0.1875, 0, -0.1875, 0.0625, 0, -0.0625, 0.0625, 0, -0.1875, -0.0625, 0, 0.5, -0.0625, 0, 0.4375, 0.0625, 0, 0.4375, 0.0625, 0, 0.5, -0.0625, 0, 0.5, 0.0625, 0, 0.4375, -0.0625, 0.0198, 0.5593, -0.0625, 0, 0.5, 0.0625, 0.0198, 0.5593, 0.0625, 0.0198, 0.5593, -0.0625, 0, 0.5, 0.0625, 0, 0.5, 0.1875, 0.05, 0.65, 0.1875, 0, 0.5, 0.219, 0, 0.5, 0.219, 0.05, 0.65, 0.1875, 0.05, 0.65, 0.219, 0, 0.5, 0.219, 0, -0.5, 0.219, 0, 0.5, 0.1875, 0, 0.5, 0.1875, 0, -0.5, 0.219, 0, -0.5, 0.1875, 0, 0.5, 0.219, 0.05, -0.65, 0.219, 0, -0.5, 0.1875, 0.05, -0.65, 0.1875, 0.05, -0.65, 0.219, 0, -0.5, 0.1875, 0, -0.5, 0.1875, 0.05, -0.65, 0.1875, 0.0708, -0.6708, 0.219, 0.05, -0.65, 0.1875, 0.0708, -0.6708, -0.1875, 0.0708, -0.6708, 0.219, 0.0931, -0.6931, 0.219, 0.0931, -0.6931, -0.1875, 0.0708, -0.6708, -0.219, 0.0931, -0.6931, -0.219, 0.05, -0.65, -0.219, 0.0931, -0.6931, -0.1875, 0.0708, -0.6708, -0.1875, 0.05, -0.65, -0.219, 0.05, -0.65, -0.1875, 0.0708, -0.6708, 0.219, 0.05, -0.65, 0.1875, 0.0708, -0.6708, 0.219, 0.0931, -0.6931, -0.1875, 0.05, -0.65, -0.1875, 0, -0.5, -0.219, 0, -0.5, -0.219, 0.05, -0.65, -0.1875, 0.05, -0.65, -0.219, 0, -0.5, -0.1875, 0, -0.5, -0.1875, 0, 0.5, -0.219, 0, -0.5, -0.219, 0, -0.5, -0.1875, 0, 0.5, -0.219, 0, 0.5, -0.219, 0.05, 0.65, -0.219, 0, 0.5, -0.1875, 0, 0.5, -0.1875, 0.05, 0.65, -0.219, 0.05, 0.65, -0.1875, 0, 0.5, 0.1875, 0.05, 0.65, 0.219, 0.05, 0.65, 0.1875, 0.0708, 0.6708, 0.1875, 0.0708, 0.6708, 0.219, 0.0931, 0.6931, -0.1875, 0.0708, 0.6708, -0.219, 0.05, 0.65, -0.1875, 0.0708, 0.6708, -0.219, 0.0931, 0.6931, -0.1875, 0.05, 0.65, -0.1875, 0.0708, 0.6708, -0.219, 0.05, 0.65, 0.219, 0.0931, 0.6931, -0.219, 0.0931, 0.6931, -0.1875, 0.0708, 0.6708, 0.219, 0.05, 0.65, 0.219, 0.0931, 0.6931, 0.1875, 0.0708, 0.6708, 0.0625, 0.05, 0.65, 0.0625, 0.0708, 0.6708, -0.0625, 0.05, 0.65, -0.0625, 0.05, 0.65, 0.0625, 0.0708, 0.6708, -0.0625, 0.0708, 0.6708, -0.0625, 0.05, 0.65, -0.0625, 0.0198, 0.5593, 0.0625, 0.0198, 0.5593, 0.0625, 0.05, 0.65, -0.0625, 0.05, 0.65, 0.0625, 0.0198, 0.5593, 0.0625, 0.05, -0.65, 0.0625, 0.0198, -0.5593, -0.0625, 0.05, -0.65, -0.0625, 0.05, -0.65, 0.0625, 0.0198, -0.5593, -0.0625, 0.0198, -0.5593, -0.0625, 0.05, -0.65, -0.0625, 0.0708, -0.6708, 0.0625, 0.0708, -0.6708, 0.0625, 0.05, -0.65, -0.0625, 0.05, -0.65, 0.0625, 0.0708, -0.6708, -0.1875, 0, 0.5, -0.1875, 0, 0.4375, -0.0625, 0, 0.5, -0.0625, 0, 0.5, -0.1875, 0, 0.4375, -0.0625, 0, 0.4375, -0.1875, 0.0198, 0.5593, -0.1875, 0, 0.5, -0.0625, 0, 0.5, -0.0625, 0.0198, 0.5593, -0.1875, 0.0198, 0.5593, -0.0625, 0, 0.5, 0.1875, 0, 0.3125, 0.0625, 0, 0.3125, 0.1875, 0, 0.1875, 0.1875, 0, 0.1875, 0.0625, 0, 0.3125, 0.0625, 0, 0.1875, -0.1875, 0, -0.3125, -0.0625, 0, -0.3125, -0.0625, 0, -0.1875, -0.1875, 0, -0.1875, -0.1875, 0, -0.3125, -0.0625, 0, -0.1875, 0.0625, 0, -0.4375, 0.0625, 0, -0.5, 0.1875, 0, -0.4375, 0.1875, 0, -0.4375, 0.0625, 0, -0.5, 0.1875, 0, -0.5, 0.1875, 0.0198, -0.5593, 0.1875, 0, -0.5, 0.0625, 0, -0.5, 0.0625, 0.0198, -0.5593, 0.1875, 0.0198, -0.5593, 0.0625, 0, -0.5, -0.0625, 0.0198, -0.5593, -0.0625, 0, -0.5, -0.1875, 0, -0.5, -0.1875, 0.0198, -0.5593, -0.0625, 0.0198, -0.5593, -0.1875, 0, -0.5, -0.1875, 0, -0.4375, -0.1875, 0, -0.5, -0.0625, 0, -0.4375, -0.0625, 0, -0.4375, -0.1875, 0, -0.5, -0.0625, 0, -0.5, -0.0625, 0, 0.1875, -0.0625, 0, 0.0625, 0.0625, 0, 0.1875, 0.0625, 0, 0.1875, -0.0625, 0, 0.0625, 0.0625, 0, 0.0625, -0.1875, 0, -0.0625, -0.0625, 0, -0.0625, -0.0625, 0, 0.0625, -0.1875, 0, 0.0625, -0.1875, 0, -0.0625, -0.0625, 0, 0.0625, -0.1875, 0, 0.1875, -0.0625, 0, 0.1875, -0.0625, 0, 0.3125, -0.1875, 0, 0.3125, -0.1875, 0, 0.1875, -0.0625, 0, 0.3125, 0.1875, 0, 0.0625, 0.0625, 0, 0.0625, 0.1875, 0, -0.0625, 0.1875, 0, -0.0625, 0.0625, 0, 0.0625, 0.0625, 0, -0.0625, -0.0625, 0, 0.4375, -0.0625, 0, 0.3125, 0.0625, 0, 0.4375, 0.0625, 0, 0.4375, -0.0625, 0, 0.3125, 0.0625, 0, 0.3125, -0.0625, 0, -0.3125, -0.0625, 0, -0.4375, 0.0625, 0, -0.3125, 0.0625, 0, -0.3125, -0.0625, 0, -0.4375, 0.0625, 0, -0.4375, 0.1875, 0, -0.1875, 0.0625, 0, -0.1875, 0.1875, 0, -0.3125, 0.1875, 0, -0.3125, 0.0625, 0, -0.1875, 0.0625, 0, -0.3125, 0.0625, 0, 0.5, 0.0625, 0, 0.4375, 0.1875, 0, 0.5, 0.1875, 0, 0.5, 0.0625, 0, 0.4375, 0.1875, 0, 0.4375, 0.0625, 0.0198, 0.5593, 0.0625, 0, 0.5, 0.1875, 0.0198, 0.5593, 0.1875, 0.0198, 0.5593, 0.0625, 0, 0.5, 0.1875, 0, 0.5, -0.0625, 0, -0.0625, -0.0625, 0, -0.1875, 0.0625, 0, -0.0625, 0.0625, 0, -0.0625, -0.0625, 0, -0.1875, 0.0625, 0, -0.1875 )
+
+[sub_resource type="ConcavePolygonShape" id=710]
+data = PoolVector3Array( -1.7242, 0.834, -0.5, -1.7242, 0.834, 1.5, -2.1048, 0.9525, 1.5, -2.1048, 0.9525, -0.5, -1.7242, 0.834, -0.5, -2.1048, 0.9525, 1.5, -1.3582, 0.6757, -0.5, -1.3582, 0.6757, 1.5, -1.7242, 0.834, 1.5, -1.7242, 0.834, -0.5, -1.3582, 0.6757, -0.5, -1.7242, 0.834, 1.5, -1.3582, 0.6757, -0.5, -0.6418, 0.3243, -0.5, -1.3582, 0.6757, 1.5, -0.6418, 0.3243, -0.5, -0.2758, 0.166, -0.5, -0.6418, 0.3243, 1.5, -0.2758, 0.166, -0.5, -0.2758, 0.166, 1.5, -0.6418, 0.3243, 1.5, -0.6418, 0.3243, -0.5, -0.6418, 0.3243, 1.5, -1.3582, 0.6757, 1.5, 0.1048, 0.0475, -0.5, 0.1048, 0.0475, 1.5, -0.2758, 0.166, 1.5, -0.2758, 0.166, -0.5, 0.1048, 0.0475, -0.5, -0.2758, 0.166, 1.5, 0.1048, 0.0475, 1.5, 0.1048, 0.0475, -0.5, 0.5, 0, 1.5, 0.5, 0, 1.5, 0.1048, 0.0475, -0.5, 0.5, 0, -0.5, 0.1048, 0.0475, -0.5, 0.1159, 0.0962, -0.65, 0.5, 0.05, -0.65, 0.5, 0, -0.5, 0.1048, 0.0475, -0.5, 0.5, 0.05, -0.65, 0.1159, 0.0962, -0.65, 0.1382, 0.1937, -0.75, 0.5, 0.15, -0.75, 0.5, 0.05, -0.65, 0.1159, 0.0962, -0.65, 0.5, 0.15, -0.75, 0.1382, 0.1937, -0.75, 0.1159, 0.0962, -0.65, -0.2579, 0.2127, -0.65, -0.2221, 0.3061, -0.75, 0.1382, 0.1937, -0.75, -0.2579, 0.2127, -0.65, -0.2221, 0.3061, -0.75, -0.2579, 0.2127, -0.65, -0.6205, 0.3695, -0.65, -0.5779, 0.46, -0.75, -0.6205, 0.3695, -0.65, -1.3368, 0.7209, -0.65, -1.2942, 0.8114, -0.75, -1.3368, 0.7209, -0.65, -1.7063, 0.8807, -0.65, -1.6705, 0.974, -0.75, -1.2942, 0.8114, -0.75, -1.7063, 0.8807, -0.65, -1.2942, 0.8114, -0.75, -0.5779, 0.46, -0.75, -1.3368, 0.7209, -0.65, -0.5779, 0.46, -0.75, -0.2221, 0.3061, -0.75, -0.6205, 0.3695, -0.65, -1.6705, 0.974, -0.75, -1.7063, 0.8807, -0.65, -2.0936, 1.0012, -0.65, -2.0713, 1.0987, -0.75, -1.6705, 0.974, -0.75, -2.0936, 1.0012, -0.65, -2.0713, 1.0987, -0.75, -2.0936, 1.0012, -0.65, -2.5, 1.05, -0.65, -2.5, 1.15, -0.75, -2.0713, 1.0987, -0.75, -2.5, 1.05, -0.65, -2.0936, 1.0012, -0.65, -2.1048, 0.9525, -0.5, -2.5, 1, -0.5, -2.5, 1.05, -0.65, -2.0936, 1.0012, -0.65, -2.5, 1, -0.5, 0.1159, 0.0962, 1.65, 0.1048, 0.0475, 1.5, 0.5, 0.05, 1.65, 0.5, 0.05, 1.65, 0.1048, 0.0475, 1.5, 0.5, 0, 1.5, 0.1382, 0.1937, 1.75, 0.1159, 0.0962, 1.65, 0.5, 0.15, 1.75, 0.5, 0.15, 1.75, 0.1159, 0.0962, 1.65, 0.5, 0.05, 1.65, 0.1159, 0.0962, 1.65, 0.1382, 0.1937, 1.75, -0.2579, 0.2127, 1.65, -0.2579, 0.2127, 1.65, 0.1382, 0.1937, 1.75, -0.2221, 0.3061, 1.75, -0.2579, 0.2127, 1.65, -0.2221, 0.3061, 1.75, -0.6205, 0.3695, 1.65, -0.6205, 0.3695, 1.65, -0.5779, 0.46, 1.75, -1.3368, 0.7209, 1.65, -1.3368, 0.7209, 1.65, -1.2942, 0.8114, 1.75, -1.7063, 0.8807, 1.65, -1.7063, 0.8807, 1.65, -1.2942, 0.8114, 1.75, -1.6705, 0.974, 1.75, -1.3368, 0.7209, 1.65, -0.5779, 0.46, 1.75, -1.2942, 0.8114, 1.75, -0.6205, 0.3695, 1.65, -0.2221, 0.3061, 1.75, -0.5779, 0.46, 1.75, -1.7063, 0.8807, 1.65, -1.6705, 0.974, 1.75, -2.0936, 1.0012, 1.65, -2.0936, 1.0012, 1.65, -1.6705, 0.974, 1.75, -2.0713, 1.0987, 1.75, -2.0936, 1.0012, 1.65, -2.0713, 1.0987, 1.75, -2.5, 1.05, 1.65, -2.5, 1.05, 1.65, -2.0713, 1.0987, 1.75, -2.5, 1.15, 1.75, -2.1048, 0.9525, 1.5, -2.0936, 1.0012, 1.65, -2.5, 1, 1.5, -2.5, 1, 1.5, -2.0936, 1.0012, 1.65, -2.5, 1.05, 1.65, 0.1048, 0.0475, 1.5, 0.1159, 0.0962, 1.65, -0.2758, 0.166, 1.5, -0.2758, 0.166, 1.5, 0.1159, 0.0962, 1.65, -0.2579, 0.2127, 1.65, 0.1159, 0.0962, -0.65, 0.1048, 0.0475, -0.5, -0.2758, 0.166, -0.5, -0.2579, 0.2127, -0.65, 0.1159, 0.0962, -0.65, -0.2758, 0.166, -0.5, -0.2758, 0.166, 1.5, -0.2579, 0.2127, 1.65, -0.6418, 0.3243, 1.5, -0.6418, 0.3243, 1.5, -0.6205, 0.3695, 1.65, -1.3582, 0.6757, 1.5, -1.3582, 0.6757, 1.5, -1.3368, 0.7209, 1.65, -1.7242, 0.834, 1.5, -1.7242, 0.834, 1.5, -1.3368, 0.7209, 1.65, -1.7063, 0.8807, 1.65, -1.3582, 0.6757, 1.5, -0.6205, 0.3695, 1.65, -1.3368, 0.7209, 1.65, -0.6418, 0.3243, 1.5, -0.2579, 0.2127, 1.65, -0.6205, 0.3695, 1.65, -0.2579, 0.2127, -0.65, -0.2758, 0.166, -0.5, -0.6418, 0.3243, -0.5, -0.6205, 0.3695, -0.65, -0.6418, 0.3243, -0.5, -1.3582, 0.6757, -0.5, -1.3368, 0.7209, -0.65, -1.3582, 0.6757, -0.5, -1.7242, 0.834, -0.5, -1.7063, 0.8807, -0.65, -1.3368, 0.7209, -0.65, -1.7242, 0.834, -0.5, -1.3368, 0.7209, -0.65, -0.6205, 0.3695, -0.65, -1.3582, 0.6757, -0.5, -0.6205, 0.3695, -0.65, -0.2579, 0.2127, -0.65, -0.6418, 0.3243, -0.5, -1.7242, 0.834, 1.5, -1.7063, 0.8807, 1.65, -2.1048, 0.9525, 1.5, -2.1048, 0.9525, 1.5, -1.7063, 0.8807, 1.65, -2.0936, 1.0012, 1.65, -2.1048, 0.9525, -0.5, -2.1048, 0.9525, 1.5, -2.5, 1, 1.5, -2.5, 1, -0.5, -2.1048, 0.9525, -0.5, -2.5, 1, 1.5, -1.7063, 0.8807, -0.65, -1.7242, 0.834, -0.5, -2.1048, 0.9525, -0.5, -2.0936, 1.0012, -0.65, -1.7063, 0.8807, -0.65, -2.1048, 0.9525, -0.5, -1.1449, 1.1279, 2.5, -1.1449, 1.1279, 2, -0.4286, 0.7766, 2.5, -0.4286, 0.7766, 2.5, -0.4286, 0.7766, 2, -0.0968, 0.6329, 2.5, -0.0968, 0.6329, 2.5, -0.4286, 0.7766, 2, -0.0968, 0.6329, 2, -1.5452, 1.3008, 2.5, -1.5452, 1.3008, 2, -1.1449, 1.1279, 2.5, -1.1449, 1.1279, 2.5, -1.5452, 1.3008, 2, -1.1449, 1.1279, 2, -0.4286, 0.7766, 2.5, -1.1449, 1.1279, 2, -0.4286, 0.7766, 2, -0.0968, 0.6329, 2.5, -0.0968, 0.6329, 2, 0.2163, 0.5349, 2.5, 0.2163, 0.5349, 2.5, -0.0968, 0.6329, 2, 0.2163, 0.5349, 2, 0.5, 0.5, 2, 0.5, 0.5, 2.5, 0.2163, 0.5349, 2.5, 0.2163, 0.5349, 2, 0.5, 0.5, 2, 0.2163, 0.5349, 2.5, 0.5, 0.4665, 1.875, 0.5, 0.5, 2, 0.2088, 0.5023, 1.875, 0.2088, 0.5023, 1.875, 0.5, 0.5, 2, 0.2163, 0.5349, 2, 0.5, 0.375, 1.7835, 0.5, 0.4665, 1.875, 0.1884, 0.4131, 1.7835, 0.1884, 0.4131, 1.7835, 0.5, 0.4665, 1.875, 0.2088, 0.5023, 1.875, -0.1088, 0.6016, 1.875, -0.1415, 0.5162, 1.7835, 0.2088, 0.5023, 1.875, 0.2088, 0.5023, 1.875, -0.1415, 0.5162, 1.7835, 0.1884, 0.4131, 1.7835, -0.1415, 0.5162, 1.7835, -0.1863, 0.3995, 1.75, 0.1884, 0.4131, 1.7835, 0.1605, 0.2912, 1.75, 0.5, 0.375, 1.7835, 0.1884, 0.4131, 1.7835, 0.5, 0.25, 1.75, 0.5, 0.375, 1.7835, 0.1605, 0.2912, 1.75, -0.4819, 0.6635, 1.7835, -0.5352, 0.5504, 1.75, -0.1415, 0.5162, 1.7835, -1.1982, 1.0149, 1.7835, -1.2515, 0.9018, 1.75, -0.4819, 0.6635, 1.7835, -1.59, 1.1841, 1.7835, -1.6347, 1.0674, 1.75, -1.1982, 1.0149, 1.7835, -2.0211, 1.3181, 1.7835, -2.049, 1.1962, 1.75, -1.59, 1.1841, 1.7835, -2.5, 1.375, 1.7835, -2.5, 1.25, 1.75, -2.0211, 1.3181, 1.7835, -2.0211, 1.3181, 1.7835, -2.5, 1.25, 1.75, -2.049, 1.1962, 1.75, -1.59, 1.1841, 1.7835, -2.049, 1.1962, 1.75, -1.6347, 1.0674, 1.75, -1.1982, 1.0149, 1.7835, -1.6347, 1.0674, 1.75, -1.2515, 0.9018, 1.75, -0.4819, 0.6635, 1.7835, -1.2515, 0.9018, 1.75, -0.5352, 0.5504, 1.75, -0.1415, 0.5162, 1.7835, -0.5352, 0.5504, 1.75, -0.1863, 0.3995, 1.75, 0.1884, 0.4131, 1.7835, -0.1863, 0.3995, 1.75, 0.1605, 0.2912, 1.75, 0.5, 0.25, 1.75, 0.1605, 0.2912, 1.75, 0.5, 0.15, 1.75, 0.1605, 0.2912, 1.75, -0.1863, 0.3995, 1.75, 0.1382, 0.1937, 1.75, -0.1863, 0.3995, 1.75, -0.5352, 0.5504, 1.75, -0.2221, 0.3061, 1.75, -1.2942, 0.8114, 1.75, -0.5779, 0.46, 1.75, -0.5352, 0.5504, 1.75, -1.6347, 1.0674, 1.75, -1.2942, 0.8114, 1.75, -1.2515, 0.9018, 1.75, -2.049, 1.1962, 1.75, -1.6705, 0.974, 1.75, -1.6347, 1.0674, 1.75, -2.5, 1.25, 1.75, -2.0713, 1.0987, 1.75, -2.049, 1.1962, 1.75, -2.5, 1.15, 1.75, -2.0713, 1.0987, 1.75, -2.5, 1.25, 1.75, -2.0713, 1.0987, 1.75, -1.6705, 0.974, 1.75, -2.049, 1.1962, 1.75, -1.6705, 0.974, 1.75, -1.2942, 0.8114, 1.75, -1.6347, 1.0674, 1.75, -1.2515, 0.9018, 1.75, -1.2942, 0.8114, 1.75, -0.5352, 0.5504, 1.75, -0.2221, 0.3061, 1.75, -0.5352, 0.5504, 1.75, -0.5779, 0.46, 1.75, 0.1382, 0.1937, 1.75, -0.1863, 0.3995, 1.75, -0.2221, 0.3061, 1.75, 0.5, 0.15, 1.75, 0.1605, 0.2912, 1.75, 0.1382, 0.1937, 1.75, -2.5, 1.4665, 1.875, -2.5, 1.375, 1.7835, -2.0007, 1.4073, 1.875, -2.0007, 1.4073, 1.875, -2.5, 1.375, 1.7835, -2.0211, 1.3181, 1.7835, -2.0007, 1.4073, 1.875, -2.0211, 1.3181, 1.7835, -1.5572, 1.2696, 1.875, -1.5572, 1.2696, 1.875, -2.0211, 1.3181, 1.7835, -1.59, 1.1841, 1.7835, -1.5572, 1.2696, 1.875, -1.59, 1.1841, 1.7835, -1.1592, 1.0976, 1.875, -1.1592, 1.0976, 1.875, -1.1982, 1.0149, 1.7835, -0.4429, 0.7463, 1.875, -0.4429, 0.7463, 1.875, -0.4819, 0.6635, 1.7835, -0.1088, 0.6016, 1.875, -0.1088, 0.6016, 1.875, -0.4819, 0.6635, 1.7835, -0.1415, 0.5162, 1.7835, -0.4429, 0.7463, 1.875, -1.1982, 1.0149, 1.7835, -0.4819, 0.6635, 1.7835, -1.1592, 1.0976, 1.875, -1.59, 1.1841, 1.7835, -1.1982, 1.0149, 1.7835, -1.5452, 1.3008, 2, -1.5572, 1.2696, 1.875, -1.1449, 1.1279, 2, -1.1449, 1.1279, 2, -1.1592, 1.0976, 1.875, -0.4286, 0.7766, 2, -0.4286, 0.7766, 2, -0.4429, 0.7463, 1.875, -0.0968, 0.6329, 2, -0.0968, 0.6329, 2, -0.4429, 0.7463, 1.875, -0.1088, 0.6016, 1.875, -0.4286, 0.7766, 2, -1.1592, 1.0976, 1.875, -0.4429, 0.7463, 1.875, -1.1449, 1.1279, 2, -1.5572, 1.2696, 1.875, -1.1592, 1.0976, 1.875, -1.9933, 1.4399, 2, -2.0007, 1.4073, 1.875, -1.5452, 1.3008, 2, -1.5452, 1.3008, 2, -2.0007, 1.4073, 1.875, -1.5572, 1.2696, 1.875, -1.9933, 1.4399, 2.5, -1.9933, 1.4399, 2, -1.5452, 1.3008, 2.5, -1.5452, 1.3008, 2.5, -1.9933, 1.4399, 2, -1.5452, 1.3008, 2, -2.5, 1.5, 2.5, -2.5, 1.5, 2, -1.9933, 1.4399, 2.5, -1.9933, 1.4399, 2.5, -2.5, 1.5, 2, -1.9933, 1.4399, 2, -2.5, 1.5, 2, -2.5, 1.4665, 1.875, -1.9933, 1.4399, 2, -1.9933, 1.4399, 2, -2.5, 1.4665, 1.875, -2.0007, 1.4073, 1.875, -0.0968, 0.6329, 2, -0.1088, 0.6016, 1.875, 0.2163, 0.5349, 2, 0.2163, 0.5349, 2, -0.1088, 0.6016, 1.875, 0.2088, 0.5023, 1.875, -1.59, 1.1841, -0.7835, -1.6347, 1.0674, -0.75, -2.049, 1.1962, -0.75, -2.0211, 1.3181, -0.7835, -2.049, 1.1962, -0.75, -2.5, 1.25, -0.75, -2.5, 1.375, -0.7835, -2.0211, 1.3181, -0.7835, -2.5, 1.25, -0.75, -2.0211, 1.3181, -0.7835, -1.59, 1.1841, -0.7835, -2.049, 1.1962, -0.75, -1.59, 1.1841, -0.7835, -1.1982, 1.0149, -0.7835, -1.6347, 1.0674, -0.75, -1.1982, 1.0149, -0.7835, -0.4819, 0.6635, -0.7835, -1.2515, 0.9018, -0.75, -0.4819, 0.6635, -0.7835, -0.1415, 0.5162, -0.7835, -0.5352, 0.5504, -0.75, -0.1415, 0.5162, -0.7835, 0.1884, 0.4131, -0.7835, -0.1863, 0.3995, -0.75, 0.1605, 0.2912, -0.75, 0.1884, 0.4131, -0.7835, 0.5, 0.375, -0.7835, 0.5, 0.25, -0.75, 0.1605, 0.2912, -0.75, 0.5, 0.375, -0.7835, 0.1884, 0.4131, -0.7835, 0.1605, 0.2912, -0.75, -0.1863, 0.3995, -0.75, -0.1415, 0.5162, -0.7835, -0.1863, 0.3995, -0.75, -0.5352, 0.5504, -0.75, -0.4819, 0.6635, -0.7835, -0.5352, 0.5504, -0.75, -1.2515, 0.9018, -0.75, -1.1982, 1.0149, -0.7835, -1.2515, 0.9018, -0.75, -1.6347, 1.0674, -0.75, -2.0007, 1.4073, -0.875, -2.0211, 1.3181, -0.7835, -2.5, 1.375, -0.7835, -2.5, 1.4665, -0.875, -2.0007, 1.4073, -0.875, -2.5, 1.375, -0.7835, -1.9933, 1.4399, -1, -2.0007, 1.4073, -0.875, -2.5, 1.4665, -0.875, -2.5, 1.5, -1, -1.9933, 1.4399, -1, -2.5, 1.4665, -0.875, -1.5452, 1.3008, -1, -1.5572, 1.2696, -0.875, -2.0007, 1.4073, -0.875, -1.9933, 1.4399, -1, -1.5452, 1.3008, -1, -2.0007, 1.4073, -0.875, -1.1449, 1.1279, -1, -1.1592, 1.0976, -0.875, -1.5572, 1.2696, -0.875, -1.5452, 1.3008, -1, -1.1449, 1.1279, -1, -1.5572, 1.2696, -0.875, -1.1449, 1.1279, -1, -0.4286, 0.7766, -1, -1.1592, 1.0976, -0.875, -0.4286, 0.7766, -1, -0.0968, 0.6329, -1, -0.4429, 0.7463, -0.875, -0.0968, 0.6329, -1, -0.1088, 0.6016, -0.875, -0.4429, 0.7463, -0.875, -0.4286, 0.7766, -1, -0.4429, 0.7463, -0.875, -1.1592, 1.0976, -0.875, -1.1592, 1.0976, -0.875, -1.1982, 1.0149, -0.7835, -1.59, 1.1841, -0.7835, -1.5572, 1.2696, -0.875, -1.1592, 1.0976, -0.875, -1.59, 1.1841, -0.7835, -1.1592, 1.0976, -0.875, -0.4429, 0.7463, -0.875, -1.1982, 1.0149, -0.7835, -0.4429, 0.7463, -0.875, -0.1088, 0.6016, -0.875, -0.4819, 0.6635, -0.7835, -0.1088, 0.6016, -0.875, -0.1415, 0.5162, -0.7835, -0.4819, 0.6635, -0.7835, -0.4429, 0.7463, -0.875, -0.4819, 0.6635, -0.7835, -1.1982, 1.0149, -0.7835, 0.1884, 0.4131, -0.7835, 0.2088, 0.5023, -0.875, 0.5, 0.4665, -0.875, 0.5, 0.375, -0.7835, 0.1884, 0.4131, -0.7835, 0.5, 0.4665, -0.875, 0.2088, 0.5023, -0.875, 0.2163, 0.5349, -1, 0.5, 0.5, -1, 0.5, 0.4665, -0.875, 0.2088, 0.5023, -0.875, 0.5, 0.5, -1, 0.2163, 0.5349, -1, 0.2163, 0.5349, -1.5, 0.5, 0.5, -1, 0.5, 0.5, -1, 0.2163, 0.5349, -1.5, 0.5, 0.5, -1.5, 0.2163, 0.5349, -1.5, 0.2163, 0.5349, -1, -0.0968, 0.6329, -1, -0.0968, 0.6329, -1.5, 0.2163, 0.5349, -1.5, -0.0968, 0.6329, -1, -0.0968, 0.6329, -1.5, -0.0968, 0.6329, -1, -0.4286, 0.7766, -1, -0.4286, 0.7766, -1.5, -0.4286, 0.7766, -1, -1.1449, 1.1279, -1, -1.1449, 1.1279, -1.5, -1.1449, 1.1279, -1, -1.5452, 1.3008, -1, -1.5452, 1.3008, -1.5, -1.1449, 1.1279, -1.5, -1.5452, 1.3008, -1, -1.1449, 1.1279, -1.5, -0.4286, 0.7766, -1.5, -1.1449, 1.1279, -1, -0.4286, 0.7766, -1.5, -0.0968, 0.6329, -1.5, -0.4286, 0.7766, -1, 0.2163, 0.5349, -1, 0.2088, 0.5023, -0.875, -0.1088, 0.6016, -0.875, -0.0968, 0.6329, -1, 0.2163, 0.5349, -1, -0.1088, 0.6016, -0.875, 0.2088, 0.5023, -0.875, 0.1884, 0.4131, -0.7835, -0.1415, 0.5162, -0.7835, -0.1088, 0.6016, -0.875, 0.2088, 0.5023, -0.875, -0.1415, 0.5162, -0.7835, -1.5452, 1.3008, -1.5, -1.5452, 1.3008, -1, -1.9933, 1.4399, -1, -1.9933, 1.4399, -1.5, -1.5452, 1.3008, -1.5, -1.9933, 1.4399, -1, -1.9933, 1.4399, -1.5, -1.9933, 1.4399, -1, -2.5, 1.5, -1, -2.5, 1.5, -1.5, -1.9933, 1.4399, -1.5, -2.5, 1.5, -1, 0.5, 0.25, -0.75, 0.5, 0.15, -0.75, 0.1605, 0.2912, -0.75, 0.1605, 0.2912, -0.75, 0.1382, 0.1937, -0.75, -0.1863, 0.3995, -0.75, -0.1863, 0.3995, -0.75, -0.2221, 0.3061, -0.75, -0.5352, 0.5504, -0.75, -1.2515, 0.9018, -0.75, -0.5352, 0.5504, -0.75, -1.2942, 0.8114, -0.75, -1.6705, 0.974, -0.75, -1.6347, 1.0674, -0.75, -1.2942, 0.8114, -0.75, -2.0713, 1.0987, -0.75, -2.049, 1.1962, -0.75, -1.6705, 0.974, -0.75, -2.5, 1.15, -0.75, -2.5, 1.25, -0.75, -2.0713, 1.0987, -0.75, -2.5, 1.25, -0.75, -2.049, 1.1962, -0.75, -2.0713, 1.0987, -0.75, -2.049, 1.1962, -0.75, -1.6347, 1.0674, -0.75, -1.6705, 0.974, -0.75, -1.6347, 1.0674, -0.75, -1.2515, 0.9018, -0.75, -1.2942, 0.8114, -0.75, -0.5779, 0.46, -0.75, -1.2942, 0.8114, -0.75, -0.5352, 0.5504, -0.75, -0.2221, 0.3061, -0.75, -0.5779, 0.46, -0.75, -0.5352, 0.5504, -0.75, 0.1382, 0.1937, -0.75, -0.2221, 0.3061, -0.75, -0.1863, 0.3995, -0.75, 0.5, 0.15, -0.75, 0.1382, 0.1937, -0.75, 0.1605, 0.2912, -0.75, -1.5572, 1.2696, -0.875, -1.59, 1.1841, -0.7835, -2.0211, 1.3181, -0.7835, -2.0007, 1.4073, -0.875, -1.5572, 1.2696, -0.875, -2.0211, 1.3181, -0.7835, 0.1048, 0.0475, 1.6, 0.5, 0, 1.6, 0.5, 0.1, 1.65, 0.1271, 0.145, 1.65, 0.1048, 0.0475, 1.6, 0.5, 0.1, 1.65, 0.1271, 0.145, 1.65, 0.5, 0.1, 1.65, 0.5, 0.15, 1.75, 0.1382, 0.1937, 1.75, 0.1271, 0.145, 1.65, 0.5, 0.15, 1.75, -0.9553, 0.5894, 1.65, -1.3155, 0.7661, 1.65, -1.3582, 0.6757, 1.6, -1, 0.5, 1.6, -0.9553, 0.5894, 1.65, -1.3582, 0.6757, 1.6, -0.9329, 0.6342, 1.75, -1.2942, 0.8114, 1.75, -1.3155, 0.7661, 1.65, -0.9553, 0.5894, 1.65, -0.9329, 0.6342, 1.75, -1.3155, 0.7661, 1.65, 0.1271, 0.145, -0.65, 0.5, 0.1, -0.65, 0.1048, 0.0475, -0.6, 0.1048, 0.0475, -0.6, 0.5, 0.1, -0.65, 0.5, 0, -0.6, 0.1382, 0.1937, -0.75, 0.5, 0.15, -0.75, 0.1271, 0.145, -0.65, 0.1271, 0.145, -0.65, 0.5, 0.15, -0.75, 0.5, 0.1, -0.65, -1, 0.5, -0.6, -1.3582, 0.6757, -0.6, -0.9553, 0.5894, -0.65, -0.9553, 0.5894, -0.65, -1.3582, 0.6757, -0.6, -1.3155, 0.7661, -0.65, -0.9553, 0.5894, -0.65, -1.3155, 0.7661, -0.65, -0.9329, 0.6342, -0.75, -0.9329, 0.6342, -0.75, -1.3155, 0.7661, -0.65, -1.2942, 0.8114, -0.75, -0.24, 0.2594, 1.65, -0.5992, 0.4148, 1.65, -0.6418, 0.3243, 1.6, -0.2758, 0.166, 1.6, -0.24, 0.2594, 1.65, -0.6418, 0.3243, 1.6, -0.2221, 0.3061, 1.75, -0.5779, 0.46, 1.75, -0.5992, 0.4148, 1.65, -0.24, 0.2594, 1.65, -0.2221, 0.3061, 1.75, -0.5992, 0.4148, 1.65, -0.24, 0.2594, -0.65, -0.5992, 0.4148, -0.65, -0.2221, 0.3061, -0.75, -0.2221, 0.3061, -0.75, -0.5992, 0.4148, -0.65, -0.5779, 0.46, -0.75, -0.2758, 0.166, -0.6, -0.6418, 0.3243, -0.6, -0.24, 0.2594, -0.65, -0.24, 0.2594, -0.65, -0.6418, 0.3243, -0.6, -0.5992, 0.4148, -0.65, -1.6884, 0.9273, 1.65, -2.0825, 1.05, 1.65, -2.1048, 0.9525, 1.6, -1.7242, 0.834, 1.6, -1.6884, 0.9273, 1.65, -2.1048, 0.9525, 1.6, -1.6705, 0.974, 1.75, -2.0713, 1.0987, 1.75, -2.0825, 1.05, 1.65, -1.6884, 0.9273, 1.65, -1.6705, 0.974, 1.75, -2.0825, 1.05, 1.65, -1.6884, 0.9273, -0.65, -2.0825, 1.05, -0.65, -1.6705, 0.974, -0.75, -1.6705, 0.974, -0.75, -2.0825, 1.05, -0.65, -2.0713, 1.0987, -0.75, -1.7242, 0.834, -0.6, -2.1048, 0.9525, -0.6, -1.6884, 0.9273, -0.65, -1.6884, 0.9273, -0.65, -2.1048, 0.9525, -0.6, -2.0825, 1.05, -0.65, 0.1271, 0.145, 1.65, -0.24, 0.2594, 1.65, -0.2758, 0.166, 1.6, 0.1048, 0.0475, 1.6, 0.1271, 0.145, 1.65, -0.2758, 0.166, 1.6, 0.1382, 0.1937, 1.75, -0.2221, 0.3061, 1.75, -0.24, 0.2594, 1.65, 0.1271, 0.145, 1.65, 0.1382, 0.1937, 1.75, -0.24, 0.2594, 1.65, -1.2942, 0.8114, 1.75, -1.6705, 0.974, 1.75, -1.6884, 0.9273, 1.65, -1.3155, 0.7661, 1.65, -1.2942, 0.8114, 1.75, -1.6884, 0.9273, 1.65, -1.3155, 0.7661, 1.65, -1.6884, 0.9273, 1.65, -1.7242, 0.834, 1.6, -1.3582, 0.6757, 1.6, -1.3155, 0.7661, 1.65, -1.7242, 0.834, 1.6, -0.9553, 0.5894, 1.65, -0.5992, 0.4148, 1.65, -0.5779, 0.46, 1.75, -0.9329, 0.6342, 1.75, -0.9553, 0.5894, 1.65, -0.5779, 0.46, 1.75, -1, 0.5, 1.6, -0.6418, 0.3243, 1.6, -0.5992, 0.4148, 1.65, -0.9553, 0.5894, 1.65, -1, 0.5, 1.6, -0.5992, 0.4148, 1.65, -2.0825, 1.05, 1.65, -2.5, 1.1, 1.65, -2.5, 1, 1.6, -2.1048, 0.9525, 1.6, -2.0825, 1.05, 1.65, -2.5, 1, 1.6, -2.0713, 1.0987, 1.75, -2.5, 1.15, 1.75, -2.5, 1.1, 1.65, -2.0825, 1.05, 1.65, -2.0713, 1.0987, 1.75, -2.5, 1.1, 1.65, 0.1271, 0.145, -0.65, -0.24, 0.2594, -0.65, 0.1382, 0.1937, -0.75, 0.1382, 0.1937, -0.75, -0.24, 0.2594, -0.65, -0.2221, 0.3061, -0.75, 0.1048, 0.0475, -0.6, -0.2758, 0.166, -0.6, 0.1271, 0.145, -0.65, 0.1271, 0.145, -0.65, -0.2758, 0.166, -0.6, -0.24, 0.2594, -0.65, -1.3582, 0.6757, -0.6, -1.7242, 0.834, -0.6, -1.3155, 0.7661, -0.65, -1.3155, 0.7661, -0.65, -1.7242, 0.834, -0.6, -1.6884, 0.9273, -0.65, -1.3155, 0.7661, -0.65, -1.6884, 0.9273, -0.65, -1.2942, 0.8114, -0.75, -1.2942, 0.8114, -0.75, -1.6884, 0.9273, -0.65, -1.6705, 0.974, -0.75, -0.9329, 0.6342, -0.75, -0.5779, 0.46, -0.75, -0.9553, 0.5894, -0.65, -0.9553, 0.5894, -0.65, -0.5779, 0.46, -0.75, -0.5992, 0.4148, -0.65, -0.9553, 0.5894, -0.65, -0.5992, 0.4148, -0.65, -1, 0.5, -0.6, -1, 0.5, -0.6, -0.5992, 0.4148, -0.65, -0.6418, 0.3243, -0.6, -2.1048, 0.9525, -0.6, -2.5, 1, -0.6, -2.0825, 1.05, -0.65, -2.0825, 1.05, -0.65, -2.5, 1, -0.6, -2.5, 1.1, -0.65, -2.0825, 1.05, -0.65, -2.5, 1.1, -0.65, -2.0713, 1.0987, -0.75, -2.0713, 1.0987, -0.75, -2.5, 1.1, -0.65, -2.5, 1.15, -0.75 )
+
+[sub_resource type="ConcavePolygonShape" id=718]
+data = PoolVector3Array( 0.1159, 0.0962, -0.65, 0.1048, 0.0475, -0.5, -0.2758, 0.166, -0.5, -0.2579, 0.2127, -0.65, 0.1159, 0.0962, -0.65, -0.2758, 0.166, -0.5, 0.1048, 0.0475, -0.5, 0.1159, 0.0962, -0.65, 0.5, 0.05, -0.65, 0.5, 0, -0.5, 0.1048, 0.0475, -0.5, 0.5, 0.05, -0.65, 0.1159, 0.0962, -0.65, 0.1382, 0.1937, -0.75, 0.5, 0.15, -0.75, 0.5, 0.05, -0.65, 0.1159, 0.0962, -0.65, 0.5, 0.15, -0.75, 0.1048, 0.0475, 0.5, 0.1048, 0.0475, -0.5, 0.5, 0, 0.5, 0.5, 0, 0.5, 0.1048, 0.0475, -0.5, 0.5, 0, -0.5, 0.1159, 0.0962, 0.65, 0.1048, 0.0475, 0.5, 0.5, 0.05, 0.65, 0.5, 0.05, 0.65, 0.1048, 0.0475, 0.5, 0.5, 0, 0.5, 0.1048, 0.0475, 0.5, 0.1159, 0.0962, 0.65, -0.2758, 0.166, 0.5, -0.2758, 0.166, 0.5, 0.1159, 0.0962, 0.65, -0.2579, 0.2127, 0.65, 0.1159, 0.0962, 0.65, 0.1382, 0.1937, 0.75, -0.2579, 0.2127, 0.65, -0.2579, 0.2127, 0.65, 0.1382, 0.1937, 0.75, -0.2221, 0.3061, 0.75, -0.2579, 0.2127, 0.65, -0.2221, 0.3061, 0.75, -0.6205, 0.3695, 0.65, -0.6205, 0.3695, 0.65, -0.5779, 0.46, 0.75, -1.3368, 0.7209, 0.65, -1.3368, 0.7209, 0.65, -1.2942, 0.8114, 0.75, -1.7063, 0.8807, 0.65, -1.7063, 0.8807, 0.65, -1.2942, 0.8114, 0.75, -1.6705, 0.974, 0.75, -1.3368, 0.7209, 0.65, -0.5779, 0.46, 0.75, -1.2942, 0.8114, 0.75, -0.6205, 0.3695, 0.65, -0.2221, 0.3061, 0.75, -0.5779, 0.46, 0.75, -1.7063, 0.8807, 0.65, -1.6705, 0.974, 0.75, -2.0936, 1.0012, 0.65, -2.0936, 1.0012, 0.65, -1.6705, 0.974, 0.75, -2.0713, 1.0987, 0.75, -2.0936, 1.0012, 0.65, -2.0713, 1.0987, 0.75, -2.5, 1.05, 0.65, -2.5, 1.05, 0.65, -2.0713, 1.0987, 0.75, -2.5, 1.15, 0.75, -2.1048, 0.9525, 0.5, -2.0936, 1.0012, 0.65, -2.5, 1, 0.5, -2.5, 1, 0.5, -2.0936, 1.0012, 0.65, -2.5, 1.05, 0.65, -2.1048, 0.9525, -0.5, -2.1048, 0.9525, 0.5, -2.5, 1, 0.5, -2.5, 1, -0.5, -2.1048, 0.9525, -0.5, -2.5, 1, 0.5, -1.7242, 0.834, -0.5, -1.7242, 0.834, 0.5, -2.1048, 0.9525, 0.5, -2.1048, 0.9525, -0.5, -1.7242, 0.834, -0.5, -2.1048, 0.9525, 0.5, -1.3582, 0.6757, -0.5, -1.3582, 0.6757, 0.5, -1.7242, 0.834, 0.5, -1.7242, 0.834, -0.5, -1.3582, 0.6757, -0.5, -1.7242, 0.834, 0.5, -1.3582, 0.6757, -0.5, -0.6418, 0.3243, -0.5, -1.3582, 0.6757, 0.5, -0.6418, 0.3243, -0.5, -0.2758, 0.166, -0.5, -0.6418, 0.3243, 0.5, -0.2758, 0.166, -0.5, -0.2758, 0.166, 0.5, -0.6418, 0.3243, 0.5, -0.6418, 0.3243, -0.5, -0.6418, 0.3243, 0.5, -1.3582, 0.6757, 0.5, -0.6205, 0.3695, -0.65, -0.6418, 0.3243, -0.5, -1.3582, 0.6757, -0.5, -1.3368, 0.7209, -0.65, -1.3582, 0.6757, -0.5, -1.7242, 0.834, -0.5, -1.7063, 0.8807, -0.65, -1.3368, 0.7209, -0.65, -1.7242, 0.834, -0.5, -1.3368, 0.7209, -0.65, -0.6205, 0.3695, -0.65, -1.3582, 0.6757, -0.5, -0.6205, 0.3695, -0.65, -0.2579, 0.2127, -0.65, -0.6418, 0.3243, -0.5, -0.2579, 0.2127, -0.65, -0.2758, 0.166, -0.5, -0.6418, 0.3243, -0.5, -0.5779, 0.46, -0.75, -0.6205, 0.3695, -0.65, -1.3368, 0.7209, -0.65, -1.2942, 0.8114, -0.75, -1.3368, 0.7209, -0.65, -1.7063, 0.8807, -0.65, -1.6705, 0.974, -0.75, -1.2942, 0.8114, -0.75, -1.7063, 0.8807, -0.65, -1.2942, 0.8114, -0.75, -0.5779, 0.46, -0.75, -1.3368, 0.7209, -0.65, -0.5779, 0.46, -0.75, -0.2221, 0.3061, -0.75, -0.6205, 0.3695, -0.65, -0.2221, 0.3061, -0.75, -0.2579, 0.2127, -0.65, -0.6205, 0.3695, -0.65, -1.6705, 0.974, -0.75, -1.7063, 0.8807, -0.65, -2.0936, 1.0012, -0.65, -2.0713, 1.0987, -0.75, -1.6705, 0.974, -0.75, -2.0936, 1.0012, -0.65, -2.0713, 1.0987, -0.75, -2.0936, 1.0012, -0.65, -2.5, 1.05, -0.65, -2.5, 1.15, -0.75, -2.0713, 1.0987, -0.75, -2.5, 1.05, -0.65, -1.7063, 0.8807, -0.65, -1.7242, 0.834, -0.5, -2.1048, 0.9525, -0.5, -2.0936, 1.0012, -0.65, -1.7063, 0.8807, -0.65, -2.1048, 0.9525, -0.5, -2.0936, 1.0012, -0.65, -2.1048, 0.9525, -0.5, -2.5, 1, -0.5, -2.5, 1.05, -0.65, -2.0936, 1.0012, -0.65, -2.5, 1, -0.5, -1.7242, 0.834, 0.5, -1.7063, 0.8807, 0.65, -2.1048, 0.9525, 0.5, -2.1048, 0.9525, 0.5, -1.7063, 0.8807, 0.65, -2.0936, 1.0012, 0.65, -1.3582, 0.6757, 0.5, -1.3368, 0.7209, 0.65, -1.7242, 0.834, 0.5, -0.6418, 0.3243, 0.5, -0.6205, 0.3695, 0.65, -1.3582, 0.6757, 0.5, -0.2758, 0.166, 0.5, -0.2579, 0.2127, 0.65, -0.6418, 0.3243, 0.5, -0.6418, 0.3243, 0.5, -0.2579, 0.2127, 0.65, -0.6205, 0.3695, 0.65, -1.3582, 0.6757, 0.5, -0.6205, 0.3695, 0.65, -1.3368, 0.7209, 0.65, -1.7242, 0.834, 0.5, -1.3368, 0.7209, 0.65, -1.7063, 0.8807, 0.65, 0.1382, 0.1937, 0.75, 0.1159, 0.0962, 0.65, 0.5, 0.15, 0.75, 0.5, 0.15, 0.75, 0.1159, 0.0962, 0.65, 0.5, 0.05, 0.65, 0.1048, 0.0475, -0.5, 0.1048, 0.0475, 0.5, -0.2758, 0.166, 0.5, -0.2758, 0.166, -0.5, 0.1048, 0.0475, -0.5, -0.2758, 0.166, 0.5, 0.1382, 0.1937, -0.75, 0.1159, 0.0962, -0.65, -0.2579, 0.2127, -0.65, -0.2221, 0.3061, -0.75, 0.1382, 0.1937, -0.75, -0.2579, 0.2127, -0.65, -1.1449, 1.1279, -1, -1.1592, 1.0976, -0.875, -1.5572, 1.2696, -0.875, -1.5452, 1.3008, -1, -1.1449, 1.1279, -1, -1.5572, 1.2696, -0.875, -1.1449, 1.1279, -1, -0.4286, 0.7766, -1, -1.1592, 1.0976, -0.875, -0.4286, 0.7766, -1, -0.0968, 0.6329, -1, -0.4429, 0.7463, -0.875, -0.0968, 0.6329, -1, -0.1088, 0.6016, -0.875, -0.4429, 0.7463, -0.875, -0.4286, 0.7766, -1, -0.4429, 0.7463, -0.875, -1.1592, 1.0976, -0.875, -1.5452, 1.3008, -1, -1.5572, 1.2696, -0.875, -2.0007, 1.4073, -0.875, -1.9933, 1.4399, -1, -1.5452, 1.3008, -1, -2.0007, 1.4073, -0.875, -1.9933, 1.4399, -1, -2.0007, 1.4073, -0.875, -2.5, 1.4665, -0.875, -2.5, 1.5, -1, -1.9933, 1.4399, -1, -2.5, 1.4665, -0.875, -2.0007, 1.4073, -0.875, -2.0211, 1.3181, -0.7835, -2.5, 1.375, -0.7835, -2.5, 1.4665, -0.875, -2.0007, 1.4073, -0.875, -2.5, 1.375, -0.7835, -2.0211, 1.3181, -0.7835, -2.049, 1.1962, -0.75, -2.5, 1.25, -0.75, -2.5, 1.375, -0.7835, -2.0211, 1.3181, -0.7835, -2.5, 1.25, -0.75, -2.0211, 1.3181, -0.7835, -1.59, 1.1841, -0.7835, -2.049, 1.1962, -0.75, -1.59, 1.1841, -0.7835, -1.1982, 1.0149, -0.7835, -1.6347, 1.0674, -0.75, -1.1982, 1.0149, -0.7835, -0.4819, 0.6635, -0.7835, -1.2515, 0.9018, -0.75, -0.4819, 0.6635, -0.7835, -0.5352, 0.5504, -0.75, -1.2515, 0.9018, -0.75, -0.1415, 0.5162, -0.7835, -0.1863, 0.3995, -0.75, -0.5352, 0.5504, -0.75, -0.1415, 0.5162, -0.7835, 0.1884, 0.4131, -0.7835, -0.1863, 0.3995, -0.75, 0.1605, 0.2912, -0.75, 0.1884, 0.4131, -0.7835, 0.5, 0.375, -0.7835, 0.5, 0.25, -0.75, 0.1605, 0.2912, -0.75, 0.5, 0.375, -0.7835, 0.1884, 0.4131, -0.7835, 0.1605, 0.2912, -0.75, -0.1863, 0.3995, -0.75, -0.4819, 0.6635, -0.7835, -0.1415, 0.5162, -0.7835, -0.5352, 0.5504, -0.75, -1.1982, 1.0149, -0.7835, -1.2515, 0.9018, -0.75, -1.6347, 1.0674, -0.75, -1.59, 1.1841, -0.7835, -1.6347, 1.0674, -0.75, -2.049, 1.1962, -0.75, 0.5, 0.25, -0.75, 0.5, 0.15, -0.75, 0.1605, 0.2912, -0.75, 0.1605, 0.2912, -0.75, 0.1382, 0.1937, -0.75, -0.1863, 0.3995, -0.75, -0.1863, 0.3995, -0.75, -0.2221, 0.3061, -0.75, -0.5352, 0.5504, -0.75, -1.2515, 0.9018, -0.75, -0.5352, 0.5504, -0.75, -1.2942, 0.8114, -0.75, -1.6705, 0.974, -0.75, -1.6347, 1.0674, -0.75, -1.2942, 0.8114, -0.75, -2.0713, 1.0987, -0.75, -2.049, 1.1962, -0.75, -1.6705, 0.974, -0.75, -2.5, 1.15, -0.75, -2.5, 1.25, -0.75, -2.0713, 1.0987, -0.75, -2.5, 1.25, -0.75, -2.049, 1.1962, -0.75, -2.0713, 1.0987, -0.75, -2.049, 1.1962, -0.75, -1.6347, 1.0674, -0.75, -1.6705, 0.974, -0.75, -1.6347, 1.0674, -0.75, -1.2515, 0.9018, -0.75, -1.2942, 0.8114, -0.75, -0.5779, 0.46, -0.75, -1.2942, 0.8114, -0.75, -0.5352, 0.5504, -0.75, -0.2221, 0.3061, -0.75, -0.5779, 0.46, -0.75, -0.5352, 0.5504, -0.75, 0.1382, 0.1937, -0.75, -0.2221, 0.3061, -0.75, -0.1863, 0.3995, -0.75, 0.5, 0.15, -0.75, 0.1382, 0.1937, -0.75, 0.1605, 0.2912, -0.75, 0.1884, 0.4131, -0.7835, 0.2088, 0.5023, -0.875, 0.5, 0.4665, -0.875, 0.5, 0.375, -0.7835, 0.1884, 0.4131, -0.7835, 0.5, 0.4665, -0.875, 0.2088, 0.5023, -0.875, 0.2163, 0.5349, -1, 0.5, 0.5, -1, 0.5, 0.4665, -0.875, 0.2088, 0.5023, -0.875, 0.5, 0.5, -1, 0.2163, 0.5349, -1, 0.2163, 0.5349, -1.5, 0.5, 0.5, -1, 0.5, 0.5, -1, 0.2163, 0.5349, -1.5, 0.5, 0.5, -1.5, 0.2163, 0.5349, -1.5, 0.2163, 0.5349, -1, -0.0968, 0.6329, -1, -0.0968, 0.6329, -1.5, 0.2163, 0.5349, -1.5, -0.0968, 0.6329, -1, -0.0968, 0.6329, -1.5, -0.0968, 0.6329, -1, -0.4286, 0.7766, -1, -0.4286, 0.7766, -1.5, -0.4286, 0.7766, -1, -1.1449, 1.1279, -1, -1.1449, 1.1279, -1.5, -1.1449, 1.1279, -1, -1.5452, 1.3008, -1, -1.5452, 1.3008, -1.5, -1.1449, 1.1279, -1.5, -1.5452, 1.3008, -1, -1.1449, 1.1279, -1.5, -0.4286, 0.7766, -1.5, -1.1449, 1.1279, -1, -0.4286, 0.7766, -1.5, -0.0968, 0.6329, -1.5, -0.4286, 0.7766, -1, -0.1088, 0.6016, -0.875, -0.1415, 0.5162, -0.7835, -0.4819, 0.6635, -0.7835, -0.4429, 0.7463, -0.875, -0.4819, 0.6635, -0.7835, -1.1982, 1.0149, -0.7835, -1.1592, 1.0976, -0.875, -1.1982, 1.0149, -0.7835, -1.59, 1.1841, -0.7835, -1.5572, 1.2696, -0.875, -1.1592, 1.0976, -0.875, -1.59, 1.1841, -0.7835, -1.1592, 1.0976, -0.875, -0.4429, 0.7463, -0.875, -1.1982, 1.0149, -0.7835, -0.4429, 0.7463, -0.875, -0.1088, 0.6016, -0.875, -0.4819, 0.6635, -0.7835, 0.2163, 0.5349, -1, 0.2088, 0.5023, -0.875, -0.1088, 0.6016, -0.875, -0.0968, 0.6329, -1, 0.2163, 0.5349, -1, -0.1088, 0.6016, -0.875, 0.2088, 0.5023, -0.875, 0.1884, 0.4131, -0.7835, -0.1415, 0.5162, -0.7835, -0.1088, 0.6016, -0.875, 0.2088, 0.5023, -0.875, -0.1415, 0.5162, -0.7835, -1.9933, 1.4399, -1.5, -1.9933, 1.4399, -1, -2.5, 1.5, -1, -2.5, 1.5, -1.5, -1.9933, 1.4399, -1.5, -2.5, 1.5, -1, -1.5572, 1.2696, -0.875, -1.59, 1.1841, -0.7835, -2.0211, 1.3181, -0.7835, -2.0007, 1.4073, -0.875, -1.5572, 1.2696, -0.875, -2.0211, 1.3181, -0.7835, -1.5452, 1.3008, -1.5, -1.5452, 1.3008, -1, -1.9933, 1.4399, -1, -1.9933, 1.4399, -1.5, -1.5452, 1.3008, -1.5, -1.9933, 1.4399, -1, -1.9933, 1.4399, 1, -2.0007, 1.4073, 0.875, -1.5452, 1.3008, 1, -1.5452, 1.3008, 1, -2.0007, 1.4073, 0.875, -1.5572, 1.2696, 0.875, -1.5452, 1.3008, 1, -1.5572, 1.2696, 0.875, -1.1449, 1.1279, 1, -1.1449, 1.1279, 1, -1.1592, 1.0976, 0.875, -0.4286, 0.7766, 1, -0.4286, 0.7766, 1, -0.4429, 0.7463, 0.875, -0.0968, 0.6329, 1, -0.0968, 0.6329, 1, -0.4429, 0.7463, 0.875, -0.1088, 0.6016, 0.875, -0.4286, 0.7766, 1, -1.1592, 1.0976, 0.875, -0.4429, 0.7463, 0.875, -1.1449, 1.1279, 1, -1.5572, 1.2696, 0.875, -1.1592, 1.0976, 0.875, -0.0968, 0.6329, 1, -0.1088, 0.6016, 0.875, 0.2163, 0.5349, 1, 0.2163, 0.5349, 1, -0.1088, 0.6016, 0.875, 0.2088, 0.5023, 0.875, 0.5, 0.4665, 0.875, 0.5, 0.5, 1, 0.2088, 0.5023, 0.875, 0.2088, 0.5023, 0.875, 0.5, 0.5, 1, 0.2163, 0.5349, 1, 0.5, 0.5, 1, 0.5, 0.5, 1.5, 0.2163, 0.5349, 1.5, 0.2163, 0.5349, 1, 0.5, 0.5, 1, 0.2163, 0.5349, 1.5, 0.5, 0.375, 0.7835, 0.5, 0.4665, 0.875, 0.1884, 0.4131, 0.7835, 0.1884, 0.4131, 0.7835, 0.5, 0.4665, 0.875, 0.2088, 0.5023, 0.875, 0.5, 0.25, 0.75, 0.5, 0.375, 0.7835, 0.1605, 0.2912, 0.75, 0.1884, 0.4131, 0.7835, -0.1863, 0.3995, 0.75, 0.1605, 0.2912, 0.75, -0.1415, 0.5162, 0.7835, -0.5352, 0.5504, 0.75, -0.1863, 0.3995, 0.75, -0.4819, 0.6635, 0.7835, -1.2515, 0.9018, 0.75, -0.5352, 0.5504, 0.75, -1.1982, 1.0149, 0.7835, -1.6347, 1.0674, 0.75, -1.2515, 0.9018, 0.75, -1.59, 1.1841, 0.7835, -2.049, 1.1962, 0.75, -1.6347, 1.0674, 0.75, -2.0211, 1.3181, 0.7835, -2.5, 1.25, 0.75, -2.049, 1.1962, 0.75, -2.5, 1.375, 0.7835, -2.5, 1.25, 0.75, -2.0211, 1.3181, 0.7835, -2.0211, 1.3181, 0.7835, -2.049, 1.1962, 0.75, -1.59, 1.1841, 0.7835, -1.59, 1.1841, 0.7835, -1.6347, 1.0674, 0.75, -1.1982, 1.0149, 0.7835, -1.1982, 1.0149, 0.7835, -1.2515, 0.9018, 0.75, -0.4819, 0.6635, 0.7835, -0.4819, 0.6635, 0.7835, -0.5352, 0.5504, 0.75, -0.1415, 0.5162, 0.7835, -0.1415, 0.5162, 0.7835, -0.1863, 0.3995, 0.75, 0.1884, 0.4131, 0.7835, 0.1605, 0.2912, 0.75, 0.5, 0.375, 0.7835, 0.1884, 0.4131, 0.7835, -2.5, 1.4665, 0.875, -2.5, 1.375, 0.7835, -2.0007, 1.4073, 0.875, -2.0007, 1.4073, 0.875, -2.5, 1.375, 0.7835, -2.0211, 1.3181, 0.7835, 0.5, 0.25, 0.75, 0.1605, 0.2912, 0.75, 0.5, 0.15, 0.75, 0.1605, 0.2912, 0.75, -0.1863, 0.3995, 0.75, 0.1382, 0.1937, 0.75, -0.1863, 0.3995, 0.75, -0.5352, 0.5504, 0.75, -0.2221, 0.3061, 0.75, -1.2942, 0.8114, 0.75, -0.5779, 0.46, 0.75, -0.5352, 0.5504, 0.75, -1.6347, 1.0674, 0.75, -1.2942, 0.8114, 0.75, -1.2515, 0.9018, 0.75, -2.049, 1.1962, 0.75, -1.6705, 0.974, 0.75, -1.6347, 1.0674, 0.75, -2.5, 1.25, 0.75, -2.0713, 1.0987, 0.75, -2.049, 1.1962, 0.75, -2.5, 1.15, 0.75, -2.0713, 1.0987, 0.75, -2.5, 1.25, 0.75, -2.0713, 1.0987, 0.75, -1.6705, 0.974, 0.75, -2.049, 1.1962, 0.75, -1.6705, 0.974, 0.75, -1.2942, 0.8114, 0.75, -1.6347, 1.0674, 0.75, -1.2515, 0.9018, 0.75, -1.2942, 0.8114, 0.75, -0.5352, 0.5504, 0.75, -0.2221, 0.3061, 0.75, -0.5352, 0.5504, 0.75, -0.5779, 0.46, 0.75, 0.1382, 0.1937, 0.75, -0.1863, 0.3995, 0.75, -0.2221, 0.3061, 0.75, 0.5, 0.15, 0.75, 0.1605, 0.2912, 0.75, 0.1382, 0.1937, 0.75, -0.1088, 0.6016, 0.875, -0.1415, 0.5162, 0.7835, 0.2088, 0.5023, 0.875, 0.2088, 0.5023, 0.875, -0.1415, 0.5162, 0.7835, 0.1884, 0.4131, 0.7835, -0.0968, 0.6329, 1.5, -0.0968, 0.6329, 1, 0.2163, 0.5349, 1.5, 0.2163, 0.5349, 1.5, -0.0968, 0.6329, 1, 0.2163, 0.5349, 1, -0.4429, 0.7463, 0.875, -0.4819, 0.6635, 0.7835, -0.1088, 0.6016, 0.875, -1.1592, 1.0976, 0.875, -1.1982, 1.0149, 0.7835, -0.4429, 0.7463, 0.875, -1.5572, 1.2696, 0.875, -1.59, 1.1841, 0.7835, -1.1592, 1.0976, 0.875, -1.1592, 1.0976, 0.875, -1.59, 1.1841, 0.7835, -1.1982, 1.0149, 0.7835, -0.4429, 0.7463, 0.875, -1.1982, 1.0149, 0.7835, -0.4819, 0.6635, 0.7835, -0.1088, 0.6016, 0.875, -0.4819, 0.6635, 0.7835, -0.1415, 0.5162, 0.7835, -0.4286, 0.7766, 1.5, -0.4286, 0.7766, 1, -0.0968, 0.6329, 1.5, -1.1449, 1.1279, 1.5, -1.1449, 1.1279, 1, -0.4286, 0.7766, 1.5, -1.5452, 1.3008, 1.5, -1.5452, 1.3008, 1, -1.1449, 1.1279, 1.5, -1.1449, 1.1279, 1.5, -1.5452, 1.3008, 1, -1.1449, 1.1279, 1, -0.4286, 0.7766, 1.5, -1.1449, 1.1279, 1, -0.4286, 0.7766, 1, -0.0968, 0.6329, 1.5, -0.4286, 0.7766, 1, -0.0968, 0.6329, 1, -2.0007, 1.4073, 0.875, -2.0211, 1.3181, 0.7835, -1.5572, 1.2696, 0.875, -1.5572, 1.2696, 0.875, -2.0211, 1.3181, 0.7835, -1.59, 1.1841, 0.7835, -2.5, 1.5, 1, -2.5, 1.4665, 0.875, -1.9933, 1.4399, 1, -1.9933, 1.4399, 1, -2.5, 1.4665, 0.875, -2.0007, 1.4073, 0.875, -2.5, 1.5, 1.5, -2.5, 1.5, 1, -1.9933, 1.4399, 1.5, -1.9933, 1.4399, 1.5, -2.5, 1.5, 1, -1.9933, 1.4399, 1, -1.9933, 1.4399, 1.5, -1.9933, 1.4399, 1, -1.5452, 1.3008, 1.5, -1.5452, 1.3008, 1.5, -1.9933, 1.4399, 1, -1.5452, 1.3008, 1, 0.1271, 0.145, 0.65, 0.5, 0.1, 0.65, 0.5, 0.15, 0.75, 0.1382, 0.1937, 0.75, 0.1271, 0.145, 0.65, 0.5, 0.15, 0.75, 0.1048, 0.0475, 0.6, 0.5, 0, 0.6, 0.5, 0.1, 0.65, 0.1271, 0.145, 0.65, 0.1048, 0.0475, 0.6, 0.5, 0.1, 0.65, -0.9329, 0.6342, 0.75, -1.2942, 0.8114, 0.75, -1.3155, 0.7661, 0.65, -0.9553, 0.5894, 0.65, -0.9329, 0.6342, 0.75, -1.3155, 0.7661, 0.65, -0.9553, 0.5894, 0.65, -1.3155, 0.7661, 0.65, -1.3582, 0.6757, 0.6, -1, 0.5, 0.6, -0.9553, 0.5894, 0.65, -1.3582, 0.6757, 0.6, 0.1271, 0.145, -0.65, 0.5, 0.1, -0.65, 0.1048, 0.0475, -0.6, 0.1048, 0.0475, -0.6, 0.5, 0.1, -0.65, 0.5, 0, -0.6, 0.1382, 0.1937, -0.75, 0.5, 0.15, -0.75, 0.1271, 0.145, -0.65, 0.1271, 0.145, -0.65, 0.5, 0.15, -0.75, 0.5, 0.1, -0.65, -0.9553, 0.5894, -0.65, -1.3155, 0.7661, -0.65, -0.9329, 0.6342, -0.75, -0.9329, 0.6342, -0.75, -1.3155, 0.7661, -0.65, -1.2942, 0.8114, -0.75, -1, 0.5, -0.6, -1.3582, 0.6757, -0.6, -0.9553, 0.5894, -0.65, -0.9553, 0.5894, -0.65, -1.3582, 0.6757, -0.6, -1.3155, 0.7661, -0.65, -0.24, 0.2594, 0.65, -0.5992, 0.4148, 0.65, -0.6418, 0.3243, 0.6, -0.2758, 0.166, 0.6, -0.24, 0.2594, 0.65, -0.6418, 0.3243, 0.6, -0.2221, 0.3061, 0.75, -0.5779, 0.46, 0.75, -0.5992, 0.4148, 0.65, -0.24, 0.2594, 0.65, -0.2221, 0.3061, 0.75, -0.5992, 0.4148, 0.65, -1.6705, 0.974, 0.75, -2.0713, 1.0987, 0.75, -2.0825, 1.05, 0.65, -1.6884, 0.9273, 0.65, -1.6705, 0.974, 0.75, -2.0825, 1.05, 0.65, -1.6884, 0.9273, 0.65, -2.0825, 1.05, 0.65, -2.1048, 0.9525, 0.6, -1.7242, 0.834, 0.6, -1.6884, 0.9273, 0.65, -2.1048, 0.9525, 0.6, -0.24, 0.2594, -0.65, -0.5992, 0.4148, -0.65, -0.2221, 0.3061, -0.75, -0.2221, 0.3061, -0.75, -0.5992, 0.4148, -0.65, -0.5779, 0.46, -0.75, -0.2758, 0.166, -0.6, -0.6418, 0.3243, -0.6, -0.24, 0.2594, -0.65, -0.24, 0.2594, -0.65, -0.6418, 0.3243, -0.6, -0.5992, 0.4148, -0.65, -1.7242, 0.834, -0.6, -2.1048, 0.9525, -0.6, -1.6884, 0.9273, -0.65, -1.6884, 0.9273, -0.65, -2.1048, 0.9525, -0.6, -2.0825, 1.05, -0.65, -1.6884, 0.9273, -0.65, -2.0825, 1.05, -0.65, -1.6705, 0.974, -0.75, -1.6705, 0.974, -0.75, -2.0825, 1.05, -0.65, -2.0713, 1.0987, -0.75, 0.1271, 0.145, 0.65, -0.24, 0.2594, 0.65, -0.2758, 0.166, 0.6, 0.1048, 0.0475, 0.6, 0.1271, 0.145, 0.65, -0.2758, 0.166, 0.6, 0.1382, 0.1937, 0.75, -0.2221, 0.3061, 0.75, -0.24, 0.2594, 0.65, 0.1271, 0.145, 0.65, 0.1382, 0.1937, 0.75, -0.24, 0.2594, 0.65, -1.3155, 0.7661, 0.65, -1.6884, 0.9273, 0.65, -1.7242, 0.834, 0.6, -1.3582, 0.6757, 0.6, -1.3155, 0.7661, 0.65, -1.7242, 0.834, 0.6, -1.2942, 0.8114, 0.75, -1.6705, 0.974, 0.75, -1.6884, 0.9273, 0.65, -1.3155, 0.7661, 0.65, -1.2942, 0.8114, 0.75, -1.6884, 0.9273, 0.65, 0.1048, 0.0475, -0.6, -0.2758, 0.166, -0.6, 0.1271, 0.145, -0.65, 0.1271, 0.145, -0.65, -0.2758, 0.166, -0.6, -0.24, 0.2594, -0.65, 0.1271, 0.145, -0.65, -0.24, 0.2594, -0.65, 0.1382, 0.1937, -0.75, 0.1382, 0.1937, -0.75, -0.24, 0.2594, -0.65, -0.2221, 0.3061, -0.75, -1.3155, 0.7661, -0.65, -1.6884, 0.9273, -0.65, -1.2942, 0.8114, -0.75, -1.2942, 0.8114, -0.75, -1.6884, 0.9273, -0.65, -1.6705, 0.974, -0.75, -1.3582, 0.6757, -0.6, -1.7242, 0.834, -0.6, -1.3155, 0.7661, -0.65, -1.3155, 0.7661, -0.65, -1.7242, 0.834, -0.6, -1.6884, 0.9273, -0.65, -1, 0.5, 0.6, -0.6418, 0.3243, 0.6, -0.5992, 0.4148, 0.65, -0.9553, 0.5894, 0.65, -1, 0.5, 0.6, -0.5992, 0.4148, 0.65, -0.9553, 0.5894, 0.65, -0.5992, 0.4148, 0.65, -0.5779, 0.46, 0.75, -0.9329, 0.6342, 0.75, -0.9553, 0.5894, 0.65, -0.5779, 0.46, 0.75, -2.0825, 1.05, -0.65, -2.5, 1.1, -0.65, -2.0713, 1.0987, -0.75, -2.0713, 1.0987, -0.75, -2.5, 1.1, -0.65, -2.5, 1.15, -0.75, -2.1048, 0.9525, -0.6, -2.5, 1, -0.6, -2.0825, 1.05, -0.65, -2.0825, 1.05, -0.65, -2.5, 1, -0.6, -2.5, 1.1, -0.65, -0.9553, 0.5894, -0.65, -0.5992, 0.4148, -0.65, -1, 0.5, -0.6, -1, 0.5, -0.6, -0.5992, 0.4148, -0.65, -0.6418, 0.3243, -0.6, -0.9329, 0.6342, -0.75, -0.5779, 0.46, -0.75, -0.9553, 0.5894, -0.65, -0.9553, 0.5894, -0.65, -0.5779, 0.46, -0.75, -0.5992, 0.4148, -0.65, -2.0713, 1.0987, 0.75, -2.5, 1.15, 0.75, -2.5, 1.1, 0.65, -2.0825, 1.05, 0.65, -2.0713, 1.0987, 0.75, -2.5, 1.1, 0.65, -2.0825, 1.05, 0.65, -2.5, 1.1, 0.65, -2.5, 1, 0.6, -2.1048, 0.9525, 0.6, -2.0825, 1.05, 0.65, -2.5, 1, 0.6 )
+
+[sub_resource type="ConcavePolygonShape" id=726]
+data = PoolVector3Array( 0.5, 0.05, -0.65, 0.5, 0, -0.5, -0.5, 0, -0.5, -0.5, 0.05, -0.65, 0.5, 0.05, -0.65, -0.5, 0, -0.5, -0.5, 0, -0.5, 0.5, 0, -0.5, 0.5, 0, 1.5, -0.5, 0, 1.5, -0.5, 0, -0.5, 0.5, 0, 1.5, -0.5, 0.05, 1.65, -0.5, 0, 1.5, 0.5, 0.05, 1.65, 0.5, 0.05, 1.65, -0.5, 0, 1.5, 0.5, 0, 1.5, -0.5, 0.15, 1.75, -0.5, 0.05, 1.65, 0.5, 0.15, 1.75, 0.5, 0.15, 1.75, -0.5, 0.05, 1.65, 0.5, 0.05, 1.65, 0.5, 0.15, -0.75, 0.5, 0.05, -0.65, -0.5, 0.05, -0.65, -0.5, 0.15, -0.75, 0.5, 0.15, -0.75, -0.5, 0.05, -0.65, 0.5, 0.5, -1, 0.5, 0.4665, -0.875, -0.5, 0.4665, -0.875, -0.5, 0.5, -1, 0.5, 0.5, -1, -0.5, 0.4665, -0.875, 0.5, 0.4665, -0.875, 0.5, 0.375, -0.7835, -0.5, 0.375, -0.7835, -0.5, 0.4665, -0.875, 0.5, 0.4665, -0.875, -0.5, 0.375, -0.7835, 0.5, 0.375, -0.7835, 0.5, 0.25, -0.75, -0.5, 0.25, -0.75, -0.5, 0.375, -0.7835, 0.5, 0.375, -0.7835, -0.5, 0.25, -0.75, 0.5, 0.25, -0.75, 0.5, 0.15, -0.75, -0.5, 0.15, -0.75, -0.5, 0.25, -0.75, 0.5, 0.25, -0.75, -0.5, 0.15, -0.75, 0.5, 0.5, -1.5, 0.5, 0.5, -1, -0.5, 0.5, -1, -0.5, 0.5, -1.5, 0.5, 0.5, -1.5, -0.5, 0.5, -1, -0.5, 0.5, 2, -0.5, 0.4665, 1.875, 0.5, 0.5, 2, 0.5, 0.5, 2, -0.5, 0.4665, 1.875, 0.5, 0.4665, 1.875, -0.5, 0.4665, 1.875, -0.5, 0.375, 1.7835, 0.5, 0.4665, 1.875, 0.5, 0.4665, 1.875, -0.5, 0.375, 1.7835, 0.5, 0.375, 1.7835, -0.5, 0.375, 1.7835, -0.5, 0.25, 1.75, 0.5, 0.375, 1.7835, 0.5, 0.375, 1.7835, -0.5, 0.25, 1.75, 0.5, 0.25, 1.75, -0.5, 0.25, 1.75, -0.5, 0.15, 1.75, 0.5, 0.15, 1.75, 0.5, 0.25, 1.75, -0.5, 0.25, 1.75, 0.5, 0.15, 1.75, -0.5, 0.5, 2.5, -0.5, 0.5, 2, 0.5, 0.5, 2.5, 0.5, 0.5, 2.5, -0.5, 0.5, 2, 0.5, 0.5, 2, 0, 0.1, 1.65, 0, 0, 1.6, 0.5, 0.1, 1.65, 0.5, 0.1, 1.65, 0, 0, 1.6, 0.5, 0, 1.6, 0, 0.15, 1.75, 0, 0.1, 1.65, 0.5, 0.1, 1.65, 0.5, 0.15, 1.75, 0, 0.15, 1.75, 0.5, 0.1, 1.65, 0.5, 0.15, -0.75, 0.5, 0.1, -0.65, 0, 0.15, -0.75, 0, 0.15, -0.75, 0.5, 0.1, -0.65, 0, 0.1, -0.65, 0.5, 0.1, -0.65, 0.5, 0, -0.6, 0, 0, -0.6, 0, 0.1, -0.65, 0.5, 0.1, -0.65, 0, 0, -0.6, -0.5, 0.15, 1.75, -0.5, 0.1, 1.65, 0, 0.1, 1.65, 0, 0.15, 1.75, -0.5, 0.15, 1.75, 0, 0.1, 1.65, -0.5, 0.1, 1.65, -0.5, 0, 1.6, 0, 0.1, 1.65, 0, 0.1, 1.65, -0.5, 0, 1.6, 0, 0, 1.6, 0, 0.15, -0.75, 0, 0.1, -0.65, -0.5, 0.15, -0.75, -0.5, 0.15, -0.75, 0, 0.1, -0.65, -0.5, 0.1, -0.65, 0, 0.1, -0.65, 0, 0, -0.6, -0.5, 0, -0.6, -0.5, 0.1, -0.65, 0, 0.1, -0.65, -0.5, 0, -0.6 )
+
+[sub_resource type="ConcavePolygonShape" id=734]
+data = PoolVector3Array( -0.5, 0, -0.5, 0.5, 0, -0.5, 0.5, 0, 0.5, -0.5, 0, 0.5, -0.5, 0, -0.5, 0.5, 0, 0.5, -0.5, 0.05, 0.65, -0.5, 0, 0.5, 0.5, 0.05, 0.65, 0.5, 0.05, 0.65, -0.5, 0, 0.5, 0.5, 0, 0.5, -0.5, 0.15, 0.75, -0.5, 0.05, 0.65, 0.5, 0.15, 0.75, 0.5, 0.15, 0.75, -0.5, 0.05, 0.65, 0.5, 0.05, 0.65, 0.5, 0.05, -0.65, 0.5, 0, -0.5, -0.5, 0, -0.5, -0.5, 0.05, -0.65, 0.5, 0.05, -0.65, -0.5, 0, -0.5, 0.5, 0.15, -0.75, 0.5, 0.05, -0.65, -0.5, 0.05, -0.65, -0.5, 0.15, -0.75, 0.5, 0.15, -0.75, -0.5, 0.05, -0.65, -0.5, 0.5, 1, -0.5, 0.4665, 0.875, 0.5, 0.5, 1, 0.5, 0.5, 1, -0.5, 0.4665, 0.875, 0.5, 0.4665, 0.875, -0.5, 0.4665, 0.875, -0.5, 0.375, 0.7835, 0.5, 0.4665, 0.875, 0.5, 0.4665, 0.875, -0.5, 0.375, 0.7835, 0.5, 0.375, 0.7835, -0.5, 0.375, 0.7835, -0.5, 0.25, 0.75, 0.5, 0.375, 0.7835, 0.5, 0.375, 0.7835, -0.5, 0.25, 0.75, 0.5, 0.25, 0.75, -0.5, 0.25, 0.75, -0.5, 0.15, 0.75, 0.5, 0.15, 0.75, 0.5, 0.25, 0.75, -0.5, 0.25, 0.75, 0.5, 0.15, 0.75, -0.5, 0.5, 1.5, -0.5, 0.5, 1, 0.5, 0.5, 1.5, 0.5, 0.5, 1.5, -0.5, 0.5, 1, 0.5, 0.5, 1, 0.5, 0.4665, -0.875, 0.5, 0.375, -0.7835, -0.5, 0.375, -0.7835, -0.5, 0.4665, -0.875, 0.5, 0.4665, -0.875, -0.5, 0.375, -0.7835, 0.5, 0.375, -0.7835, 0.5, 0.25, -0.75, -0.5, 0.25, -0.75, -0.5, 0.375, -0.7835, 0.5, 0.375, -0.7835, -0.5, 0.25, -0.75, 0.5, 0.25, -0.75, 0.5, 0.15, -0.75, -0.5, 0.15, -0.75, -0.5, 0.25, -0.75, 0.5, 0.25, -0.75, -0.5, 0.15, -0.75, 0.5, 0.5, -1, 0.5, 0.4665, -0.875, -0.5, 0.4665, -0.875, -0.5, 0.5, -1, 0.5, 0.5, -1, -0.5, 0.4665, -0.875, 0.5, 0.5, -1.5, 0.5, 0.5, -1, -0.5, 0.5, -1, -0.5, 0.5, -1.5, 0.5, 0.5, -1.5, -0.5, 0.5, -1, 0.5, 0.1, -0.65, 0.5, 0, -0.6, 0, 0, -0.6, 0, 0.1, -0.65, 0.5, 0.1, -0.65, 0, 0, -0.6, 0.5, 0.15, -0.75, 0.5, 0.1, -0.65, 0, 0.15, -0.75, 0, 0.15, -0.75, 0.5, 0.1, -0.65, 0, 0.1, -0.65, 0, 0.15, 0.75, 0, 0.1, 0.65, 0.5, 0.1, 0.65, 0.5, 0.15, 0.75, 0, 0.15, 0.75, 0.5, 0.1, 0.65, 0, 0.1, 0.65, 0, 0, 0.6, 0.5, 0.1, 0.65, 0.5, 0.1, 0.65, 0, 0, 0.6, 0.5, 0, 0.6, 0, 0.1, -0.65, 0, 0, -0.6, -0.5, 0, -0.6, -0.5, 0.1, -0.65, 0, 0.1, -0.65, -0.5, 0, -0.6, 0, 0.15, -0.75, 0, 0.1, -0.65, -0.5, 0.15, -0.75, -0.5, 0.15, -0.75, 0, 0.1, -0.65, -0.5, 0.1, -0.65, -0.5, 0.1, 0.65, -0.5, 0, 0.6, 0, 0.1, 0.65, 0, 0.1, 0.65, -0.5, 0, 0.6, 0, 0, 0.6, -0.5, 0.15, 0.75, -0.5, 0.1, 0.65, 0, 0.1, 0.65, 0, 0.15, 0.75, -0.5, 0.15, 0.75, 0, 0.1, 0.65 )
+
+[sub_resource type="ConcavePolygonShape" id=742]
+data = PoolVector3Array( -0.5528, 0.05, -0.9986, -0.6285, 0, -0.8691, -0.9745, 0, -1.0721, -0.9005, 0.05, -1.2026, -0.9745, 0, -1.0721, -1.3314, 0, -1.255, -1.2701, 0.05, -1.3919, -1.3314, 0, -1.255, -1.7076, 0, -1.3931, -2.0804, 0.05, -1.6233, -1.7076, 0, -1.3931, -2.1, 0, -1.4745, -2.5, 0.05, -1.65, -2.1, 0, -1.4745, -2.5, 0, -1.5, -2.0804, 0.05, -1.6233, -2.1, 0, -1.4745, -2.5, 0.05, -1.65, -1.6662, 0.05, -1.5373, -1.7076, 0, -1.3931, -2.0804, 0.05, -1.6233, -1.6662, 0.05, -1.5373, -1.2701, 0.05, -1.3919, -1.7076, 0, -1.3931, -1.2701, 0.05, -1.3919, -0.9005, 0.05, -1.2026, -1.3314, 0, -1.255, -0.9005, 0.05, -1.2026, -0.5528, 0.05, -0.9986, -0.9745, 0, -1.0721, -0.5528, 0.05, -0.9986, -0.2119, 0.05, -0.8162, -0.6285, 0, -0.8691, -0.2119, 0.05, -0.8162, 0.1373, 0.05, -0.6922, -0.275, 0, -0.6801, 0.1373, 0.05, -0.6922, 0.1025, 0, -0.5463, -0.275, 0, -0.6801, -0.2119, 0.05, -0.8162, -0.275, 0, -0.6801, -0.6285, 0, -0.8691, 0.1025, 0, -0.5463, 0.1373, 0.05, -0.6922, 0.5, 0, -0.5, 0.5, 0, -0.5, 0.1373, 0.05, -0.6922, 0.5, 0.05, -0.65, 0.1373, 0.05, -0.6922, 0.1605, 0.15, -0.7895, 0.5, 0.05, -0.65, 0.5, 0.05, -0.65, 0.1605, 0.15, -0.7895, 0.5, 0.15, -0.75, 0.1605, 0.15, -0.7895, 0.1373, 0.05, -0.6922, -0.2119, 0.05, -0.8162, -0.1699, 0.15, -0.907, 0.1605, 0.15, -0.7895, -0.2119, 0.05, -0.8162, -0.1699, 0.15, -0.907, -0.2119, 0.05, -0.8162, -0.5528, 0.05, -0.9986, -0.5024, 0.15, -1.0849, -0.5528, 0.05, -0.9986, -0.9005, 0.05, -1.2026, -0.8512, 0.15, -1.2895, -0.9005, 0.05, -1.2026, -1.2701, 0.05, -1.3919, -1.2293, 0.15, -1.4832, -0.8512, 0.15, -1.2895, -1.2701, 0.05, -1.3919, -0.8512, 0.15, -1.2895, -0.5024, 0.15, -1.0849, -0.9005, 0.05, -1.2026, -0.5024, 0.15, -1.0849, -0.1699, 0.15, -0.907, -0.5528, 0.05, -0.9986, 0.5, 0, -0.5, 0.5, 0, 0.5, 0.1025, 0, -0.5463, 0.5, 0, 0.5, -2.5, 0, 0.5, -0.275, 0, -0.6801, -0.6285, 0, -0.8691, -0.275, 0, -0.6801, -2.5, 0, 0.5, -0.9745, 0, -1.0721, -0.6285, 0, -0.8691, -2.5, 0, 0.5, -1.3314, 0, -1.255, -0.9745, 0, -1.0721, -2.5, 0, 0.5, -1.7076, 0, -1.3931, -1.3314, 0, -1.255, -2.5, 0, 0.5, -2.1, 0, -1.4745, -1.7076, 0, -1.3931, -2.5, 0, 0.5, -2.5, 0, -1.5, -2.1, 0, -1.4745, -2.5, 0, 0.5, 0.1025, 0, -0.5463, 0.5, 0, 0.5, -0.275, 0, -0.6801, -1.6386, 0.15, -1.6334, -1.6662, 0.05, -1.5373, -2.0673, 0.15, -1.7224, -2.0673, 0.15, -1.7224, -1.6662, 0.05, -1.5373, -2.0804, 0.05, -1.6233, -1.2293, 0.15, -1.4832, -1.2701, 0.05, -1.3919, -1.6662, 0.05, -1.5373, -1.6386, 0.15, -1.6334, -1.2293, 0.15, -1.4832, -1.6662, 0.05, -1.5373, -2.0673, 0.15, -1.7224, -2.0804, 0.05, -1.6233, -2.5, 0.15, -1.75, -2.5, 0.15, -1.75, -2.0804, 0.05, -1.6233, -2.5, 0.05, -1.65, -2.5, 0.05, 0.65, -2.5, 0, 0.5, 0.5, 0.05, 0.65, 0.5, 0.05, 0.65, -2.5, 0, 0.5, 0.5, 0, 0.5, -2.5, 0.15, 0.75, -2.5, 0.05, 0.65, 0.5, 0.15, 0.75, 0.5, 0.15, 0.75, -2.5, 0.05, 0.65, 0.5, 0.05, 0.65, -2.5, 0.5, 1.5, -2.5, 0.5, 1, 0.5, 0.5, 1.5, 0.5, 0.5, 1.5, -2.5, 0.5, 1, 0.5, 0.5, 1, -2.5, 0.5, 1, -2.5, 0.4665, 0.875, 0.5, 0.5, 1, 0.5, 0.5, 1, -2.5, 0.4665, 0.875, 0.5, 0.4665, 0.875, -2.5, 0.4665, 0.875, -2.5, 0.375, 0.7835, 0.5, 0.4665, 0.875, 0.5, 0.4665, 0.875, -2.5, 0.375, 0.7835, 0.5, 0.375, 0.7835, -2.5, 0.375, 0.7835, -2.5, 0.25, 0.75, 0.5, 0.375, 0.7835, 0.5, 0.375, 0.7835, -2.5, 0.25, 0.75, 0.5, 0.25, 0.75, -2.5, 0.25, 0.75, -2.5, 0.15, 0.75, 0.5, 0.15, 0.75, 0.5, 0.25, 0.75, -2.5, 0.25, 0.75, 0.5, 0.15, 0.75, -0.7895, 0.4665, -1.3983, -0.8347, 0.375, -1.3187, -1.2157, 0.375, -1.5138, -1.1783, 0.4665, -1.5973, -0.7895, 0.4665, -1.3983, -1.2157, 0.375, -1.5138, -0.7895, 0.4665, -1.3983, -0.4393, 0.4665, -1.1928, -0.8347, 0.375, -1.3187, -0.4393, 0.4665, -1.1928, -0.1174, 0.4665, -1.0204, -0.4855, 0.375, -1.1138, -0.1174, 0.4665, -1.0204, -0.1559, 0.375, -0.9374, -0.4855, 0.375, -1.1138, -0.4393, 0.4665, -1.1928, -0.4855, 0.375, -1.1138, -0.8347, 0.375, -1.3187, 0.1895, 0.4665, -0.9111, 0.1683, 0.375, -0.8221, -0.1559, 0.375, -0.9374, -0.1174, 0.4665, -1.0204, 0.1895, 0.4665, -0.9111, -0.1559, 0.375, -0.9374, 0.1683, 0.375, -0.8221, 0.1895, 0.4665, -0.9111, 0.5, 0.375, -0.7835, 0.5, 0.375, -0.7835, 0.1895, 0.4665, -0.9111, 0.5, 0.4665, -0.875, 0.1895, 0.4665, -0.9111, 0.2185, 0.5, -1.0327, 0.5, 0.4665, -0.875, 0.5, 0.4665, -0.875, 0.2185, 0.5, -1.0327, 0.5, 0.5, -1, 0.5, 0.5, -1, 0.2185, 0.5, -1.0327, 0.5, 0.5, -1.5, 0.5, 0.5, -1.5, -0.3762, 0.5, -1.3007, -0.5, 0.5, -1.5, -0.5, 0.5, -1.5, -0.7279, 0.5, -1.507, -0.5, 0.5, -2.5, -1.5697, 0.5, -1.8738, -2.5, 0.5, -2.5, -0.5, 0.5, -2.5, -2.0346, 0.5, -1.9702, -2.5, 0.5, -2.5, -1.5697, 0.5, -1.8738, -2.5, 0.5, -2, -2.5, 0.5, -2.5, -2.0346, 0.5, -1.9702, -1.1273, 0.5, -1.7114, -1.5697, 0.5, -1.8738, -0.5, 0.5, -2.5, -0.7279, 0.5, -1.507, -1.1273, 0.5, -1.7114, -0.5, 0.5, -2.5, -0.3762, 0.5, -1.3007, -0.7279, 0.5, -1.507, -0.5, 0.5, -1.5, -0.0649, 0.5, -1.1338, -0.3762, 0.5, -1.3007, 0.5, 0.5, -1.5, 0.2185, 0.5, -1.0327, -0.0649, 0.5, -1.1338, 0.5, 0.5, -1.5, -1.1273, 0.5, -1.7114, -1.1783, 0.4665, -1.5973, -1.6042, 0.4665, -1.7536, -2.0346, 0.5, -1.9702, -1.6042, 0.4665, -1.7536, -2.051, 0.4665, -1.8463, -2.5, 0.5, -2, -2.051, 0.4665, -1.8463, -2.5, 0.4665, -1.875, -2.0346, 0.5, -1.9702, -2.051, 0.4665, -1.8463, -2.5, 0.5, -2, -1.5697, 0.5, -1.8738, -1.6042, 0.4665, -1.7536, -2.0346, 0.5, -1.9702, -1.5697, 0.5, -1.8738, -1.1273, 0.5, -1.7114, -1.6042, 0.4665, -1.7536, -1.1273, 0.5, -1.7114, -0.7279, 0.5, -1.507, -1.1783, 0.4665, -1.5973, -0.7279, 0.5, -1.507, -0.3762, 0.5, -1.3007, -0.7895, 0.4665, -1.3983, -0.3762, 0.5, -1.3007, -0.4393, 0.4665, -1.1928, -0.7895, 0.4665, -1.3983, -0.0649, 0.5, -1.1338, -0.1174, 0.4665, -1.0204, -0.4393, 0.4665, -1.1928, -0.0649, 0.5, -1.1338, 0.2185, 0.5, -1.0327, -0.1174, 0.4665, -1.0204, 0.2185, 0.5, -1.0327, 0.1895, 0.4665, -0.9111, -0.1174, 0.4665, -1.0204, -0.3762, 0.5, -1.3007, -0.0649, 0.5, -1.1338, -0.4393, 0.4665, -1.1928, -0.7279, 0.5, -1.507, -0.7895, 0.4665, -1.3983, -1.1783, 0.4665, -1.5973, -1.6042, 0.4665, -1.7536, -1.6294, 0.375, -1.6656, -2.051, 0.4665, -1.8463, -2.051, 0.4665, -1.8463, -1.6294, 0.375, -1.6656, -2.0629, 0.375, -1.7556, -1.6294, 0.375, -1.6656, -1.6386, 0.25, -1.6334, -2.0629, 0.375, -1.7556, -2.0629, 0.375, -1.7556, -1.6386, 0.25, -1.6334, -2.0673, 0.25, -1.7224, -1.2157, 0.375, -1.5138, -1.2293, 0.25, -1.4832, -1.6386, 0.25, -1.6334, -1.6294, 0.375, -1.6656, -1.2157, 0.375, -1.5138, -1.6386, 0.25, -1.6334, -1.2293, 0.25, -1.4832, -1.2293, 0.15, -1.4832, -1.6386, 0.15, -1.6334, -1.6386, 0.25, -1.6334, -1.2293, 0.25, -1.4832, -1.6386, 0.15, -1.6334, -0.8512, 0.25, -1.2895, -0.8512, 0.15, -1.2895, -1.2293, 0.15, -1.4832, -1.2293, 0.25, -1.4832, -0.8512, 0.25, -1.2895, -1.2293, 0.15, -1.4832, -0.5024, 0.25, -1.0849, -0.5024, 0.15, -1.0849, -0.8512, 0.15, -1.2895, -0.8512, 0.25, -1.2895, -0.5024, 0.25, -1.0849, -0.8512, 0.15, -1.2895, -0.5024, 0.25, -1.0849, -0.1699, 0.25, -0.907, -0.5024, 0.15, -1.0849, -0.1699, 0.25, -0.907, -0.1699, 0.15, -0.907, -0.5024, 0.15, -1.0849, 0.1605, 0.25, -0.7895, 0.1605, 0.15, -0.7895, -0.1699, 0.15, -0.907, -0.1699, 0.25, -0.907, 0.1605, 0.25, -0.7895, -0.1699, 0.15, -0.907, 0.1605, 0.15, -0.7895, 0.1605, 0.25, -0.7895, 0.5, 0.25, -0.75, 0.5, 0.15, -0.75, 0.1605, 0.15, -0.7895, 0.5, 0.25, -0.75, -1.6386, 0.25, -1.6334, -1.6386, 0.15, -1.6334, -2.0673, 0.15, -1.7224, -2.0673, 0.25, -1.7224, -1.6386, 0.25, -1.6334, -2.0673, 0.15, -1.7224, -2.0673, 0.25, -1.7224, -2.0673, 0.15, -1.7224, -2.5, 0.15, -1.75, -2.5, 0.25, -1.75, -2.0673, 0.25, -1.7224, -2.5, 0.15, -1.75, -2.0629, 0.375, -1.7556, -2.0673, 0.25, -1.7224, -2.5, 0.375, -1.7835, -2.5, 0.375, -1.7835, -2.0673, 0.25, -1.7224, -2.5, 0.25, -1.75, -2.051, 0.4665, -1.8463, -2.0629, 0.375, -1.7556, -2.5, 0.4665, -1.875, -2.5, 0.4665, -1.875, -2.0629, 0.375, -1.7556, -2.5, 0.375, -1.7835, 0.1605, 0.25, -0.7895, 0.1683, 0.375, -0.8221, 0.5, 0.25, -0.75, 0.5, 0.25, -0.75, 0.1683, 0.375, -0.8221, 0.5, 0.375, -0.7835, 0.1683, 0.375, -0.8221, 0.1605, 0.25, -0.7895, -0.1699, 0.25, -0.907, -0.1559, 0.375, -0.9374, 0.1683, 0.375, -0.8221, -0.1699, 0.25, -0.907, -0.1559, 0.375, -0.9374, -0.1699, 0.25, -0.907, -0.5024, 0.25, -1.0849, -0.4855, 0.375, -1.1138, -0.5024, 0.25, -1.0849, -0.8512, 0.25, -1.2895, -0.8347, 0.375, -1.3187, -0.4855, 0.375, -1.1138, -0.8512, 0.25, -1.2895, -0.4855, 0.375, -1.1138, -0.1559, 0.375, -0.9374, -0.5024, 0.25, -1.0849, -0.8347, 0.375, -1.3187, -0.8512, 0.25, -1.2895, -1.2293, 0.25, -1.4832, -1.2157, 0.375, -1.5138, -0.8347, 0.375, -1.3187, -1.2293, 0.25, -1.4832, -1.1783, 0.4665, -1.5973, -1.2157, 0.375, -1.5138, -1.6294, 0.375, -1.6656, -1.6042, 0.4665, -1.7536, -1.1783, 0.4665, -1.5973, -1.6294, 0.375, -1.6656, 0.1257, 0, -0.6436, 0.1373, 0.1, -0.6922, 0.5, 0, -0.6, 0.5, 0, -0.6, 0.1373, 0.1, -0.6922, 0.5, 0.1, -0.65, 0.1373, 0.1, -0.6922, 0.1605, 0.15, -0.7895, 0.5, 0.1, -0.65, 0.5, 0.1, -0.65, 0.1605, 0.15, -0.7895, 0.5, 0.15, -0.75, 0, 0.15, 0.75, 0, 0.1, 0.65, 0.5, 0.1, 0.65, 0.5, 0.15, 0.75, 0, 0.15, 0.75, 0.5, 0.1, 0.65, 0, 0.1, 0.65, 0, 0, 0.6, 0.5, 0.1, 0.65, 0.5, 0.1, 0.65, 0, 0, 0.6, 0.5, 0, 0.6, -0.2119, 0.1, -0.8162, -0.2329, 0, -0.7708, -0.5781, 0, -0.9554, -0.5528, 0.1, -0.9986, -0.2119, 0.1, -0.8162, -0.5781, 0, -0.9554, -0.1699, 0.15, -0.907, -0.2119, 0.1, -0.8162, -0.5528, 0.1, -0.9986, -0.5024, 0.15, -1.0849, -0.1699, 0.15, -0.907, -0.5528, 0.1, -0.9986, -2, 0.15, 0.75, -2, 0.1, 0.65, -1.5, 0.1, 0.65, -1.5, 0.15, 0.75, -2, 0.15, 0.75, -1.5, 0.1, 0.65, -2, 0.1, 0.65, -2, 0, 0.6, -1.5, 0.1, 0.65, -1.5, 0.1, 0.65, -2, 0, 0.6, -1.5, 0, 0.6, -0.9005, 0.1, -1.2026, -0.9252, 0, -1.1591, -1.2905, 0, -1.3463, -1.2701, 0.1, -1.3919, -0.9005, 0.1, -1.2026, -1.2905, 0, -1.3463, -0.8512, 0.15, -1.2895, -0.9005, 0.1, -1.2026, -1.2701, 0.1, -1.3919, -1.2293, 0.15, -1.4832, -0.8512, 0.15, -1.2895, -1.2701, 0.1, -1.3919, -1.6386, 0.15, -1.6334, -1.6662, 0.1, -1.5373, -2.0673, 0.15, -1.7224, -2.0673, 0.15, -1.7224, -1.6662, 0.1, -1.5373, -2.0804, 0.1, -1.6233, -1.6662, 0.1, -1.5373, -1.68, 0, -1.4893, -2.0804, 0.1, -1.6233, -2.0804, 0.1, -1.6233, -1.68, 0, -1.4893, -2.0869, 0, -1.5737, -1, 0.1, 0.65, -1, 0, 0.6, -0.5, 0.1, 0.65, -0.5, 0.1, 0.65, -1, 0, 0.6, -0.5, 0, 0.6, -1, 0.15, 0.75, -1, 0.1, 0.65, -0.5, 0.1, 0.65, -0.5, 0.15, 0.75, -1, 0.15, 0.75, -0.5, 0.1, 0.65, 0.1605, 0.15, -0.7895, 0.1373, 0.1, -0.6922, -0.2119, 0.1, -0.8162, -0.1699, 0.15, -0.907, 0.1605, 0.15, -0.7895, -0.2119, 0.1, -0.8162, 0.1373, 0.1, -0.6922, 0.1257, 0, -0.6436, -0.2329, 0, -0.7708, -0.2119, 0.1, -0.8162, 0.1373, 0.1, -0.6922, -0.2329, 0, -0.7708, -0.5024, 0.15, -1.0849, -0.5528, 0.1, -0.9986, -0.9005, 0.1, -1.2026, -0.8512, 0.15, -1.2895, -0.5024, 0.15, -1.0849, -0.9005, 0.1, -1.2026, -0.5528, 0.1, -0.9986, -0.5781, 0, -0.9554, -0.9252, 0, -1.1591, -0.9005, 0.1, -1.2026, -0.5528, 0.1, -0.9986, -0.9252, 0, -1.1591, -1.5, 0.1, 0.65, -1.5, 0, 0.6, -1, 0.1, 0.65, -1, 0.1, 0.65, -1.5, 0, 0.6, -1, 0, 0.6, -1.5, 0.15, 0.75, -1.5, 0.1, 0.65, -1, 0.1, 0.65, -1, 0.15, 0.75, -1.5, 0.15, 0.75, -1, 0.1, 0.65, -1.2701, 0.1, -1.3919, -1.2905, 0, -1.3463, -1.68, 0, -1.4893, -1.6662, 0.1, -1.5373, -1.2701, 0.1, -1.3919, -1.68, 0, -1.4893, -1.2293, 0.15, -1.4832, -1.2701, 0.1, -1.3919, -1.6662, 0.1, -1.5373, -1.6386, 0.15, -1.6334, -1.2293, 0.15, -1.4832, -1.6662, 0.1, -1.5373, -2.5, 0.1, 0.65, -2.5, 0, 0.6, -2, 0.1, 0.65, -2, 0.1, 0.65, -2.5, 0, 0.6, -2, 0, 0.6, -2.5, 0.15, 0.75, -2.5, 0.1, 0.65, -2, 0.1, 0.65, -2, 0.15, 0.75, -2.5, 0.15, 0.75, -2, 0.1, 0.65, -0.5, 0.15, 0.75, -0.5, 0.1, 0.65, 0, 0.1, 0.65, 0, 0.15, 0.75, -0.5, 0.15, 0.75, 0, 0.1, 0.65, -0.5, 0.1, 0.65, -0.5, 0, 0.6, 0, 0.1, 0.65, 0, 0.1, 0.65, -0.5, 0, 0.6, 0, 0, 0.6, -2.0804, 0.1, -1.6233, -2.0869, 0, -1.5737, -2.5, 0.1, -1.65, -2.5, 0.1, -1.65, -2.0869, 0, -1.5737, -2.5, 0, -1.6, -2.0673, 0.15, -1.7224, -2.0804, 0.1, -1.6233, -2.5, 0.15, -1.75, -2.5, 0.15, -1.75, -2.0804, 0.1, -1.6233, -2.5, 0.1, -1.65 )
+
+[node name="ModularTrackPack" type="Spatial"]
+
+[node name="Prop_Decorative_Fence_Curve_1x1" type="MeshInstance" parent="."]
+mesh = ExtResource( 6 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="Prop_Decorative_Fence_Curve_2x2" type="MeshInstance" parent="."]
+mesh = ExtResource( 3 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+
+[node name="Prop_Decorative_Fence_Curve_3x3" type="MeshInstance" parent="."]
+mesh = ExtResource( 4 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+
+[node name="Prop_Decorative_Fence_Curve_3x4" type="MeshInstance" parent="."]
+mesh = ExtResource( 2 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+
+[node name="Prop_Decorative_Fence_Curve_4x4" type="MeshInstance" parent="."]
+mesh = ExtResource( 5 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+
+[node name="Prop_Decorative_Fence_Curve_4x5" type="MeshInstance" parent="."]
+mesh = ExtResource( 7 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+
+[node name="Prop_Decorative_Fence_Curve_5x5" type="MeshInstance" parent="."]
+mesh = ExtResource( 1 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+
+[node name="Prop_Decorative_Fence_Curve_5x6" type="MeshInstance" parent="."]
+mesh = ExtResource( 8 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+
+[node name="Prop_Decorative_Fence_Esse_2x3" type="MeshInstance" parent="."]
+mesh = ExtResource( 9 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+
+[node name="Prop_Decorative_Fence_Gate_1" type="MeshInstance" parent="."]
+mesh = ExtResource( 10 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+
+[node name="Prop_Decorative_Fence_Gate_2" type="MeshInstance" parent="."]
+mesh = ExtResource( 11 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+
+[node name="Prop_Decorative_Fence_Hill" type="MeshInstance" parent="."]
+mesh = ExtResource( 12 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+
+[node name="Prop_Decorative_Fence_Post" type="MeshInstance" parent="."]
+mesh = ExtResource( 13 )
+material/0 = null
+material/1 = null
+
+[node name="Prop_Decorative_Fence_Railing" type="MeshInstance" parent="."]
+mesh = ExtResource( 14 )
+material/0 = null
+material/1 = null
+
+[node name="Prop_Decorative_Hay_Bale_Barrel" type="MeshInstance" parent="."]
+mesh = ExtResource( 15 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+
+[node name="Prop_Decorative_Hay_Bale_Box" type="MeshInstance" parent="."]
+mesh = ExtResource( 16 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+
+[node name="Prop_Decorative_Hay_Pile" type="MeshInstance" parent="."]
+mesh = ExtResource( 17 )
+material/0 = null
+
+[node name="Prop_Decorative_Hay_Pile_Pitchfork" type="MeshInstance" parent="."]
+mesh = ExtResource( 18 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Prop_Decorative_Hay_Pitchfork" type="MeshInstance" parent="."]
+mesh = ExtResource( 19 )
+material/0 = null
+material/1 = null
+
+[node name="Prop_Decorative_Lighthouse" type="MeshInstance" parent="."]
+mesh = ExtResource( 20 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+
+[node name="Prop_Decorative_Rock_1" type="MeshInstance" parent="."]
+mesh = ExtResource( 22 )
+material/0 = null
+
+[node name="Prop_Decorative_Rock_2" type="MeshInstance" parent="."]
+mesh = ExtResource( 21 )
+material/0 = null
+
+[node name="Prop_Decorative_Rock_3" type="MeshInstance" parent="."]
+mesh = ExtResource( 23 )
+material/0 = null
+
+[node name="Prop_Decorative_Rock_4" type="MeshInstance" parent="."]
+mesh = ExtResource( 24 )
+material/0 = null
+
+[node name="Prop_Decorative_Rock_5" type="MeshInstance" parent="."]
+mesh = ExtResource( 25 )
+material/0 = null
+
+[node name="Prop_Decorative_Rock_6" type="MeshInstance" parent="."]
+mesh = ExtResource( 26 )
+material/0 = null
+
+[node name="Prop_Decorative_Rock_7" type="MeshInstance" parent="."]
+mesh = ExtResource( 27 )
+material/0 = null
+
+[node name="Prop_Decorative_Rock_8" type="MeshInstance" parent="."]
+mesh = ExtResource( 28 )
+material/0 = null
+
+[node name="Prop_Decorative_Tree_Cedar_1" type="MeshInstance" parent="."]
+mesh = ExtResource( 29 )
+material/0 = null
+material/1 = null
+
+[node name="Prop_Decorative_Tree_Cedar_2" type="MeshInstance" parent="."]
+mesh = ExtResource( 30 )
+material/0 = null
+material/1 = null
+
+[node name="Prop_Decorative_Tree_Cedar_3" type="MeshInstance" parent="."]
+mesh = ExtResource( 31 )
+material/0 = null
+material/1 = null
+
+[node name="Prop_Decorative_Tree_Elm_1" type="MeshInstance" parent="."]
+mesh = ExtResource( 32 )
+material/0 = null
+material/1 = null
+
+[node name="Prop_Decorative_Tree_Elm_2" type="MeshInstance" parent="."]
+mesh = ExtResource( 33 )
+material/0 = null
+material/1 = null
+
+[node name="Prop_Decorative_Tree_Elm_3" type="MeshInstance" parent="."]
+mesh = ExtResource( 34 )
+material/0 = null
+material/1 = null
+
+[node name="Prop_Decorative_Tree_Elm_4" type="MeshInstance" parent="."]
+mesh = ExtResource( 35 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Prop_Decorative_Tree_Elm_5" type="MeshInstance" parent="."]
+mesh = ExtResource( 36 )
+material/0 = null
+material/1 = null
+
+[node name="Prop_Decorative_Tree_Elm_6" type="MeshInstance" parent="."]
+mesh = ExtResource( 37 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Prop_Decorative_Tree_Elm_7" type="MeshInstance" parent="."]
+mesh = ExtResource( 38 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="Prop_Decorative_Windmill" type="MeshInstance" parent="."]
+mesh = ExtResource( 39 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+
+[node name="Prop_Decorative_Windmill_Building_1" type="MeshInstance" parent="."]
+mesh = ExtResource( 40 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+
+[node name="Prop_Decorative_Windmill_Building_2" type="MeshInstance" parent="."]
+mesh = ExtResource( 41 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+
+[node name="Prop_Obstacle_Hammer" type="MeshInstance" parent="."]
+mesh = ExtResource( 42 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="Prop_Obstacle_Hammer_Housing_Double" type="MeshInstance" parent="."]
+mesh = ExtResource( 43 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+
+[node name="Prop_Obstacle_Hammer_Housing_Single" type="MeshInstance" parent="."]
+mesh = ExtResource( 44 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+
+[node name="Prop_Track_Arch_1x4" type="MeshInstance" parent="."]
+mesh = ExtResource( 45 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+
+[node name="Prop_Track_Banner_Finish_Line_Double_Blank" type="MeshInstance" parent="."]
+mesh = ExtResource( 46 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+
+[node name="Prop_Track_Banner_Finish_Line_Double_Checkered" type="MeshInstance" parent="."]
+mesh = ExtResource( 47 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+material/46 = null
+material/47 = null
+material/48 = null
+material/49 = null
+material/50 = null
+material/51 = null
+material/52 = null
+material/53 = null
+material/54 = null
+material/55 = null
+material/56 = null
+material/57 = null
+material/58 = null
+material/59 = null
+material/60 = null
+material/61 = null
+material/62 = null
+material/63 = null
+material/64 = null
+material/65 = null
+material/66 = null
+material/67 = null
+material/68 = null
+material/69 = null
+material/70 = null
+material/71 = null
+material/72 = null
+material/73 = null
+material/74 = null
+material/75 = null
+material/76 = null
+material/77 = null
+material/78 = null
+material/79 = null
+material/80 = null
+material/81 = null
+material/82 = null
+material/83 = null
+material/84 = null
+material/85 = null
+material/86 = null
+material/87 = null
+material/88 = null
+material/89 = null
+material/90 = null
+material/91 = null
+material/92 = null
+material/93 = null
+material/94 = null
+material/95 = null
+material/96 = null
+material/97 = null
+material/98 = null
+material/99 = null
+material/100 = null
+material/101 = null
+material/102 = null
+material/103 = null
+material/104 = null
+material/105 = null
+material/106 = null
+material/107 = null
+material/108 = null
+material/109 = null
+material/110 = null
+material/111 = null
+material/112 = null
+material/113 = null
+material/114 = null
+material/115 = null
+material/116 = null
+material/117 = null
+material/118 = null
+material/119 = null
+material/120 = null
+material/121 = null
+material/122 = null
+material/123 = null
+material/124 = null
+material/125 = null
+material/126 = null
+material/127 = null
+material/128 = null
+material/129 = null
+material/130 = null
+material/131 = null
+material/132 = null
+material/133 = null
+
+[node name="Prop_Track_Banner_Finish_Line_Single_Blank" type="MeshInstance" parent="."]
+mesh = ExtResource( 48 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+
+[node name="Prop_Track_Banner_Finish_Line_Single_Checkered" type="MeshInstance" parent="."]
+mesh = ExtResource( 50 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+material/46 = null
+material/47 = null
+material/48 = null
+material/49 = null
+material/50 = null
+material/51 = null
+material/52 = null
+material/53 = null
+material/54 = null
+material/55 = null
+material/56 = null
+material/57 = null
+material/58 = null
+material/59 = null
+material/60 = null
+material/61 = null
+material/62 = null
+material/63 = null
+material/64 = null
+material/65 = null
+material/66 = null
+material/67 = null
+material/68 = null
+material/69 = null
+material/70 = null
+material/71 = null
+material/72 = null
+material/73 = null
+material/74 = null
+material/75 = null
+material/76 = null
+material/77 = null
+material/78 = null
+material/79 = null
+material/80 = null
+material/81 = null
+material/82 = null
+material/83 = null
+material/84 = null
+material/85 = null
+
+[node name="Prop_Track_Bump_Small_Round" type="MeshInstance" parent="."]
+mesh = ExtResource( 49 )
+material/0 = null
+
+[node name="Prop_Track_Bump_Small_Row" type="MeshInstance" parent="."]
+mesh = ExtResource( 51 )
+material/0 = null
+
+[node name="Prop_Track_Bump_Small_Row_End" type="MeshInstance" parent="."]
+mesh = ExtResource( 52 )
+material/0 = null
+
+[node name="Prop_Track_Ramp" type="MeshInstance" parent="."]
+mesh = ExtResource( 53 )
+material/0 = null
+material/1 = null
+
+[node name="Prop_Track_Ramp_Railing" type="MeshInstance" parent="."]
+mesh = ExtResource( 54 )
+material/0 = null
+
+[node name="Prop_Track_Ramp_Speed_Boost" type="MeshInstance" parent="."]
+mesh = ExtResource( 55 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="Prop_Track_Ramp_Support" type="MeshInstance" parent="."]
+mesh = ExtResource( 56 )
+material/0 = null
+
+[node name="Prop_Track_Sign_Blank" type="MeshInstance" parent="."]
+mesh = ExtResource( 57 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Prop_Track_Sign_On_Curve" type="MeshInstance" parent="."]
+mesh = ExtResource( 58 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+
+[node name="Prop_Track_Sign_On_Curve_Blank" type="MeshInstance" parent="."]
+mesh = ExtResource( 59 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="Prop_Track_Sign_Upcoming_Curve_90" type="MeshInstance" parent="."]
+mesh = ExtResource( 60 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Prop_Track_Sign_Upcoming_Curve_180" type="MeshInstance" parent="."]
+mesh = ExtResource( 61 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Prop_Track_Sign_Upcoming_Esse" type="MeshInstance" parent="."]
+mesh = ExtResource( 62 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Terrain_Cliff_1_Tall_Corner_Inner_1x1" type="MeshInstance" parent="."]
+mesh = ExtResource( 63 )
+material/0 = null
+material/1 = null
+
+[node name="Terrain_Cliff_1_Tall_Corner_Inner_2x2" type="MeshInstance" parent="."]
+mesh = ExtResource( 64 )
+material/0 = null
+material/1 = null
+
+[node name="Terrain_Cliff_1_Tall_Corner_Outer_1x1" type="MeshInstance" parent="."]
+mesh = ExtResource( 65 )
+material/0 = null
+material/1 = null
+
+[node name="Terrain_Cliff_1_Tall_Side" type="MeshInstance" parent="."]
+mesh = ExtResource( 66 )
+material/0 = null
+material/1 = null
+
+[node name="Terrain_Cliff_2_Tall_Corner_Inner_1x1" type="MeshInstance" parent="."]
+mesh = ExtResource( 67 )
+material/0 = null
+material/1 = null
+
+[node name="Terrain_Cliff_2_Tall_Corner_Inner_2x2" type="MeshInstance" parent="."]
+mesh = ExtResource( 68 )
+material/0 = null
+material/1 = null
+
+[node name="Terrain_Cliff_2_Tall_Corner_Outer_1x1" type="MeshInstance" parent="."]
+mesh = ExtResource( 69 )
+material/0 = null
+material/1 = null
+
+[node name="Terrain_Cliff_2_Tall_Side" type="MeshInstance" parent="."]
+mesh = ExtResource( 70 )
+material/0 = null
+material/1 = null
+
+[node name="Terrain_Cliff_3_Tall_Corner_Inner_1x1" type="MeshInstance" parent="."]
+mesh = ExtResource( 71 )
+material/0 = null
+material/1 = null
+
+[node name="Terrain_Cliff_3_Tall_Corner_Inner_2x2" type="MeshInstance" parent="."]
+mesh = ExtResource( 72 )
+material/0 = null
+material/1 = null
+
+[node name="Terrain_Cliff_3_Tall_Corner_Outer_1x1" type="MeshInstance" parent="."]
+mesh = ExtResource( 73 )
+material/0 = null
+material/1 = null
+
+[node name="Terrain_Cliff_3_Tall_Side" type="MeshInstance" parent="."]
+mesh = ExtResource( 74 )
+material/0 = null
+material/1 = null
+
+[node name="Terrain_Cliff_Bottom_Corner_Inner_1x1" type="MeshInstance" parent="."]
+mesh = ExtResource( 75 )
+material/0 = null
+
+[node name="Terrain_Cliff_Bottom_Corner_Inner_2x2" type="MeshInstance" parent="."]
+mesh = ExtResource( 76 )
+material/0 = null
+
+[node name="Terrain_Cliff_Bottom_Corner_Outer_1x1" type="MeshInstance" parent="."]
+mesh = ExtResource( 77 )
+material/0 = null
+
+[node name="Terrain_Cliff_Bottom_Side" type="MeshInstance" parent="."]
+mesh = ExtResource( 78 )
+material/0 = null
+
+[node name="Terrain_Cliff_Middle_Corner_Inner_1x1" type="MeshInstance" parent="."]
+mesh = ExtResource( 79 )
+material/0 = null
+
+[node name="Terrain_Cliff_Middle_Corner_Inner_2x2" type="MeshInstance" parent="."]
+mesh = ExtResource( 80 )
+material/0 = null
+
+[node name="Terrain_Cliff_Middle_Corner_Outer_1x1" type="MeshInstance" parent="."]
+mesh = ExtResource( 81 )
+material/0 = null
+
+[node name="Terrain_Cliff_Middle_Side" type="MeshInstance" parent="."]
+mesh = ExtResource( 82 )
+material/0 = null
+
+[node name="Terrain_Cliff_Top_Corner_Inner_1x1" type="MeshInstance" parent="."]
+mesh = ExtResource( 83 )
+material/0 = null
+material/1 = null
+
+[node name="Terrain_Cliff_Top_Corner_Inner_2x2" type="MeshInstance" parent="."]
+mesh = ExtResource( 84 )
+material/0 = null
+material/1 = null
+
+[node name="Terrain_Cliff_Top_Corner_Outer_1x1" type="MeshInstance" parent="."]
+mesh = ExtResource( 85 )
+material/0 = null
+material/1 = null
+
+[node name="Terrain_Cliff_Top_Side" type="MeshInstance" parent="."]
+mesh = ExtResource( 86 )
+material/0 = null
+material/1 = null
+
+[node name="Terrain_Grass_Flat_1x1" type="MeshInstance" parent="."]
+mesh = ExtResource( 87 )
+material/0 = null
+
+[node name="Terrain_Hill_Corner_Inner_3x3" type="MeshInstance" parent="."]
+mesh = ExtResource( 88 )
+material/0 = null
+
+[node name="Terrain_Hill_Corner_Inner_4x4" type="MeshInstance" parent="."]
+mesh = ExtResource( 89 )
+material/0 = null
+
+[node name="Terrain_Hill_Corner_Inner_5x5" type="MeshInstance" parent="."]
+mesh = ExtResource( 90 )
+material/0 = null
+
+[node name="Terrain_Hill_Corner_Outer_3x3" type="MeshInstance" parent="."]
+mesh = ExtResource( 91 )
+material/0 = null
+
+[node name="Terrain_Hill_Corner_Outer_4x4" type="MeshInstance" parent="."]
+mesh = ExtResource( 92 )
+material/0 = null
+
+[node name="Terrain_Hill_Corner_Outer_5x5" type="MeshInstance" parent="."]
+mesh = ExtResource( 94 )
+material/0 = null
+
+[node name="Terrain_Hill_Esse_3x4" type="MeshInstance" parent="."]
+mesh = ExtResource( 93 )
+material/0 = null
+
+[node name="Terrain_Hill_Esse_4x5" type="MeshInstance" parent="."]
+mesh = ExtResource( 95 )
+material/0 = null
+
+[node name="Terrain_Hill_Side_1x3" type="MeshInstance" parent="."]
+mesh = ExtResource( 96 )
+material/0 = null
+
+[node name="Terrain_Water_Flat_Circle" type="MeshInstance" parent="."]
+mesh = ExtResource( 97 )
+material/0 = null
+
+[node name="Track_Bridge_Curve_3x3" type="MeshInstance" parent="."]
+mesh = ExtResource( 99 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+material/46 = null
+material/47 = null
+material/48 = null
+material/49 = null
+material/50 = null
+material/51 = null
+material/52 = null
+material/53 = null
+material/54 = null
+material/55 = null
+material/56 = null
+material/57 = null
+material/58 = null
+material/59 = null
+material/60 = null
+material/61 = null
+material/62 = null
+material/63 = null
+material/64 = null
+material/65 = null
+material/66 = null
+material/67 = null
+material/68 = null
+material/69 = null
+material/70 = null
+material/71 = null
+material/72 = null
+material/73 = null
+material/74 = null
+material/75 = null
+material/76 = null
+material/77 = null
+material/78 = null
+material/79 = null
+material/80 = null
+material/81 = null
+material/82 = null
+material/83 = null
+material/84 = null
+material/85 = null
+material/86 = null
+material/87 = null
+material/88 = null
+material/89 = null
+material/90 = null
+material/91 = null
+material/92 = null
+material/93 = null
+material/94 = null
+material/95 = null
+
+[node name="Track_Bridge_Curve_3x3_Collider" type="MeshInstance" parent="."]
+mesh = ExtResource( 98 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Track_Bridge_Curve_3x3_Piers" type="MeshInstance" parent="."]
+mesh = ExtResource( 100 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+
+[node name="Track_Bridge_Flat_Collider" type="MeshInstance" parent="."]
+mesh = ExtResource( 101 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Track_Bridge_Flat_Floating" type="MeshInstance" parent="."]
+mesh = ExtResource( 102 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+
+[node name="Track_Bridge_Flat_Supported" type="MeshInstance" parent="."]
+mesh = ExtResource( 103 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+
+[node name="Track_Bridge_Incline_Flat_Gentle_Collider" type="MeshInstance" parent="."]
+mesh = ExtResource( 104 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Track_Bridge_Incline_Flat_Gentle_Floating" type="MeshInstance" parent="."]
+mesh = ExtResource( 106 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+
+[node name="Track_Bridge_Incline_Flat_Gentle_Supported" type="MeshInstance" parent="."]
+mesh = ExtResource( 107 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+material/46 = null
+material/47 = null
+material/48 = null
+material/49 = null
+
+[node name="Track_Bridge_Incline_Flat_Sharp_Collider" type="MeshInstance" parent="."]
+mesh = ExtResource( 108 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Track_Bridge_Incline_Flat_Sharp_Floating" type="MeshInstance" parent="."]
+mesh = ExtResource( 109 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+material/46 = null
+material/47 = null
+material/48 = null
+material/49 = null
+material/50 = null
+material/51 = null
+
+[node name="Track_Bridge_Incline_Flat_Sharp_Supported" type="MeshInstance" parent="."]
+mesh = ExtResource( 105 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+material/46 = null
+material/47 = null
+material/48 = null
+material/49 = null
+material/50 = null
+material/51 = null
+material/52 = null
+material/53 = null
+material/54 = null
+material/55 = null
+
+[node name="Track_Bridge_Incline_Gentle_Collider" type="MeshInstance" parent="."]
+mesh = ExtResource( 110 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Track_Bridge_Incline_Gentle_Flat_Collider" type="MeshInstance" parent="."]
+mesh = ExtResource( 111 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Track_Bridge_Incline_Gentle_Flat_Floating" type="MeshInstance" parent="."]
+mesh = ExtResource( 112 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+
+[node name="Track_Bridge_Incline_Gentle_Flat_Supported" type="MeshInstance" parent="."]
+mesh = ExtResource( 114 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+material/46 = null
+material/47 = null
+material/48 = null
+material/49 = null
+
+[node name="Track_Bridge_Incline_Gentle_Floating" type="MeshInstance" parent="."]
+mesh = ExtResource( 115 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+material/46 = null
+material/47 = null
+material/48 = null
+material/49 = null
+material/50 = null
+material/51 = null
+
+[node name="Track_Bridge_Incline_Gentle_Sharp_Collider" type="MeshInstance" parent="."]
+mesh = ExtResource( 113 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Track_Bridge_Incline_Gentle_Sharp_Floating" type="MeshInstance" parent="."]
+mesh = ExtResource( 116 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+material/46 = null
+material/47 = null
+material/48 = null
+material/49 = null
+material/50 = null
+material/51 = null
+
+[node name="Track_Bridge_Incline_Gentle_Sharp_Supported" type="MeshInstance" parent="."]
+mesh = ExtResource( 117 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+material/46 = null
+material/47 = null
+material/48 = null
+material/49 = null
+material/50 = null
+material/51 = null
+material/52 = null
+material/53 = null
+material/54 = null
+material/55 = null
+
+[node name="Track_Bridge_Incline_Gentle_Supported" type="MeshInstance" parent="."]
+mesh = ExtResource( 118 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+material/46 = null
+material/47 = null
+material/48 = null
+material/49 = null
+material/50 = null
+material/51 = null
+material/52 = null
+material/53 = null
+material/54 = null
+material/55 = null
+
+[node name="Track_Bridge_Incline_Sharp_Collider" type="MeshInstance" parent="."]
+mesh = ExtResource( 119 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Track_Bridge_Incline_Sharp_Flat_Collider" type="MeshInstance" parent="."]
+mesh = ExtResource( 120 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Track_Bridge_Incline_Sharp_Flat_Floating" type="MeshInstance" parent="."]
+mesh = ExtResource( 121 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+material/46 = null
+material/47 = null
+material/48 = null
+material/49 = null
+material/50 = null
+material/51 = null
+
+[node name="Track_Bridge_Incline_Sharp_Flat_Supported" type="MeshInstance" parent="."]
+mesh = ExtResource( 122 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+material/46 = null
+material/47 = null
+material/48 = null
+material/49 = null
+material/50 = null
+material/51 = null
+material/52 = null
+material/53 = null
+material/54 = null
+material/55 = null
+
+[node name="Track_Bridge_Incline_Sharp_Floating" type="MeshInstance" parent="."]
+mesh = ExtResource( 123 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+
+[node name="Track_Bridge_Incline_Sharp_Gentle_Collider" type="MeshInstance" parent="."]
+mesh = ExtResource( 124 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Track_Bridge_Incline_Sharp_Gentle_Floating" type="MeshInstance" parent="."]
+mesh = ExtResource( 125 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+material/46 = null
+material/47 = null
+material/48 = null
+material/49 = null
+material/50 = null
+material/51 = null
+
+[node name="Track_Bridge_Incline_Sharp_Gentle_Supported" type="MeshInstance" parent="."]
+mesh = ExtResource( 126 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+material/46 = null
+material/47 = null
+material/48 = null
+material/49 = null
+material/50 = null
+material/51 = null
+material/52 = null
+material/53 = null
+material/54 = null
+material/55 = null
+
+[node name="Track_Bridge_Incline_Sharp_Supported" type="MeshInstance" parent="."]
+mesh = ExtResource( 127 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+
+[node name="Track_Bridge_Piers" type="MeshInstance" parent="."]
+mesh = ExtResource( 128 )
+material/0 = null
+material/1 = null
+
+[node name="Track_Bridge_Start" type="MeshInstance" parent="."]
+mesh = ExtResource( 129 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+
+[node name="Track_Bridge_Start_Collider" type="MeshInstance" parent="."]
+mesh = ExtResource( 130 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Track_Bridge_Start_Flat_to_Gentle" type="MeshInstance" parent="."]
+mesh = ExtResource( 131 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+material/46 = null
+material/47 = null
+material/48 = null
+material/49 = null
+material/50 = null
+material/51 = null
+material/52 = null
+material/53 = null
+
+[node name="Track_Bridge_Start_Flat_to_Sharp" type="MeshInstance" parent="."]
+mesh = ExtResource( 132 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+material/46 = null
+material/47 = null
+material/48 = null
+material/49 = null
+material/50 = null
+material/51 = null
+material/52 = null
+material/53 = null
+material/54 = null
+material/55 = null
+material/56 = null
+material/57 = null
+material/58 = null
+material/59 = null
+
+[node name="Track_Cliff_Curve_Standard_Double_5x5" type="MeshInstance" parent="."]
+mesh = ExtResource( 133 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+
+[node name="Track_Cliff_Curve_Standard_Double_6x6" type="MeshInstance" parent="."]
+mesh = ExtResource( 135 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+
+[node name="Track_Cliff_Curve_Standard_Single_4x4" type="MeshInstance" parent="."]
+mesh = ExtResource( 136 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+
+[node name="Track_Cliff_Curve_Standard_Single_5x5" type="MeshInstance" parent="."]
+mesh = ExtResource( 134 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+
+[node name="Track_Cliff_Curve_Standard_Single_6x6" type="MeshInstance" parent="."]
+mesh = ExtResource( 137 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+
+[node name="Track_Cliff_Curve_Striped_Double_5x5" type="MeshInstance" parent="."]
+mesh = ExtResource( 138 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+
+[node name="Track_Cliff_Curve_Striped_Double_6x6" type="MeshInstance" parent="."]
+mesh = ExtResource( 139 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+
+[node name="Track_Cliff_Curve_Striped_Single_4x4" type="MeshInstance" parent="."]
+mesh = ExtResource( 140 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+
+[node name="Track_Cliff_Curve_Striped_Single_5x5" type="MeshInstance" parent="."]
+mesh = ExtResource( 141 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+
+[node name="Track_Cliff_Curve_Striped_Single_6x6" type="MeshInstance" parent="."]
+mesh = ExtResource( 142 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+
+[node name="Track_Cliff_Edge_Standard_1_Tall_Double" type="MeshInstance" parent="."]
+mesh = ExtResource( 206 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="Track_Cliff_Edge_Standard_1_Tall_Single" type="MeshInstance" parent="."]
+mesh = ExtResource( 143 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="Track_Cliff_Edge_Standard_2_Tall_Double" type="MeshInstance" parent="."]
+mesh = ExtResource( 144 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="Track_Cliff_Edge_Standard_2_Tall_Single" type="MeshInstance" parent="."]
+mesh = ExtResource( 145 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="Track_Cliff_Edge_Standard_3_Tall_Double" type="MeshInstance" parent="."]
+mesh = ExtResource( 146 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="Track_Cliff_Edge_Standard_3_Tall_Single" type="MeshInstance" parent="."]
+mesh = ExtResource( 147 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="Track_Cliff_Edge_Striped_1_Tall_Double" type="MeshInstance" parent="."]
+mesh = ExtResource( 148 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="Track_Cliff_Edge_Striped_1_Tall_Single" type="MeshInstance" parent="."]
+mesh = ExtResource( 149 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="Track_Cliff_Edge_Striped_2_Tall_Double" type="MeshInstance" parent="."]
+mesh = ExtResource( 150 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="Track_Cliff_Edge_Striped_2_Tall_Single" type="MeshInstance" parent="."]
+mesh = ExtResource( 151 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="Track_Cliff_Edge_Striped_3_Tall_Double" type="MeshInstance" parent="."]
+mesh = ExtResource( 152 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="Track_Cliff_Edge_Striped_3_Tall_Single" type="MeshInstance" parent="."]
+mesh = ExtResource( 154 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="Track_Cliff_Incline_Standard_1_Tall_Double" type="MeshInstance" parent="."]
+mesh = ExtResource( 155 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+
+[node name="Track_Cliff_Incline_Standard_1_Tall_Single" type="MeshInstance" parent="."]
+mesh = ExtResource( 153 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+
+[node name="Track_Cliff_Incline_Standard_2_Tall_Double" type="MeshInstance" parent="."]
+mesh = ExtResource( 156 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+
+[node name="Track_Cliff_Incline_Standard_2_Tall_Single" type="MeshInstance" parent="."]
+mesh = ExtResource( 157 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+
+[node name="Track_Cliff_Incline_Standard_3_Tall_Double" type="MeshInstance" parent="."]
+mesh = ExtResource( 158 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+
+[node name="Track_Cliff_Incline_Standard_3_Tall_Single" type="MeshInstance" parent="."]
+mesh = ExtResource( 159 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+
+[node name="Track_Cliff_Incline_Striped_1_Tall_Double" type="MeshInstance" parent="."]
+mesh = ExtResource( 160 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+
+[node name="Track_Cliff_Incline_Striped_1_Tall_Single" type="MeshInstance" parent="."]
+mesh = ExtResource( 161 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+
+[node name="Track_Cliff_Incline_Striped_2_Tall_Double" type="MeshInstance" parent="."]
+mesh = ExtResource( 162 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+
+[node name="Track_Cliff_Incline_Striped_2_Tall_Single" type="MeshInstance" parent="."]
+mesh = ExtResource( 163 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+
+[node name="Track_Cliff_Incline_Striped_3_Tall_Double" type="MeshInstance" parent="."]
+mesh = ExtResource( 164 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+
+[node name="Track_Cliff_Incline_Striped_3_Tall_Single" type="MeshInstance" parent="."]
+mesh = ExtResource( 165 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+
+[node name="Track_Standard_Curve_Double_4x4" type="MeshInstance" parent="."]
+mesh = ExtResource( 166 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Track_Standard_Curve_Double_5x5" type="MeshInstance" parent="."]
+mesh = ExtResource( 167 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Track_Standard_Curve_Single_3x3" type="MeshInstance" parent="."]
+mesh = ExtResource( 168 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Track_Standard_Curve_Single_4x4" type="MeshInstance" parent="."]
+mesh = ExtResource( 169 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Track_Standard_Curve_Single_5x5" type="MeshInstance" parent="."]
+mesh = ExtResource( 170 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Track_Standard_Curve_Widening_3x4" type="MeshInstance" parent="."]
+mesh = ExtResource( 171 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Track_Standard_Curve_Widening_4x5" type="MeshInstance" parent="."]
+mesh = ExtResource( 172 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Track_Standard_Curve_Widening_5x6" type="MeshInstance" parent="."]
+mesh = ExtResource( 173 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Track_Standard_Esse_Double" type="MeshInstance" parent="."]
+mesh = ExtResource( 174 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Track_Standard_Esse_Single" type="MeshInstance" parent="."]
+mesh = ExtResource( 175 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Track_Standard_Finish_Line_Double_Blank" type="MeshInstance" parent="."]
+mesh = ExtResource( 176 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="Track_Standard_Finish_Line_Double_Checkered" type="MeshInstance" parent="."]
+mesh = ExtResource( 177 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+material/46 = null
+material/47 = null
+material/48 = null
+material/49 = null
+material/50 = null
+material/51 = null
+material/52 = null
+material/53 = null
+material/54 = null
+material/55 = null
+material/56 = null
+material/57 = null
+material/58 = null
+material/59 = null
+material/60 = null
+
+[node name="Track_Standard_Finish_Line_Single_Blank" type="MeshInstance" parent="."]
+mesh = ExtResource( 178 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="Track_Standard_Finish_Line_Single_Checkered" type="MeshInstance" parent="."]
+mesh = ExtResource( 179 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+
+[node name="Track_Standard_Incline_Double" type="MeshInstance" parent="."]
+mesh = ExtResource( 180 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Track_Standard_Incline_Single" type="MeshInstance" parent="."]
+mesh = ExtResource( 181 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Track_Standard_Straight_Double" type="MeshInstance" parent="."]
+mesh = ExtResource( 182 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Track_Standard_Straight_Single" type="MeshInstance" parent="."]
+mesh = ExtResource( 183 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Track_Standard_Straight_Widening" type="MeshInstance" parent="."]
+mesh = ExtResource( 184 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="Track_Striped_Curve_Double_4x4" type="MeshInstance" parent="."]
+mesh = ExtResource( 185 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+
+[node name="Track_Striped_Curve_Double_5x5" type="MeshInstance" parent="."]
+mesh = ExtResource( 186 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+
+[node name="Track_Striped_Curve_Single_3x3" type="MeshInstance" parent="."]
+mesh = ExtResource( 187 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+
+[node name="Track_Striped_Curve_Single_4x4" type="MeshInstance" parent="."]
+mesh = ExtResource( 188 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+
+[node name="Track_Striped_Curve_Single_5x5" type="MeshInstance" parent="."]
+mesh = ExtResource( 189 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+
+[node name="Track_Striped_Curve_Widening_3x4" type="MeshInstance" parent="."]
+mesh = ExtResource( 190 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+
+[node name="Track_Striped_Curve_Widening_4x5" type="MeshInstance" parent="."]
+mesh = ExtResource( 191 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+
+[node name="Track_Striped_Curve_Widening_5x6" type="MeshInstance" parent="."]
+mesh = ExtResource( 192 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+
+[node name="Track_Striped_End_Straight_Double" type="MeshInstance" parent="."]
+mesh = ExtResource( 193 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="Track_Striped_End_Straight_Single" type="MeshInstance" parent="."]
+mesh = ExtResource( 194 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="Track_Striped_Esse_Double" type="MeshInstance" parent="."]
+mesh = ExtResource( 195 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+
+[node name="Track_Striped_Esse_Single" type="MeshInstance" parent="."]
+mesh = ExtResource( 196 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+
+[node name="Track_Striped_Finish_Line_Double_Blank" type="MeshInstance" parent="."]
+mesh = ExtResource( 197 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+
+[node name="Track_Striped_Finish_Line_Double_Checkered" type="MeshInstance" parent="."]
+mesh = ExtResource( 198 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+material/46 = null
+material/47 = null
+material/48 = null
+material/49 = null
+material/50 = null
+material/51 = null
+material/52 = null
+material/53 = null
+material/54 = null
+material/55 = null
+material/56 = null
+material/57 = null
+material/58 = null
+material/59 = null
+material/60 = null
+material/61 = null
+material/62 = null
+material/63 = null
+material/64 = null
+
+[node name="Track_Striped_Finish_Line_Single_Blank" type="MeshInstance" parent="."]
+mesh = ExtResource( 199 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+
+[node name="Track_Striped_Finish_Line_Single_Checkered" type="MeshInstance" parent="."]
+mesh = ExtResource( 200 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+
+[node name="StaticBody" type="StaticBody" parent="Track_Striped_Finish_Line_Single_Checkered"]
+
+[node name="CollisionShape" type="CollisionShape" parent="Track_Striped_Finish_Line_Single_Checkered/StaticBody"]
+shape = SubResource( 702 )
+
+[node name="Track_Striped_Incline_Double" type="MeshInstance" parent="."]
+mesh = ExtResource( 201 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+
+[node name="StaticBody" type="StaticBody" parent="Track_Striped_Incline_Double"]
+
+[node name="CollisionShape" type="CollisionShape" parent="Track_Striped_Incline_Double/StaticBody"]
+shape = SubResource( 710 )
+
+[node name="Track_Striped_Incline_Single" type="MeshInstance" parent="."]
+mesh = ExtResource( 202 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+
+[node name="StaticBody" type="StaticBody" parent="Track_Striped_Incline_Single"]
+
+[node name="CollisionShape" type="CollisionShape" parent="Track_Striped_Incline_Single/StaticBody"]
+shape = SubResource( 718 )
+
+[node name="Track_Striped_Straight_Double" type="MeshInstance" parent="."]
+mesh = ExtResource( 203 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+
+[node name="StaticBody" type="StaticBody" parent="Track_Striped_Straight_Double"]
+
+[node name="CollisionShape" type="CollisionShape" parent="Track_Striped_Straight_Double/StaticBody"]
+shape = SubResource( 726 )
+
+[node name="Track_Striped_Straight_Single" type="MeshInstance" parent="."]
+mesh = ExtResource( 204 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+
+[node name="StaticBody" type="StaticBody" parent="Track_Striped_Straight_Single"]
+
+[node name="CollisionShape" type="CollisionShape" parent="Track_Striped_Straight_Single/StaticBody"]
+shape = SubResource( 734 )
+
+[node name="Track_Striped_Straight_Widening" type="MeshInstance" parent="."]
+mesh = ExtResource( 205 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+
+[node name="StaticBody" type="StaticBody" parent="Track_Striped_Straight_Widening"]
+
+[node name="CollisionShape" type="CollisionShape" parent="Track_Striped_Straight_Widening/StaticBody"]
+shape = SubResource( 742 )
