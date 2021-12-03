@@ -1,30 +1,47 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=11 format=2]
 
-[ext_resource path="res://default_env.tres" type="Environment" id=1]
-[ext_resource path="res://Karts/KCC_Kart.tscn" type="PackedScene" id=2]
+[ext_resource path="res://studio_garden_2k.exr" type="Texture" id=1]
+[ext_resource path="res://Karts/PlayerKart.tscn" type="PackedScene" id=2]
+[ext_resource path="res://MapData/TrackVoid.gd" type="Script" id=3]
+[ext_resource path="res://Menues/LevelMenu.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Menues/DebugScreen.tscn" type="PackedScene" id=5]
 
 [sub_resource type="Curve3D" id=1]
 _data = {
-"points": PoolVector3Array( -7.65356, 0, 92.2316, 7.65356, 0, -92.2316, 50.8853, 0, -20.6848, 13.6831, 0, 35.58, -13.6831, 0, -35.58, 25.312, 0, -194.574, 50.1571, 0, 28.4134, -50.1571, 0, -28.4134, -45.1843, 0, -327.935, 55.496, 3.05176e-05, -1.18454, -55.496, -3.05176e-05, 1.18454, -200.665, -3.05176e-05, -364.902, 35.5295, 0, -12.4426, -35.5295, 0, 12.4426, -372.999, 0, -336.633, 36.6533, 0, -60.7634, -36.6533, 0, 60.7634, -454.001, 0, -294.229, 0.867004, 0, -54.6633, -0.867004, 0, 54.6633, -489.71, 0, -90.8053, 13.1388, 0, -37.9316, -13.1388, 0, 37.9316, -562.373, 0, 133.624, -7.4447, 0, -72.7822, 7.4447, 0, 72.7822, -618.71, 0, 283.855, -87.2655, 0, -49.051, 87.2655, 0, 49.051, -415.765, 0, 586.104, -93.6538, 0, 4.31561, 93.6538, 0, -4.31561, -204.503, 0, 617.794, -110.574, 0, -0.699768, 110.574, 0, 0.699768, 146.426, 0, 630.704, -25.4611, 0, 45.6677, 25.4611, 0, -45.6677, 314.262, 0, 567.326, 0, 0, 0, 0, 0, 0, 388.756, 0, 391.644, 0, 0, 0, 0, 0, 0, 504.633, 0, 96.8075, 90.7039, 0, 17.1173, -90.7039, 0, -17.1173, 454.165, 0, -0.607646, 28.3422, 0, -22.8192, -28.3422, 0, 22.8192, 282.808, 0, 53.3815, 20.8605, 0, -43.6513, -20.8605, 0, 43.6513, 183.045, 0, 163.707, 84.6756, 0, -123.587, -84.6756, 0, 123.587, 132.577, 0, 433.653, 70.444, 0, 10.0494, -70.444, 0, -10.0494, -164.495, 0, 491.09, 95.5653, 0, 58.5728, -95.5653, 0, -58.5728, -365.086, 0, 431.777, -106.124, 0, 118.068, 106.124, 0, -118.068, -393.254, 0, 72.6322, -58.6295, 0, 3.13248, 58.6295, 0, -3.13248, -261.762, 0, 170.556, -83.7394, 0, 31.7404, 83.7394, 0, -31.7404, -167.867, 0, 249.193, -54.7402, 0, 61.6963, 54.7402, 0, -61.6963, 11.7051, 0, 276.187, 0.739624, 0, 83.5766, -0.739624, 0, -83.5766, 55.4017, 0, 54.8783 ),
-"tilts": PoolRealArray( 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 )
+"points": PoolVector3Array( -7.65356, 0, 92.2316, 7.65356, 0, -92.2316, 50.8853, 0, -20.6848, 15.5616, 1.48444, 38.8574, -15.5616, -1.48444, -38.8574, 24.6542, 7.22589, -190.945, 50.1571, 0, 28.4134, -50.1571, 0, -28.4134, -55.7251, 24.2049, -326.261, 54.2399, -6.6882, 16.709, -54.2399, 6.6882, -16.709, -201.365, 10.4331, -361.234, 35.5295, 0, -12.4426, -35.5295, 0, 12.4426, -368.615, 13.1761, -336.008, 0.867004, 0, -54.6633, -0.867004, 0, 54.6633, -491.221, -8.62793, -95.1071, 13.1388, 0, -37.9316, -13.1388, 0, 37.9316, -571.423, -25.6827, 132.7, -7.4447, 0, -72.7822, 7.4447, 0, 72.7822, -613.913, 14.7941, 289.387, -57.6692, 19.2117, -26.8727, 57.6692, -19.2117, 26.8727, -415.765, 0, 586.104, -79.5323, -11.4213, 4.68927, 79.5323, 11.4213, -4.68927, -204.503, 0, 617.794, -85.5052, 17.9114, -6.71228, 85.5052, -17.9114, 6.71228, 146.426, 0, 630.704, -25.4611, 0, 45.6677, 25.4611, 0, -45.6677, 314.262, 0, 567.326, 50.5704, -62.771, 106.105, -50.5704, 62.771, -106.105, 393.545, -12.337, 350.594, 32.5187, -0.359253, 68.8798, -32.5187, 0.359253, -68.8798, 515.058, 2.66199, 117.013, 76.565, 1.97559, 16.3018, -76.565, -1.97559, -16.3018, 409.156, 5.8877, -50.0934, 84.6756, 0, -123.587, -84.6756, 0, 123.587, 132.577, 0, 433.653, 86.3288, 1.36816, 67.0072, -86.3288, -1.36816, -67.0072, -365.086, 0, 431.777, -106.124, 0, 118.068, 106.124, 0, -118.068, -393.254, 0, 72.6322, -82.7985, 3.45288, 10.425, 82.7985, -3.45288, -10.425, -261.762, 0, 170.556, -108.742, 3.60938, 43.5078, 108.742, -3.60938, -43.5078, -167.867, 0, 249.193, -54.7402, 0, 61.6963, 54.7402, 0, -61.6963, 11.7051, 0, 276.187, 0.739624, 0, 83.5766, -0.739624, 0, -83.5766, 55.4017, 0, 54.8783 ),
+"tilts": PoolRealArray( 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 )
 }
 
 [sub_resource type="SpatialMaterial" id=2]
-albedo_color = Color( 0.0980392, 0.0980392, 0.0980392, 1 )
+albedo_color = Color( 0.768627, 0.768627, 0.768627, 1 )
+
+[sub_resource type="PanoramaSky" id=4]
+radiance_size = 4
+panorama = ExtResource( 1 )
+
+[sub_resource type="Environment" id=5]
+background_mode = 1
+background_sky = SubResource( 4 )
+background_color = Color( 0.235294, 0.235294, 0.235294, 1 )
+background_energy = 0.2
+tonemap_mode = 4
+
+[sub_resource type="BoxShape" id=3]
+extents = Vector3( 1004.08, 1, 857.503 )
 
 [node name="TrackTestWorld" type="Spatial"]
 
 [node name="Path" type="Path" parent="."]
 curve = SubResource( 1 )
 
-[node name="CSGPolygon" type="CSGPolygon" parent="."]
+[node name="track_mesh" type="CSGPolygon" parent="."]
 use_collision = true
 polygon = PoolVector2Array( -16, 0, -16, 0.5, 16, 0.5, 16, 0 )
 mode = 2
 path_node = NodePath("../Path")
 path_interval_type = 0
-path_interval = 1.0
-path_simplify_angle = 5.0
+path_interval = 0.43
+path_simplify_angle = 10.0
 path_rotation = 1
 path_local = false
 path_continuous_u = true
@@ -37,7 +54,29 @@ transform = Transform( 0.803649, -0.510237, 0.306278, 0, 0.514664, 0.857392, -0.
 shadow_enabled = true
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
-environment = ExtResource( 1 )
+environment = SubResource( 5 )
 
-[node name="KCC Kart" parent="." instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 50.2963, 4.17327, -37.0828 )
+[node name="FallingCheck" type="Spatial" parent="."]
+
+[node name="Area" type="Area" parent="FallingCheck"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -50, 0 )
+script = ExtResource( 3 )
+
+[node name="CollisionShape" type="CollisionShape" parent="FallingCheck/Area"]
+shape = SubResource( 3 )
+
+[node name="PlayerKart" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 48.2845, 4.33964, 0 )
+body_tilt = 35.0
+
+[node name="LevelMenu" parent="." instance=ExtResource( 4 )]
+anchor_left = 1.0
+anchor_bottom = 0.0
+margin_left = -283.0
+margin_bottom = 172.0
+PlayerKartNode = NodePath("../PlayerKart")
+
+[node name="DebugScreen" parent="." instance=ExtResource( 5 )]
+PlayerKartNode = NodePath("../PlayerKart")
+
+[connection signal="body_entered" from="FallingCheck/Area" to="FallingCheck/Area" method="_on_Area_body_entered"]

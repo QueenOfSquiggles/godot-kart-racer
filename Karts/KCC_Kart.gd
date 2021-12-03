@@ -6,12 +6,9 @@ onready var ground_ray = $CarMesh/RayCast
 onready var wheel_front_left := $CarMesh/tmpParent/race/wheel_frontLeft
 onready var wheel_front_right := $CarMesh/tmpParent/race/wheel_frontRight
 
+onready var respawn_locator := $RespawnLocator
 
-onready var label_input_speed :Label = $PanelContainer/VBoxContainer/Lbl_Input_Speed 
-onready var label_input_turn :Label = $PanelContainer/VBoxContainer/Lbl_Input_Turn 
-onready var label_velocity :Label = $PanelContainer/VBoxContainer/Lbl_Velocity
-onready var label_speed :Label = $PanelContainer/VBoxContainer/Lbl_Speed
-onready var label_on_ground :Label = $PanelContainer/VBoxContainer/Lbl_OnGround
+signal on_kart_fell_off_track
 
 # Where to place the car mesh relative to sphere
 var sphere_offset := Vector3(0, -1.0, 0)
@@ -38,36 +35,40 @@ func _physics_process(_delta: float) -> void:
 	if on_ground:
 		ball.add_central_force(-car_mesh.global_transform.basis.z * speed_input)
 
+func get_input() -> void:
+	"""
+	Override for implementation.
+		Use Input for local/player cars
+		Use AI for non-player cars
+	"""
+	speed_input = 0
+	rotate_input = 0
+
+
 func _process(delta: float) -> void:
-	update_debug()
 	var n:Vector3 = Vector3.UP
 
 	on_ground = ground_ray.is_colliding()
 	n = ground_ray.get_collision_normal()
-	speed_input = 0
-	speed_input += Input.get_action_strength("move_forwards")
-	speed_input -= Input.get_action_strength("move_back")
-	speed_input *= acceleration
-	
-	rotate_input = 0
-	rotate_input += Input.get_action_strength("move_left")
-	rotate_input -= Input.get_action_strength("move_right")
-	rotate_input *= deg2rad(steering)
-	
+
+	get_input()
+
 	wheel_front_left.rotation.y = rotate_input + deg2rad(180.0)
 	wheel_front_right.rotation.y = rotate_input
 
 	if on_ground and ball.linear_velocity.length() > turn_stop_limit:
 		var new_basis = car_mesh.global_transform.basis.rotated(car_mesh.global_transform.basis.y, rotate_input)
 		car_mesh.global_transform.basis = car_mesh.global_transform.basis.slerp(new_basis, turn_speed * delta)
-		car_mesh.global_transform = car_mesh.global_transform.orthonormalized()
-		
+		car_mesh.global_transform = car_mesh.global_transform
+
 		var t = -rotate_input * ball.linear_velocity.length() / body_tilt
 		car_mesh.rotation.z = lerp(car_mesh.rotation.z, t, 10 * delta)
 	# align to ground
 	var xform := align_with_y(car_mesh.global_transform, n.normalized())
-	car_mesh.global_transform = car_mesh.global_transform.interpolate_with(xform.orthonormalized(), 10 * delta)
+	car_mesh.global_transform = car_mesh.global_transform.interpolate_with(xform, 10 * delta)
+	#car_mesh.global_transform = xform.orthonormalized()
 	car_mesh.global_transform = car_mesh.global_transform.orthonormalized()
+	car_mesh.transform = car_mesh.transform.orthonormalized()
 
 func align_with_y(xform : Transform, new_y : Vector3) -> Transform:
 	xform.basis.y = new_y
@@ -75,9 +76,7 @@ func align_with_y(xform : Transform, new_y : Vector3) -> Transform:
 	xform.basis = xform.basis.orthonormalized()
 	return xform
 
-func update_debug():
-	label_input_speed.text = "Speed Input : " + str(speed_input)
-	label_input_turn.text = "Rotation Input : " + str(rotate_input)
-	label_velocity.text = "Velocity : " + str(ball.linear_velocity)
-	label_speed.text = "Speed : " + str(ball.linear_velocity.length())
-	label_on_ground.text = "On Ground = " + str(on_ground)
+
+
+func trigger_kart_fell_off_track() -> void:
+	emit_signal("on_kart_fell_off_track")

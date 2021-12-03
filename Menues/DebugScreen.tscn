@@ -1,0 +1,50 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Menues/DebugScreen.gd" type="Script" id=1]
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0, 0, 0, 0.411765 )
+
+[node name="DebugScreen" type="PanelContainer"]
+margin_right = 297.0
+margin_bottom = 179.0
+custom_styles/panel = SubResource( 3 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+margin_right = 297.0
+margin_bottom = 179.0
+
+[node name="Lbl_Input_Speed" type="Label" parent="VBoxContainer"]
+margin_right = 297.0
+margin_bottom = 14.0
+
+[node name="Lbl_Input_Turn" type="Label" parent="VBoxContainer"]
+margin_top = 18.0
+margin_right = 297.0
+margin_bottom = 32.0
+
+[node name="Lbl_Velocity" type="Label" parent="VBoxContainer"]
+margin_top = 36.0
+margin_right = 297.0
+margin_bottom = 50.0
+
+[node name="Lbl_Speed" type="Label" parent="VBoxContainer"]
+margin_top = 54.0
+margin_right = 297.0
+margin_bottom = 68.0
+
+[node name="Lbl_Speed_km_h" type="Label" parent="VBoxContainer"]
+margin_top = 72.0
+margin_right = 297.0
+margin_bottom = 86.0
+
+[node name="Lbl_OnGround" type="Label" parent="VBoxContainer"]
+margin_top = 90.0
+margin_right = 297.0
+margin_bottom = 104.0
+
+[node name="Tween" type="Tween" parent="."]

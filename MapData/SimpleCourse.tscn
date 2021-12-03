@@ -1,10 +1,13 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://MapData/TrackMaterials/RaceTrackMat.tres" type="Material" id=1]
 [ext_resource path="res://MapData/TrackMaterials/OuterWallMat.tres" type="Material" id=2]
 [ext_resource path="res://MapData/TrackMaterials/InnerWallMat.tres" type="Material" id=3]
 [ext_resource path="res://MapObjects/SpeedBooster.tscn" type="PackedScene" id=4]
 [ext_resource path="res://MapObjects/RampSpeedBooster.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Karts/PlayerKart.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Menues/LevelMenu.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Menues/DebugScreen.tscn" type="PackedScene" id=8]
 
 [node name="SimpleCourse" type="Spatial"]
 
@@ -158,3 +161,16 @@ SpeedValue = 20.0
 [node name="RampSpeedBooster10" parent="Affectors" instance=ExtResource( 5 )]
 transform = Transform( 10, 0, 0, 0, 0.965926, -0.776457, 0, 0.258819, 2.89778, -10.7737, 0.895098, 92.1115 )
 SpeedValue = 20.0
+
+[node name="PlayerKart" parent="." instance=ExtResource( 6 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.8327, 5.30276, -6.95277 )
+
+[node name="LevelMenu" parent="." instance=ExtResource( 7 )]
+anchor_left = 1.0
+anchor_bottom = 0.0
+margin_left = -283.0
+margin_bottom = 172.0
+PlayerKartNode = NodePath("../PlayerKart")
+
+[node name="DebugScreen" parent="." instance=ExtResource( 8 )]
+PlayerKartNode = NodePath("../PlayerKart")

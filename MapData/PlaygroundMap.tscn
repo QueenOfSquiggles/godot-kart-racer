@@ -1,10 +1,13 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://textures/Orange/texture_04.png" type="Texture" id=1]
 [ext_resource path="res://default_env.tres" type="Environment" id=2]
 [ext_resource path="res://textures/Dark/texture_01.png" type="Texture" id=3]
 [ext_resource path="res://MapObjects/SpeedBooster.tscn" type="PackedScene" id=4]
 [ext_resource path="res://MapObjects/RampSpeedBooster.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Karts/PlayerKart.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Menues/LevelMenu.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Menues/DebugScreen.tscn" type="PackedScene" id=8]
 
 [sub_resource type="SpatialMaterial" id=7]
 flags_world_triplanar = true
@@ -22,6 +25,18 @@ uv1_triplanar = true
 
 [sub_resource type="ConvexPolygonShape" id=3]
 points = PoolVector3Array( -1.00542, 0.00546448, -1.00546, 1.00546, 0.00546448, 1.00546, -1.00542, 0.00546448, 1.00546, 1.00546, 0.00546448, -1.00546 )
+
+[sub_resource type="Curve3D" id=8]
+_data = {
+"points": PoolVector3Array( 0, 0, 0, 0, 0, 0, -32.5912, 31.5742, 181.049, 58.1386, 0, 110.846, -58.1386, 0, -110.846, -342.231, 20.2307, 43.7561, -91.9737, -19.2946, 102.176, 91.9737, 19.2946, -102.176, -312.703, 17.197, -264.962, -176.096, 7.41815, -14.5866, 176.096, -7.41815, 14.5866, 10.5068, 0, -383.298, -56.1992, -12.8174, -133.409, 56.1992, 12.8174, 133.409, 343.409, 0, -207.197, 83.2256, 0, -69.9578, -83.2256, 0, 69.9578, 321.522, 67.9166, 100.509, 0, 0, 0, 0, 0, 0, 21.2502, 31.8452, 185.838 ),
+"tilts": PoolRealArray( 0, 0, 0, 0, 0, 0, 0 )
+}
+
+[sub_resource type="Curve3D" id=9]
+_data = {
+"points": PoolVector3Array( 0, 0, 0, 0, 0, 0, 215.6, -16.9705, 404.589, 74.7272, -12.3325, -21.9933, -74.7272, 12.3325, 21.9933, -29.3455, 18.3526, 537.166, 113.062, -6.97705, 13.8143, -113.062, 6.97705, -13.8143, -371.835, 77.8423, 540.083, 64.3255, 6.10352e-05, 75.1325, -64.3255, -6.10352e-05, -75.1325, -592.974, 67.5749, 394.2, 14.678, -6.10352e-05, 83.1655, -14.678, 6.10352e-05, -83.1655, -677.689, 63.8314, 107.61, -43.8118, 0.00012207, 71.1427, 43.8118, -0.00012207, -71.1427, -632.308, 64.4027, -140.9, -89.7332, 4.08325, 3.18689, 89.7332, -4.08325, -3.18689, -464.252, 86.9504, -299.194, -135.188, 21.8268, -28.4442, 135.188, -21.8268, 28.4442, -152.565, 27.9437, -247.184, 0, 0, 0, 0, 0, 0, 135.258, -10.529, -209.039 ),
+"tilts": PoolRealArray( 0, 0, 0, 0, 0, 0, 0, 0, 0 )
+}
 
 [node name="ObstaclesAndParkour" type="Spatial"]
 
@@ -66,19 +81,19 @@ width = 15.9512
 height = 11.3419
 
 [node name="RampUp" type="CSGBox" parent="."]
-transform = Transform( 1, 0, 0, 0, 0.374606, -0.927184, 0, 0.927184, 0.374606, 22.9848, 15.2401, 11.04 )
+transform = Transform( 1, 0, 0, 0, 0.374606, -0.927184, 0, 0.927184, 0.374606, 22.9848, 9.39832, 27.3367 )
 material_override = SubResource( 7 )
 use_collision = true
 width = 29.7022
-height = 94.6043
+height = 87.485
 
 [node name="Platform" type="CSGBox" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 2.08616e-07, 0, -2.08616e-07, 1, 22.9848, 32.2319, 116.847 )
+transform = Transform( 1, 0, 0, 0, 1, 2.08616e-07, 0, -2.08616e-07, 1, 22.9848, 25.2616, 116.847 )
 material_override = SubResource( 7 )
 use_collision = true
 width = 29.8281
 height = 2.7262
-depth = 124.866
+depth = 99.0064
 
 [node name="CSGCylinder" type="CSGCylinder" parent="."]
 transform = Transform( -0.0785287, -0.996912, 4.35764e-08, 0, -4.37114e-08, -1, 0.996912, -0.0785287, 3.4326e-09, 134.907, -55.1762, -39.9511 )
@@ -127,3 +142,57 @@ transform = Transform( 10, 0, 0, 0, 0.965925, -2.58819, 0, 0.258819, 9.65926, -1
 
 [node name="RampSpeedBooster2" parent="." instance=ExtResource( 5 )]
 transform = Transform( -4.37114e-07, -0.258819, -9.65926, 0, 0.965925, -2.58819, 10, -1.13133e-08, -4.2222e-07, -150.327, -0.327437, -81.8606 )
+
+[node name="Tracks" type="Spatial" parent="."]
+
+[node name="track1" type="Spatial" parent="Tracks"]
+
+[node name="CSGPolygon" type="CSGPolygon" parent="Tracks/track1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2.4603, 0 )
+use_collision = true
+polygon = PoolVector2Array( -20, 0, -20, 1, 20, 1, 20, 0 )
+mode = 2
+path_node = NodePath("Path")
+path_interval_type = 0
+path_interval = 1.0
+path_simplify_angle = 10.0
+path_rotation = 2
+path_local = false
+path_continuous_u = true
+path_u_distance = 1.0
+path_joined = true
+
+[node name="Path" type="Path" parent="Tracks/track1/CSGPolygon"]
+curve = SubResource( 8 )
+
+[node name="track2" type="Spatial" parent="Tracks"]
+
+[node name="CSGPolygon2" type="CSGPolygon" parent="Tracks/track2"]
+use_collision = true
+polygon = PoolVector2Array( -20, 0, -20, 1, 20, 1, 20, 0 )
+mode = 2
+path_node = NodePath("Path")
+path_interval_type = 0
+path_interval = 1.0
+path_simplify_angle = 10.0
+path_rotation = 2
+path_local = false
+path_continuous_u = true
+path_u_distance = 1.0
+path_joined = false
+
+[node name="Path" type="Path" parent="Tracks/track2/CSGPolygon2"]
+curve = SubResource( 9 )
+
+[node name="PlayerKart" parent="." instance=ExtResource( 6 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.3296, 0 )
+
+[node name="LevelMenu" parent="." instance=ExtResource( 7 )]
+anchor_left = 1.0
+anchor_bottom = 0.0
+margin_left = -283.0
+margin_bottom = 172.0
+PlayerKartNode = NodePath("../PlayerKart")
+
+[node name="DebugScreen" parent="." instance=ExtResource( 8 )]
+PlayerKartNode = NodePath("../PlayerKart")

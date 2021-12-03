@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Karts/RespawnLocator.gd" type="Script" id=1]
+
+[node name="RespawnLocator" type="Spatial"]
+script = ExtResource( 1 )
+refresh_time = 1.0
+
+[node name="Timer" type="Timer" parent="."]

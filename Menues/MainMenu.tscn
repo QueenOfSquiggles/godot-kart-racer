@@ -1,0 +1,98 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Menues/MainMenu.gd" type="Script" id=1]
+[ext_resource path="res://MapData/PlaygroundMap.tscn" type="PackedScene" id=2]
+[ext_resource path="res://MapData/SimpleCourse.tscn" type="PackedScene" id=3]
+[ext_resource path="res://MapData/ProceduralTrack.tscn" type="PackedScene" id=4]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0, 0, 0, 1 )
+
+[node name="Menu" type="VBoxContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+ScenePlayground = ExtResource( 2 )
+SceneClosedCourse = ExtResource( 3 )
+SceneFallingTrack = ExtResource( 4 )
+
+[node name="CenterContainer2" type="CenterContainer" parent="."]
+margin_right = 1024.0
+margin_bottom = 100.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PanelContainer" type="PanelContainer" parent="CenterContainer2"]
+margin_left = 262.0
+margin_right = 762.0
+margin_bottom = 100.0
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="RichTextLabel" parent="CenterContainer2/PanelContainer"]
+margin_right = 500.0
+margin_bottom = 100.0
+rect_min_size = Vector2( 500, 100 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+bbcode_enabled = true
+bbcode_text = "[wave]Some Fecking Kart Racing Demo!!!!!!![/wave]"
+text = "Some Fecking Kart Racing Demo!!!!!!!"
+fit_content_height = true
+scroll_active = false
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+margin_top = 104.0
+margin_right = 1024.0
+margin_bottom = 262.0
+alignment = 1
+
+[node name="BtnPlayground" type="Button" parent="VBoxContainer"]
+margin_right = 1024.0
+margin_bottom = 50.0
+rect_min_size = Vector2( 0, 50 )
+text = "Playground"
+
+[node name="BtnClosedCourse" type="Button" parent="VBoxContainer"]
+margin_top = 54.0
+margin_right = 1024.0
+margin_bottom = 104.0
+rect_min_size = Vector2( 0, 50 )
+text = "Closed Course (buggy)"
+
+[node name="BtnFallingTrack" type="Button" parent="VBoxContainer"]
+margin_top = 108.0
+margin_right = 1024.0
+margin_bottom = 158.0
+rect_min_size = Vector2( 0, 50 )
+text = "Falling Track"
+
+[node name="Label" type="Label" parent="."]
+margin_top = 266.0
+margin_right = 1024.0
+margin_bottom = 450.0
+text = "
+
+WASD or Arrow keys on keyboard
+Left Stick: left/right
+Button South (X)=forwards 
+Button East (B)=backwards on gamepad (xbox)
+
+Escape = toggle level menu
+Tab = toggle debug screen
+
+"
+align = 1
+
+[connection signal="pressed" from="VBoxContainer/BtnPlayground" to="." method="_on_BtnPlayground_pressed"]
+[connection signal="pressed" from="VBoxContainer/BtnClosedCourse" to="." method="_on_BtnClosedCourse_pressed"]
+[connection signal="pressed" from="VBoxContainer/BtnFallingTrack" to="." method="_on_BtnFallingTrack_pressed"]
