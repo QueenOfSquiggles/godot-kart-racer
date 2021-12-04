@@ -1,0 +1,65 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://addons/zylann.hterrain/hterrain.gd" type="Script" id=1]
+[ext_resource path="res://addons/zylann.hterrain/hterrain_texture_set.gd" type="Script" id=2]
+[ext_resource path="res://MapData/ProceduralTrack.tscn" type="PackedScene" id=3]
+[ext_resource path="res://MapData/heightmap_data/data.hterrain" type="Resource" id=4]
+[ext_resource path="res://textures/Dark/texture_01.png" type="Texture" id=5]
+[ext_resource path="res://addons/zylann.hterrain/hterrain_detail_layer.gd" type="Script" id=6]
+[ext_resource path="res://addons/zylann.hterrain/tools/icons/icon_detail_layer_node.svg" type="Texture" id=7]
+[ext_resource path="res://textures/grass/diffus.tga" type="Texture" id=8]
+
+[sub_resource type="SpatialMaterial" id=2]
+albedo_texture = ExtResource( 5 )
+
+[sub_resource type="Resource" id=1]
+script = ExtResource( 2 )
+mode = 0
+textures = [ [ null ], [ null ] ]
+
+[node name="TrackTestWorld" instance=ExtResource( 3 )]
+
+[node name="Path" parent="." index="0"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1053.77, 241.264, 793.129 )
+
+[node name="track_mesh" parent="." index="1"]
+polygon = PoolVector2Array( -40, -10, -16, 4, 16, 4, 40, -10 )
+path_u_distance = 3.08
+material = SubResource( 2 )
+
+[node name="PlayerKart" parent="." index="5"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 441.801, 263.324, 1103.32 )
+
+[node name="HTerrain" type="Spatial" parent="." index="8"]
+script = ExtResource( 1 )
+ambient_wind = 0.207
+map_scale = Vector3( 4, 4, 4 )
+_terrain_data = ExtResource( 4 )
+chunk_size = 32
+collision_enabled = true
+collision_layer = 1
+collision_mask = 1
+shader_type = "Classic4"
+custom_shader = null
+custom_globalmap_shader = null
+texture_set = SubResource( 1 )
+shader_params/u_ground_uv_scale_per_texture = Plane( 10, 10, 10, 10 )
+shader_params/u_depth_blending = true
+shader_params/u_triplanar = false
+shader_params/u_tile_reduction = Plane( 0, 0, 0, 0 )
+shader_params/u_globalmap_blend_start = null
+shader_params/u_globalmap_blend_distance = null
+shader_params/u_colormap_opacity_per_texture = Plane( 1, 1, 1, 1 )
+
+[node name="HTerrainDetailLayer" type="Spatial" parent="HTerrain" index="1"]
+script = ExtResource( 6 )
+__meta__ = {
+"_editor_icon": ExtResource( 7 )
+}
+texture = ExtResource( 8 )
+view_distance = 500.0
+density = 7.0
+shader_params/u_globalmap_tint_bottom = null
+shader_params/u_globalmap_tint_top = null
+shader_params/u_bottom_ao = null
+shader_params/u_instance_scale = Vector3( 2, 2, 2 )
