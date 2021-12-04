@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Menues/UISlide.gd" type="Script" id=1]
+
+[node name="UISlide" type="Node"]
+script = ExtResource( 1 )
+__meta__ = {
+"_editor_description_": "A node for sliding a UI element on or off-screen provided a designated side. Shouold be fairly general purpose"
+}
+
+[node name="Tween" type="Tween" parent="."]
+
+[connection signal="tween_completed" from="Tween" to="Tween" method="_on_tween_completed"]

@@ -30,6 +30,9 @@ material = SubResource( 2 )
 [node name="PlayerKart" parent="." index="5"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 441.801, 263.324, 1103.32 )
 
+[node name="LevelMenu" parent="." index="6"]
+margin_right = -0.000732422
+
 [node name="HTerrain" type="Spatial" parent="." index="8"]
 script = ExtResource( 1 )
 ambient_wind = 0.207
@@ -51,7 +54,7 @@ shader_params/u_globalmap_blend_start = null
 shader_params/u_globalmap_blend_distance = null
 shader_params/u_colormap_opacity_per_texture = Plane( 1, 1, 1, 1 )
 
-[node name="HTerrainDetailLayer" type="Spatial" parent="HTerrain" index="1"]
+[node name="HTerrainDetailLayer" type="Spatial" parent="HTerrain" index="0"]
 script = ExtResource( 6 )
 __meta__ = {
 "_editor_icon": ExtResource( 7 )

@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Menues/LevelMenu.gd" type="Script" id=1]
+[ext_resource path="res://Menues/UISlide.tscn" type="PackedScene" id=2]
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.6, 0.6, 0.6, 0.376471 )
@@ -80,7 +81,8 @@ size_flags_vertical = 3
 size_flags_stretch_ratio = 0.5
 text = "100 m/s"
 
-[node name="Tween" type="Tween" parent="."]
+[node name="UISlide" parent="." instance=ExtResource( 2 )]
+SlideStyleOption = 1
 
 [connection signal="pressed" from="VBoxContainer/BtnMainMenu" to="." method="_on_BtnMainMenu_pressed"]
 [connection signal="pressed" from="VBoxContainer/PanelContainer/VBoxContainer/BtnSpeed_25" to="." method="_on_BtnSpeed_25_pressed"]
