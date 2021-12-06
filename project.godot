@@ -9,6 +9,16 @@
 config_version=4
 
 _global_script_classes=[ {
+"base": "Node",
+"class": "CheckpointTracker",
+"language": "GDScript",
+"path": "res://MapObjects/CheckpointTracker.gd"
+}, {
+"base": "Spatial",
+"class": "CheckpointTrigger",
+"language": "GDScript",
+"path": "res://MapObjects/CheckpointTrigger.gd"
+}, {
 "base": "ResourceFormatLoader",
 "class": "HTerrainDataLoader",
 "language": "GDScript",
@@ -20,6 +30,8 @@ _global_script_classes=[ {
 "path": "res://addons/zylann.hterrain/hterrain_resource_saver.gd"
 } ]
 _global_script_class_icons={
+"CheckpointTracker": "",
+"CheckpointTrigger": "",
 "HTerrainDataLoader": "",
 "HTerrainDataSaver": ""
 }

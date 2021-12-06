@@ -8,7 +8,6 @@ export (PackedScene) var SceneMountains
 func _on_BtnPlayground_pressed() -> void:
 	_change_scene(ScenePlayground)
 
-
 func _on_BtnClosedCourse_pressed() -> void:
 	_change_scene(SceneClosedCourse)
 

@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://addons/zylann.hterrain/hterrain.gd" type="Script" id=1]
 [ext_resource path="res://addons/zylann.hterrain/hterrain_texture_set.gd" type="Script" id=2]
@@ -8,6 +8,8 @@
 [ext_resource path="res://addons/zylann.hterrain/hterrain_detail_layer.gd" type="Script" id=6]
 [ext_resource path="res://addons/zylann.hterrain/tools/icons/icon_detail_layer_node.svg" type="Texture" id=7]
 [ext_resource path="res://textures/grass/diffus.tga" type="Texture" id=8]
+[ext_resource path="res://MapObjects/CheckpointGroup.tscn" type="PackedScene" id=9]
+[ext_resource path="res://MapObjects/CheckpointPosts.tscn" type="PackedScene" id=10]
 
 [sub_resource type="SpatialMaterial" id=2]
 albedo_texture = ExtResource( 5 )
@@ -24,8 +26,15 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1053.77, 241.264, 793.129 )
 
 [node name="track_mesh" parent="." index="1"]
 polygon = PoolVector2Array( -40, -10, -16, 4, 16, 4, 40, -10 )
-path_u_distance = 3.08
+path_continuous_u = false
+smooth_faces = true
 material = SubResource( 2 )
+
+[node name="Area" parent="FallingCheck" index="0"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1042.39, -50, 1057.35 )
+
+[node name="CollisionShape" parent="FallingCheck/Area" index="0"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -267.539, 0 )
 
 [node name="PlayerKart" parent="." index="5"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 441.801, 263.324, 1103.32 )
@@ -66,3 +75,15 @@ shader_params/u_globalmap_tint_bottom = null
 shader_params/u_globalmap_tint_top = null
 shader_params/u_bottom_ao = null
 shader_params/u_instance_scale = Vector3( 2, 2, 2 )
+
+[node name="CheckpointGroup" parent="." index="9" instance=ExtResource( 9 )]
+
+[node name="CheckpointPosts" parent="CheckpointGroup" index="0" instance=ExtResource( 10 )]
+transform = Transform( 8, 0, 0, 0, 8, 0, 0, 0, 8, 444.679, 261.442, 1067.79 )
+PreviousCheckpoint = NodePath("../CheckpointPosts3")
+
+[node name="CheckpointPosts2" parent="CheckpointGroup" index="1" instance=ExtResource( 10 )]
+transform = Transform( 5.31078, 0, 5.98294, 0, 8, 0, -5.98294, 0, 5.31078, 1015.72, 261.442, 482.738 )
+
+[node name="CheckpointPosts3" parent="CheckpointGroup" index="2" instance=ExtResource( 10 )]
+transform = Transform( 7.00378, 0, -3.86614, 0, 8, 0, 3.86614, 0, 7.00378, 1373.93, 265.068, 833.584 )

@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://MapData/TrackVoid.gd" type="Script" id=1]
+
+[node name="TrackVoid" type="Area"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -50, 0 )
+script = ExtResource( 1 )
+
+[connection signal="body_entered" from="." to="." method="_on_Area_body_entered"]

@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://CheckpointGroup.gd" type="Script" id=1]
+
+[node name="CheckpointGroup" type="Spatial"]
+script = ExtResource( 1 )
+__meta__ = {
+"_editor_description_": "A node that automatically connects the checkpoint triggers under it toeach other."
+}

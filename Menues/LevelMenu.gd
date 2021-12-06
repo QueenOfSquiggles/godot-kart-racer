@@ -8,13 +8,13 @@ func _ready() -> void:
 	player_kart = get_node(PlayerKartNode)
 	assert(player_kart, "Assign the PlayerKartNode in the LevelMenu to allow for changing settings on the fly!")
 	_set_speed(50.0)
+	$UISlide.call_deferred("hide")
 
 func _on_BtnMainMenu_pressed() -> void:
 	get_tree().change_scene("res://Menues/MainMenu.tscn")
 
 func _on_BtnSpeed_25_pressed() -> void:
 	_set_speed(25.0)
-
 
 func _on_BtnSpeed_50_pressed() -> void:
 	_set_speed(50.0)

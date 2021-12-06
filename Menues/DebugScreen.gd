@@ -19,6 +19,7 @@ func _ready() -> void:
 	assert(player_kart, "Assign the PlayerKartNode in the DebugScreen node")
 	ball = player_kart.find_node("Ball") as RigidBody
 	assert(ball, "Failed to find the 'Ball' node on the provided PlayerKartNode")
+	$UISlide.call_deferred("hide")
 
 
 func _process(delta: float) -> void:

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://MapObjects/CheckpointTracker.gd" type="Script" id=1]
+
+[node name="CheckpointTracker" type="Node" groups=["checkpoint_tracker"]]
+script = ExtResource( 1 )

@@ -11,6 +11,9 @@ export (String) var InputActionName := "ui_toggle_level_menu"
 onready var target : Control = get_parent()
 onready var tween : Tween = $Tween
 
+signal on_display_complete
+signal on_hide_complete
+
 var start_x : float = 0.0
 var start_y : float = 0.0
 var hiding_anim := false
@@ -33,6 +36,8 @@ func on_screen_resize():
 			start_y = get_viewport().size.y - target.rect_size.y
 
 func _process(delta: float) -> void:
+	if InputActionName.empty():
+		return
 	if Input.is_action_just_pressed(InputActionName) and not tween.is_active():
 		# if input pressed and no tweens are active
 		if target.visible:
@@ -90,3 +95,6 @@ func _on_tween_completed(object: Object, key: NodePath) -> void:
 	if hiding_anim:
 		hiding_anim = false
 		target.visible = false
+		emit_signal("on_hide_complete")
+	else:
+		emit_signal("on_display_complete")

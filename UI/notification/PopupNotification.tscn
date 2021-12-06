@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://UI/notification/PopupNotification.gd" type="Script" id=1]
+[ext_resource path="res://Menues/UISlide.tscn" type="PackedScene" id=2]
+
+[node name="PopupNotification" type="PanelContainer"]
+anchor_top = 0.5
+anchor_bottom = 0.5
+margin_top = -47.0
+margin_right = 372.0
+margin_bottom = 47.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 365.0
+margin_bottom = 87.0
+size_flags_vertical = 5
+text = "This is a notification!"
+valign = 1
+
+[node name="UISlide" parent="." instance=ExtResource( 2 )]
+InputActionName = ""
+
+[node name="Timer" type="Timer" parent="."]
