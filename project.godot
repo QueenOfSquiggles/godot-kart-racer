@@ -42,6 +42,10 @@ config/name="KartRacerTest"
 run/main_scene="res://Menues/MainMenu.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+GameModeSettings="*res://Autoloads/GameModeSettings.tscn"
+
 [editor_plugins]
 
 enabled=PoolStringArray( "res://addons/zylann.hterrain/plugin.cfg" )

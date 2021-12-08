@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Autoloads/GameModeSettings.gd" type="Script" id=1]
+
+[node name="GameModeSettings" type="Node"]
+script = ExtResource( 1 )
+__meta__ = {
+"_editor_description_": "This autoload node will allow for loading in gamemode settings and saving specific setttings to a file. Similar to Super Smach Bros Ultimate, a configuration of game mode settings can be saved for reuse later."
+}

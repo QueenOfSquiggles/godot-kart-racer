@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://addons/zylann.hterrain/hterrain.gd" type="Script" id=1]
 [ext_resource path="res://addons/zylann.hterrain/hterrain_texture_set.gd" type="Script" id=2]
@@ -10,6 +10,8 @@
 [ext_resource path="res://textures/grass/diffus.tga" type="Texture" id=8]
 [ext_resource path="res://MapObjects/CheckpointGroup.tscn" type="PackedScene" id=9]
 [ext_resource path="res://MapObjects/CheckpointPosts.tscn" type="PackedScene" id=10]
+[ext_resource path="res://MapObjects/SpeedBooster.tscn" type="PackedScene" id=11]
+[ext_resource path="res://MapObjects/RampSpeedBooster.tscn" type="PackedScene" id=12]
 
 [sub_resource type="SpatialMaterial" id=2]
 albedo_texture = ExtResource( 5 )
@@ -19,6 +21,10 @@ script = ExtResource( 2 )
 mode = 0
 textures = [ [ null ], [ null ] ]
 
+[sub_resource type="SpatialMaterial" id=3]
+flags_transparent = true
+albedo_color = Color( 1, 1, 1, 0 )
+
 [node name="TrackTestWorld" instance=ExtResource( 3 )]
 
 [node name="Path" parent="." index="0"]
@@ -27,14 +33,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1053.77, 241.264, 793.129 )
 [node name="track_mesh" parent="." index="1"]
 polygon = PoolVector2Array( -40, -10, -16, 4, 16, 4, 40, -10 )
 path_continuous_u = false
-smooth_faces = true
 material = SubResource( 2 )
-
-[node name="Area" parent="FallingCheck" index="0"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1042.39, -50, 1057.35 )
-
-[node name="CollisionShape" parent="FallingCheck/Area" index="0"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -267.539, 0 )
 
 [node name="PlayerKart" parent="." index="5"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 441.801, 263.324, 1103.32 )
@@ -87,3 +86,57 @@ transform = Transform( 5.31078, 0, 5.98294, 0, 8, 0, -5.98294, 0, 5.31078, 1015.
 
 [node name="CheckpointPosts3" parent="CheckpointGroup" index="2" instance=ExtResource( 10 )]
 transform = Transform( 7.00378, 0, -3.86614, 0, 8, 0, 3.86614, 0, 7.00378, 1373.93, 265.068, 833.584 )
+
+[node name="affectors group" type="Spatial" parent="." index="10"]
+
+[node name="RampSpeedBooster" parent="affectors group" index="0" instance=ExtResource( 12 )]
+transform = Transform( -6.99994, -0.00542055, -0.0202298, 0, 4.82963, -1.2941, 0.0293207, -1.29408, -4.82959, 1107.44, 250.368, 666.401 )
+
+[node name="SpeedBooster" parent="affectors group" index="1" instance=ExtResource( 11 )]
+transform = Transform( 3.6775, 0, -1.04673, -0.0628437, 0.998196, -0.22079, 1.04484, 0.0600381, 3.67087, 587.237, 240.518, 641.808 )
+SpeedValue = 25.0
+
+[node name="SpeedBooster2" parent="affectors group" index="2" instance=ExtResource( 11 )]
+transform = Transform( 16.7398, 0.444491, -4.7876, 0, 12.6439, 2.18748, 4.83295, -1.53957, 16.5827, 439.279, 256.316, 1044.7 )
+SpeedValue = 25.0
+
+[node name="SpeedBooster3" parent="affectors group" index="3" instance=ExtResource( 11 )]
+transform = Transform( -3.81793, 0, -0.207573, 0, 1, 0, 0.207573, 0, -3.81793, 1108.22, 245.535, 770.069 )
+SpeedValue = 25.0
+
+[node name="SpeedBooster4" parent="affectors group" index="4" instance=ExtResource( 11 )]
+transform = Transform( -3.50835, 0, 1.52025, 0, 1, 0, -1.52025, 0, -3.50835, 646.739, 245.366, 874.53 )
+SpeedValue = 25.0
+
+[node name="SpeedBooster5" parent="affectors group" index="5" instance=ExtResource( 11 )]
+transform = Transform( -0.432326, 0, -3.79904, 0, 1, 0, 3.79904, 0, -0.432326, 866.238, 245.851, 1291.05 )
+SpeedValue = 25.0
+
+[node name="SpeedBooster6" parent="affectors group" index="6" instance=ExtResource( 11 )]
+transform = Transform( -3.44078, 0, -1.66754, 0, 1, 0, 1.66754, 0, -3.44078, 1508.87, 251.279, 784.614 )
+SpeedValue = 25.0
+
+[node name="SpeedBooster7" parent="affectors group" index="7" instance=ExtResource( 11 )]
+transform = Transform( -2.94902, 0.0618853, 2.42217, -0.180853, 0.986938, -0.588836, -2.42697, -0.148741, -2.89931, 1563.08, 254.38, 965.767 )
+SpeedValue = 25.0
+
+[node name="SpeedBooster8" parent="affectors group" index="8" instance=ExtResource( 11 )]
+transform = Transform( -0.0829257, 0.0567973, 3.81649, 0.00471757, 0.998386, -0.217117, -3.82266, 0, -0.0830598, 1256.31, 238.396, 1423.28 )
+SpeedValue = 25.0
+
+[node name="SpeedBooster9" parent="affectors group" index="9" instance=ExtResource( 11 )]
+transform = Transform( 0.191263, 0, 3.81878, 0, 1, 0, -3.81878, 0, 0.191263, 891.362, 244.294, 1416.67 )
+SpeedValue = 25.0
+
+[node name="SpeedBooster10" parent="affectors group" index="10" instance=ExtResource( 11 )]
+transform = Transform( 3.20213, 0.0160652, 2.0886, 0.0168601, 0.999337, -0.138226, -2.08944, 0.0326842, 3.19973, 539.634, 258.072, 1281.79 )
+SpeedValue = 25.0
+
+[node name="WorldBox" type="CSGBox" parent="." index="11"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1010.23, 298.342, 1010.69 )
+use_collision = true
+invert_faces = true
+width = 1738.74
+height = 500.0
+depth = 1642.06
+material = SubResource( 3 )

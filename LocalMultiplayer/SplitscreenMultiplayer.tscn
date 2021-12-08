@@ -1,0 +1,123 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://default_env.tres" type="Environment" id=1]
+
+[sub_resource type="CapsuleMesh" id=1]
+
+[sub_resource type="Animation" id=2]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=3]
+resource_name = "idle"
+length = 10.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 3, 5, 10 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( -9.22568, 0, -9.02083 ), Vector3( 7.34379, -1.90735e-06, -8.92132 ), Vector3( 0, 0, 0 ) ]
+}
+
+[node name="SplitscreenMultiplayer" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GridContainer" type="GridContainer" parent="VBoxContainer"]
+margin_right = 1024.0
+margin_bottom = 298.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+columns = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ViewportContainer" type="ViewportContainer" parent="VBoxContainer/GridContainer"]
+margin_right = 510.0
+margin_bottom = 298.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+stretch = true
+
+[node name="Viewport" type="Viewport" parent="VBoxContainer/GridContainer/ViewportContainer"]
+size = Vector2( 510, 298 )
+handle_input_locally = false
+render_target_update_mode = 3
+
+[node name="Camera" type="Camera" parent="VBoxContainer/GridContainer/ViewportContainer/Viewport"]
+current = true
+
+[node name="ViewportContainer2" type="ViewportContainer" parent="VBoxContainer/GridContainer"]
+margin_left = 514.0
+margin_right = 1024.0
+margin_bottom = 298.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+stretch = true
+
+[node name="Viewport" type="Viewport" parent="VBoxContainer/GridContainer/ViewportContainer2"]
+size = Vector2( 510, 298 )
+handle_input_locally = false
+render_target_update_mode = 3
+
+[node name="Camera2" type="Camera" parent="VBoxContainer/GridContainer/ViewportContainer2/Viewport"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9543, 0, 0 )
+
+[node name="ViewportContainer3" type="ViewportContainer" parent="VBoxContainer"]
+margin_top = 302.0
+margin_right = 1024.0
+margin_bottom = 600.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+stretch = true
+
+[node name="Viewport" type="Viewport" parent="VBoxContainer/ViewportContainer3"]
+size = Vector2( 1024, 298 )
+handle_input_locally = false
+render_target_update_mode = 3
+
+[node name="Camera3" type="Camera" parent="VBoxContainer/ViewportContainer3/Viewport"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.67272, 0, 0 )
+
+[node name="Spatial" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5.1643 )
+
+[node name="MeshInstance" type="MeshInstance" parent="Spatial"]
+transform = Transform( 1, 0, 0, 0, -0.138119, -0.990416, 0, 0.990416, -0.138119, 0, 0, 0 )
+mesh = SubResource( 1 )
+material/0 = null
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Spatial/MeshInstance"]
+anims/RESET = SubResource( 2 )
+anims/idle = SubResource( 3 )
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="Spatial"]
+environment = ExtResource( 1 )
