@@ -8,6 +8,8 @@ var kart_acceleration := 50.0
 var kart_scale := 1.0
 # whether to use rubber banding or not
 var use_rubber_banding := true
+# the max number of speed boost levels a grind can provide. -1 for infinite
+var max_speed_boost_increments := 3
 
 const GAME_MODE_SETTINGS_DIR := "user://game_modes/"
 
@@ -24,7 +26,8 @@ func _get_save_dict()-> Dictionary:
 		"track_direction" : track_direction,
 		"kart_acceleration" : kart_acceleration,
 		"kart_scale" : kart_scale,
-		"use_rubber_banding" : use_rubber_banding
+		"use_rubber_banding" : use_rubber_banding,
+		"max_speed_boost_increments" : max_speed_boost_increments
 	}
 
 func load_settings(file_name : String) -> void:
@@ -41,6 +44,7 @@ func _load_from_dict(import_data : Dictionary) -> void:
 	kart_acceleration = import_data.kart_acceleration
 	kart_scale = import_data.kart_scale
 	use_rubber_banding = import_data.use_rubber_banding
+	max_speed_boost_increments = import_data.max_speed_boost_increments
 
 func _ensure_folder() -> void:
 	var dir := Directory.new()
