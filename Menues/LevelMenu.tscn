@@ -24,13 +24,21 @@ margin_bottom = 600.0
 
 [node name="BtnMainMenu" type="Button" parent="VBoxContainer"]
 margin_right = 1024.0
-margin_bottom = 54.0
+margin_bottom = 49.0
 size_flags_vertical = 3
 size_flags_stretch_ratio = 0.1
 text = "Return to Main Menu"
 
+[node name="BtnRestart" type="Button" parent="VBoxContainer"]
+margin_top = 53.0
+margin_right = 1024.0
+margin_bottom = 102.0
+size_flags_vertical = 3
+size_flags_stretch_ratio = 0.1
+text = "Restart Current Level"
+
 [node name="PanelContainer" type="PanelContainer" parent="VBoxContainer"]
-margin_top = 58.0
+margin_top = 106.0
 margin_right = 1024.0
 margin_bottom = 600.0
 size_flags_horizontal = 3
@@ -39,44 +47,44 @@ custom_styles/panel = SubResource( 2 )
 
 [node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/PanelContainer"]
 margin_right = 1024.0
-margin_bottom = 542.0
+margin_bottom = 494.0
 
 [node name="Label" type="Label" parent="VBoxContainer/PanelContainer/VBoxContainer"]
 margin_right = 1024.0
-margin_bottom = 175.0
+margin_bottom = 159.0
 size_flags_vertical = 3
 text = "Kart Speed"
 align = 1
 valign = 1
 
 [node name="BtnSpeed_25" type="Button" parent="VBoxContainer/PanelContainer/VBoxContainer"]
-margin_top = 179.0
+margin_top = 163.0
 margin_right = 1024.0
-margin_bottom = 266.0
+margin_bottom = 242.0
 size_flags_vertical = 3
 size_flags_stretch_ratio = 0.5
 text = "25 m/s"
 
 [node name="BtnSpeed_50" type="Button" parent="VBoxContainer/PanelContainer/VBoxContainer"]
-margin_top = 270.0
+margin_top = 246.0
 margin_right = 1024.0
-margin_bottom = 358.0
+margin_bottom = 326.0
 size_flags_vertical = 3
 size_flags_stretch_ratio = 0.5
 text = "50m/s"
 
 [node name="BtnSpeed_75" type="Button" parent="VBoxContainer/PanelContainer/VBoxContainer"]
-margin_top = 362.0
+margin_top = 330.0
 margin_right = 1024.0
-margin_bottom = 450.0
+margin_bottom = 410.0
 size_flags_vertical = 3
 size_flags_stretch_ratio = 0.5
 text = "75 m/s"
 
 [node name="BtnSpeed_100" type="Button" parent="VBoxContainer/PanelContainer/VBoxContainer"]
-margin_top = 454.0
+margin_top = 414.0
 margin_right = 1024.0
-margin_bottom = 542.0
+margin_bottom = 494.0
 size_flags_vertical = 3
 size_flags_stretch_ratio = 0.5
 text = "100 m/s"
@@ -85,6 +93,7 @@ text = "100 m/s"
 SlideStyleOption = 1
 
 [connection signal="pressed" from="VBoxContainer/BtnMainMenu" to="." method="_on_BtnMainMenu_pressed"]
+[connection signal="pressed" from="VBoxContainer/BtnRestart" to="." method="_on_BtnRestart_pressed"]
 [connection signal="pressed" from="VBoxContainer/PanelContainer/VBoxContainer/BtnSpeed_25" to="." method="_on_BtnSpeed_25_pressed"]
 [connection signal="pressed" from="VBoxContainer/PanelContainer/VBoxContainer/BtnSpeed_50" to="." method="_on_BtnSpeed_50_pressed"]
 [connection signal="pressed" from="VBoxContainer/PanelContainer/VBoxContainer/BtnSpeed_75" to="." method="_on_BtnSpeed_75_pressed"]

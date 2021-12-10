@@ -27,3 +27,8 @@ func _on_BtnSpeed_100_pressed() -> void:
 
 func _set_speed(metres_per_second : float) -> void:
 	GameModeSettings.kart_acceleration = metres_per_second
+
+func _on_BtnRestart_pressed() -> void:
+	var scene_path := get_tree().current_scene.filename
+	# LOL IDK if this is gonna work
+	get_tree().change_scene(scene_path)
