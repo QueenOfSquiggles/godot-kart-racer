@@ -48,5 +48,10 @@ margin_top = 90.0
 margin_right = 297.0
 margin_bottom = 104.0
 
+[node name="Lbl_IsGrinding" type="Label" parent="VBoxContainer"]
+margin_top = 108.0
+margin_right = 297.0
+margin_bottom = 122.0
+
 [node name="UISlide" parent="." instance=ExtResource( 2 )]
 InputActionName = "ui_toggle_debug"

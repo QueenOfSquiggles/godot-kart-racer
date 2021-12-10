@@ -1,10 +1,12 @@
 extends Spatial
 
-onready var ball = $Ball
-onready var car_mesh = $CarMesh
-onready var ground_ray = $CarMesh/RayCast
-onready var wheel_front_left := $CarMesh/tmpParent/race/wheel_frontLeft
-onready var wheel_front_right := $CarMesh/tmpParent/race/wheel_frontRight
+class_name KCC_Kart
+
+onready var ball :RigidBody= $Ball
+onready var car_mesh :Spatial= $CarMesh
+onready var ground_ray :RayCast= $CarMesh/RayCast
+onready var wheel_front_left :Spatial= $CarMesh/tmpParent/race/wheel_frontLeft
+onready var wheel_front_right :Spatial= $CarMesh/tmpParent/race/wheel_frontRight
 
 onready var respawn_locator := $RespawnLocator
 
@@ -13,7 +15,6 @@ signal on_kart_fell_off_track
 # Where to place the car mesh relative to sphere
 var sphere_offset := Vector3(0, -1.0, 0)
 # engine power
-export var acceleration := 50.0
 # turn amount in degrees
 export var steering := 21.0
 # how quickly the car turns
@@ -23,17 +24,18 @@ export  var turn_stop_limit := 0.75
 
 export var body_tilt := 35.0
 
+export var grind_turn_angle := deg2rad(45.0)
+
 var speed_input = 0.0
 var rotate_input = 0.0
 var on_ground := false
+var is_grinding := false
 
 func _ready() -> void:
 	ground_ray.add_exception(ball)
 
 func _physics_process(_delta: float) -> void:
 	car_mesh.transform.origin = ball.transform.origin + sphere_offset
-	if on_ground:
-		ball.add_central_force(-car_mesh.global_transform.basis.z * speed_input)
 
 func get_input() -> void:
 	"""
@@ -56,13 +58,6 @@ func _process(delta: float) -> void:
 	wheel_front_left.rotation.y = rotate_input + deg2rad(180.0)
 	wheel_front_right.rotation.y = rotate_input
 
-	if on_ground and ball.linear_velocity.length() > turn_stop_limit:
-		var new_basis = car_mesh.global_transform.basis.rotated(car_mesh.global_transform.basis.y, rotate_input)
-		car_mesh.global_transform.basis = car_mesh.global_transform.basis.slerp(new_basis, turn_speed * delta)
-		car_mesh.global_transform = car_mesh.global_transform
-
-		var t = -rotate_input * ball.linear_velocity.length() / body_tilt
-		car_mesh.rotation.z = lerp(car_mesh.rotation.z, t, 10 * delta)
 	# align to ground
 	var xform := align_with_y(car_mesh.global_transform, n.normalized())
 	car_mesh.global_transform = car_mesh.global_transform.interpolate_with(xform, 10 * delta)
@@ -75,8 +70,6 @@ func align_with_y(xform : Transform, new_y : Vector3) -> Transform:
 	xform.basis.x = -xform.basis.z.cross(new_y)
 	xform.basis = xform.basis.orthonormalized()
 	return xform
-
-
 
 func trigger_kart_fell_off_track() -> void:
 	emit_signal("on_kart_fell_off_track")

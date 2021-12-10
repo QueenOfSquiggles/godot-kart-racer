@@ -42,7 +42,6 @@ func _load_from_dict(import_data : Dictionary) -> void:
 	kart_scale = import_data.kart_scale
 	use_rubber_banding = import_data.use_rubber_banding
 
-
 func _ensure_folder() -> void:
 	var dir := Directory.new()
 	if not dir.dir_exists(GAME_MODE_SETTINGS_DIR):

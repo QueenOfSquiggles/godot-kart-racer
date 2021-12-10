@@ -26,4 +26,4 @@ func _on_BtnSpeed_100_pressed() -> void:
 	_set_speed(100.0)
 
 func _set_speed(metres_per_second : float) -> void:
-	player_kart.acceleration = metres_per_second
+	GameModeSettings.kart_acceleration = metres_per_second
