@@ -4,7 +4,7 @@ export (NodePath) var KartNode
 
 export (float) var time_increment := 1.5
 export (int) var max_increments := 3
-export (float) var speed_factor_per_increment := 0.5
+export (float) var speed_factor_per_increment := 0.75
 export (float) var grind_turn_angle := 25.0
 
 onready var timer : Timer = $Timer
@@ -18,6 +18,7 @@ var turn_angle : float = 0.0
 
 func _ready() -> void:
 	timer.connect("timeout", self, "timer_timeout")
+	timer.one_shot = true
 	kart = get_node(KartNode)
 	assert(kart, "Assign the KartNode in " + name)
 
@@ -44,9 +45,12 @@ func rotate(delta : float) -> void:
 	kart.car_mesh.global_transform = kart.car_mesh.global_transform.orthonormalized()
 
 func timer_timeout() -> void:
-	speed_boost_level += 1
-	if max_increments == -1 or speed_boost_level < max_increments:
-		timer.call_deferred("start", time_increment)
+	if speed_boost_level < max_increments:
+		speed_boost_level += 1
+		timer.start(time_increment)
+	else:
+		timer.stop()
+
 	print("Speed Boost Level : " + str(speed_boost_level))
 
 func exit() -> void:
