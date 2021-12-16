@@ -1,11 +1,4 @@
-tool
 extends Spatial
-
-enum Direction {
-	Forwards, Backwards
-}
-
-export (Direction) var TrackDirection := Direction.Forwards
 
 var dir := -1
 
@@ -13,7 +6,7 @@ func _ready() -> void:
 	call_deferred("do_setup")
 
 func do_setup() -> void:
-	dir = -1 if TrackDirection== Direction.Forwards else 1
+	dir = GameModeSettings.track_direction
 	var children := get_children()
 	var count := get_child_count()
 

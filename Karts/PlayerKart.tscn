@@ -5,4 +5,10 @@
 
 [node name="PlayerKart" instance=ExtResource( 1 )]
 script = ExtResource( 2 )
+steering = 21.0
+turn_speed = 5.0
+turn_stop_limit = 0.75
+grind_turn_angle = 0.785398
 acceleration = 50.0
+
+[editable path="KartStateMachine"]

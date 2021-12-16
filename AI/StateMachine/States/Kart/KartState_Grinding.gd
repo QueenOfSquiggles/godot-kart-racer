@@ -43,7 +43,7 @@ func rotate(delta : float) -> void:
 	kart.car_mesh.global_transform = kart.car_mesh.global_transform.orthonormalized()
 
 func timer_timeout() -> void:
-	if GameModeSettings.max_speed_boost_increments == -1 or GameModeSettings.max_speed_boost_increments < max_increments:
+	if GameModeSettings.max_speed_boost_increments == -1 or speed_boost_level < GameModeSettings.max_speed_boost_increments:
 		speed_boost_level += 1
 		print("Speed Boost Level : " + str(speed_boost_level))
 	else:

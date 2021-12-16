@@ -1,5 +1,16 @@
 extends Node
 
+# - - - - - - - - - - - - - - - - - - - - - - - - - -
+#		Swap Mem Variables
+# - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+var map_packed_scene : PackedScene
+
+const MultiplayerScene := preload("res://LocalMultiplayer/SplitscreenMultiplayer.tscn")
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
 # -1 = forwards, 1 = backwards
 var track_direction := -1
 # m/s/s acceleration for the karts to use.
@@ -10,6 +21,8 @@ var kart_scale := 1.0
 var use_rubber_banding := true
 # the max number of speed boost levels a grind can provide. -1 for infinite
 var max_speed_boost_increments := 3
+
+
 
 const GAME_MODE_SETTINGS_DIR := "user://game_modes/"
 
