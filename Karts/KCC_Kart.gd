@@ -7,7 +7,7 @@ onready var car_mesh :Spatial= $CarMesh
 onready var ground_ray :RayCast= $CarMesh/RayCast
 onready var wheel_front_left :Spatial= $CarMesh/tmpParent/race/wheel_frontLeft
 onready var wheel_front_right :Spatial= $CarMesh/tmpParent/race/wheel_frontRight
-
+onready var camera := $CarMesh/cam_root
 onready var respawn_locator := $RespawnLocator
 
 signal on_kart_fell_off_track
@@ -61,7 +61,6 @@ func _process(delta: float) -> void:
 	# align to ground
 	var xform := align_with_y(car_mesh.global_transform, n.normalized())
 	car_mesh.global_transform = car_mesh.global_transform.interpolate_with(xform, 10 * delta)
-	#car_mesh.global_transform = xform.orthonormalized()
 	car_mesh.global_transform = car_mesh.global_transform.orthonormalized()
 	car_mesh.transform = car_mesh.transform.orthonormalized()
 

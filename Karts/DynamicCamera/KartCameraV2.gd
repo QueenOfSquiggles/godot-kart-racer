@@ -18,19 +18,23 @@ func _ready() -> void:
 	assert(body, "assign the rigid body to exclude")
 	arm.add_excluded_object(body.get_rid())
 	
-	self.set_as_toplevel(true)
 	position_source = get_node(PositionSourcePath)
 	rotation_source = get_node(RotationSourcePath)
 	
 	assert(position_source, "Assign the positional source in the kart cam v2")
 	assert(rotation_source, "Assign the rotational source in the kart cam v2")
+	call_deferred("deferred_setup")
 	
+
+func deferred_setup() -> void:
+	self.set_as_toplevel(true)
 	global_transform = position_source.global_transform
+	self.transform.basis = rotation_source.transform.basis
 	
 func _process(delta: float) -> void:
 	if LockToKart:
 		transform.origin = position_source.global_transform.origin
-		var rot := rotation_source.rotation
+		var rot := rotation_source.transform.basis.get_euler()
 		rot.z = 0.0
 		rotation = rot
 	else:
@@ -41,7 +45,7 @@ func _process(delta: float) -> void:
 		var pos_target := position_source.transform.origin
 		transform.origin = do_lerp(pos, pos_target, PositionLerpSpeed * distance_factor * delta)
 		
-		var target_rotation := rotation_source.rotation
+		var target_rotation := rotation_source.transform.basis.get_euler()
 		var theta := -rotation_dot(target_rotation.y, rotation.y)
 		var theta_factor := max(1.0, theta / 0.25) # another export var here later
 		
